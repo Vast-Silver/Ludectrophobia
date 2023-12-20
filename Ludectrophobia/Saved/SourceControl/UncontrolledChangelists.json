@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Lars/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Levels/TestLevel.umap",
+				"C:/Users/Lars/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap",
+				"C:/Users/Lars/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset",
+				"C:/Users/Lars/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Blueprints/Interfaces/BPI_Item.uasset",
+				"C:/Users/Lars/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Controller.uasset",
+				"C:/Users/Lars/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/BP_Creature.uasset",
+				"C:/Users/Lars/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Blueprints/Game/BP_Gamemode.uasset",
+				"C:/Users/Lars/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Blueprints/Interfaces/BPI_Interactable.uasset"
+			]
+		}
+	]
+}
