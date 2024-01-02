@@ -1,0 +1,42 @@
+High Priority:
+
+NPCs:
+	Static Humans/Villagers (Different Pose Variations)
+	Monster
+
+Items:
+	Schlüssel
+	Notiz
+	Batterie
+	Taschenlampe (5 Varianten in der Textur: 100%, 50%, 25%, leer, aus)
+
+Interactable Objects:
+	Schloß (Offen, Zu)
+	Grabsteine (mehrere Variationen)
+
+World:
+	Trees (2-3 Variationen)
+	Mansion (done)
+	Bookshelf (a couple easy variations)
+	Steinhütte (+ Tür als getrenntes Objekt)
+	Crypt Entrance
+	Crypt Walls
+	Crypt Grave
+
+
+
+Medium Priority:
+
+NPCs:
+	Rabe
+
+Interactable Objects:
+	Zahlenschloss (Rigged for spinning parts)
+	Schriftrolle
+
+
+World:
+	Portal
+	Zelt
+
+
