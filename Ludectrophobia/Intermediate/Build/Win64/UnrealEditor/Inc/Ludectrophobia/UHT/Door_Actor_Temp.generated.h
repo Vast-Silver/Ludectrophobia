@@ -1,0 +1,64 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Door_Actor_Temp.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+#ifdef LUDECTROPHOBIA_Door_Actor_Temp_generated_h
+#error "Door_Actor_Temp.generated.h already included, missing '#pragma once' in Door_Actor_Temp.h"
+#endif
+#define LUDECTROPHOBIA_Door_Actor_Temp_generated_h
+
+#define FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_SPARSE_DATA
+#define FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_ACCESSORS
+#define FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesADoor_Actor_Temp(); \
+	friend struct Z_Construct_UClass_ADoor_Actor_Temp_Statics; \
+public: \
+	DECLARE_CLASS(ADoor_Actor_Temp, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/Ludectrophobia"), NO_API) \
+	DECLARE_SERIALIZER(ADoor_Actor_Temp)
+
+
+#define FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API ADoor_Actor_Temp(ADoor_Actor_Temp&&); \
+	NO_API ADoor_Actor_Temp(const ADoor_Actor_Temp&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ADoor_Actor_Temp); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ADoor_Actor_Temp); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ADoor_Actor_Temp) \
+	NO_API virtual ~ADoor_Actor_Temp();
+
+
+#define FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_9_PROLOG
+#define FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_SPARSE_DATA \
+	FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_ACCESSORS \
+	FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_INCLASS_NO_PURE_DECLS \
+	FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> LUDECTROPHOBIA_API UClass* StaticClass<class ADoor_Actor_Temp>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Public_Door_Actor_Temp_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
