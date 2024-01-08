@@ -3,21 +3,16 @@
 
 #include "Item.h"
 
-// Add default functionality here for any IItem functions that are not pure virtual.
-void IInteractibles::OnInteract(AActor* Caller)
+UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+void IItem::grab()
 {
 }
-
-
-void IInteractibles::grab()
+UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+void IItem::drop()
 {
 }
-
-void IInteractibles::drop()
-{
-}
-
-void IInteractibles::use()
+UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+void IItem::use()
 {
 }
 

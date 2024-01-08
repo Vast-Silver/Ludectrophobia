@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "M1Z2EQdPgh8rkRM7QpJFaAxGf+uOsGezzZjYy5zmHGVapMGUsnr4V/trPSxGfRaHuMjK6vYvQRf+OvcO5MOHSg==",
+  "dgSpecHash": "oAuaxvrSTUvVAaTb8ZEUjqMKE++WvegxY22uCn7kE/NC7At+CmV0dtud7aOX9GUCdXZalAAyr1pa/vimobAGcw==",
   "success": false,
   "projectFilePath": "C:\\Users\\melih\\OneDrive\\Uni Bremen\\3. Semester\\Media Engineering\\ProgrammierSpiel\\Ludectrophobia\\Ludectrophobia\\Intermediate\\Build\\BuildRulesProjects\\LudectrophobiaModuleRules\\LudectrophobiaModuleRules.csproj",
   "expectedPackageFiles": [
@@ -46,15 +46,6 @@
     "C:\\Users\\melih\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1105",
-      "level": "Error",
-      "message": "Projektinformationen für \"C:\\EpicGames\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj\" wurden nicht gefunden. Wenn Sie Visual Studio verwenden, wurde das Projekt möglicherweise entladen oder gehört nicht zur aktuellen Projektmappe. Führen Sie daher eine Wiederherstellung über die Befehlszeile aus. Andernfalls ist die Projektdatei möglicherweise ungültig, oder es fehlen Ziele, die für die Wiederherstellung erforderlich sind.",
-      "libraryId": "C:\\EpicGames\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
     {
       "code": "NU1102",
       "level": "Error",

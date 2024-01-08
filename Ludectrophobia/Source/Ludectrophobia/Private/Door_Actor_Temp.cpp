@@ -1,39 +1,54 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "Door_Actor_Temp.h"
+#include "Components/StaticMeshComponent.h"
+#include "Materials/MaterialInstanceDynamic.h"
+#include <GameFramework/DefaultPawn.h>
+#include <LandscapeSplinesComponent.h>
 
-// Sets default values
+
 ADoor_Actor_Temp::ADoor_Actor_Temp()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+  // Set this actor to call Tick() every frame
+  PrimaryActorTick.bCanEverTick = true;
 
-}
+  // Initialize default values
+  bOpen = false;
+  bHasLock = false;
+  bUnlocked = true; // Assume the door is initially unlocked
 
-// Called when the game starts or when spawned
-void ADoor_Actor_Temp::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
+  // Create a dynamic material instance for the Static Mesh Component
+  MeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshComponent"));
+  RootComponent = MeshComponent;
 
-// Called every frame
-void ADoor_Actor_Temp::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-  
+  if (MeshComponent && MeshComponent->GetStaticMesh())
+  {
+    DynamicMaterial = UMaterialInstanceDynamic::Create(MeshComponent->GetMaterial(0), this);
+    MeshComponent->SetMaterial(0, DynamicMaterial);
+  }
 }
 
 void ADoor_Actor_Temp::glow()
 {
+  // Ändere den Gloweffekt für die Tür (zum Beispiel Änderung des Materials oder Helligkeit)
+  if (DynamicMaterial)
+  {
+    // Hier kannst du die Eigenschaften des Materials ändern
+    DynamicMaterial->SetScalarParameterValue(TEXT("GlowIntensity"), 1.0f);
+  }
 }
 
 void ADoor_Actor_Temp::switch_state()
 {
+  // Ändere den Zustand der Tür zwischen offen und zu
+  bOpen = !bOpen;
+
+  // Wenn die Tür verriegelt ist, setze den Zustand auf zu, es sei denn, sie ist entsperrt
+  if (bHasLock && !bUnlocked)
+  {
+    bOpen = false;
+  }
 }
 
-void ADoor_Actor_Temp::inform_level()
+void ADoor_Actor_Temp::inform_level(int32 Level)
 {
+  // Bei der Tür passiert nichts in Bezug auf den Level, diese Methode ist hier leer
 }
-

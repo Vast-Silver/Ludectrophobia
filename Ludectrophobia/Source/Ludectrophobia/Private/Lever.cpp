@@ -1,59 +1,49 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "Lever.h"
+#include "Engine/World.h"
+#include "GameFramework/Actor.h"
 
-// Sets default values
 ALever::ALever()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+  PrimaryActorTick.bCanEverTick = true;
 
-}
-
-// Called when the game starts or when spawned
-void ALever::BeginPlay()
-{
-	Super::BeginPlay();
-	
-}
-
-// Called every frame
-void ALever::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
+  // Initialize default values
+  bActive = false;
+  TargetIndex = 0;
 }
 
 void ALever::glow()
 {
+  // Implementiere hier den Gloweffekt für den Hebel
 }
 
 void ALever::switch_state()
 {
+  // Ändere den Zustand des Hebels zwischen aktiv und inaktiv
+  bActive = !bActive;
 }
 
-void ALever::inform_level()
+void ALever::inform_level(int32 Level)
 {
+  // Kommuniziere mit der Level-Klasse und entscheide, bei welcher Tür switch_state angewendet werden soll
+
+  // Hole das aktuelle Level-Skript
+  ALevelScriptActor* LevelScript = GetWorld()->GetLevelScriptActor();
+
+  // Überprüfe, ob es eine gültige Instanz ist
+  if (LevelScript)
+  {
+    // Hier kannst du die Logik implementieren, um die entsprechende Tür zu finden und den Zustand zu wechseln
+    int32 DoorTargetIndex = get_target_index();
+    LevelScript->SwitchDoorState(DoorTargetIndex);
+  }
 }
 
-int ALever::get_target_index()
+int32 ALever::get_target_index() const
 {
-  return 0;
+  return TargetIndex;
 }
 
-bool ALever::get_active()
+bool ALever::get_active() const
 {
-  return false;
+  return bActive;
 }
-
-bool ALever::active()
-{
-  return false;
-}
-
-int ALever::target_index()
-{
-  return 0;
-}
-
