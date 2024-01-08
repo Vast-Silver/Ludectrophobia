@@ -1441,3 +1441,87 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.08-15.11.41:029][803]LogSlate: Window 'NewBlueprint' being destroyed
 [2024.01.08-15.11.41:059][803]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
 [2024.01.08-15.11.41:059][803]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-15.16.28:608][ 96]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.08-15.16.28:616][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.08-15.16.28:616][ 96]PIE: New page: PIE session: TestLevel (08.01.2024, 17:16:28)
+[2024.01.08-15.16.28:657][ 96]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2024.01.08-15.16.28:659][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001993s)
+[2024.01.08-15.16.28:659][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.002047s)
+[2024.01.08-15.16.28:677][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.01.08-15.16.28:681][ 96]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.08-15.16.28:681][ 96]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.08-15.16.28:681][ 96]LogAIModule: Creating AISystem for world TestLevel
+[2024.01.08-15.16.28:681][ 96]LogPlayLevel: PIE: World Init took: (0.000828s)
+[2024.01.08-15.16.28:681][ 96]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.01.08-15.16.28:681][ 96]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.08-15.16.28:681][ 96]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.08-15.16.28:681][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.08-15.16.28:681][ 96]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.08-15.16.28:681][ 96]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.08-15.16.28:682][ 96]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.08-15.16.28:682][ 96]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.08-15.16.28:682][ 96]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.08-15.16.28:682][ 96]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.08-15.16.28:682][ 96]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.08-15.16.28:682][ 96]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.08-15.16.28:684][ 96]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.08-15.16.28:703][ 96]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (Logitech G432 Gaming Headset)
+[2024.01.08-15.16.28:704][ 96]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.08-15.16.28:704][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.08-15.16.28:704][ 96]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.08-15.16.28:705][ 96]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.01.08-15.16.28:705][ 96]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2024.01.08-15.16.28:706][ 96]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.01.08-15.16.28:706][ 96]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.01.08-15.16.28:706][ 96]LogInit: FAudioDevice initialized with ID 4.
+[2024.01.08-15.16.28:706][ 96]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestLevel'.
+[2024.01.08-15.16.28:706][ 96]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.08-15.16.28:709][ 96]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.08-15.16.28:710][ 96]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2024.01.08-16.16.28
+[2024.01.08-15.16.28:710][ 96]LogWorld: Bringing up level for play took: 0.000554
+[2024.01.08-15.16.28:711][ 96]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2024.01.08-15.16.28:713][ 96]PIE: Server logged in
+[2024.01.08-15.16.28:713][ 96]PIE: Play in editor total start time 0,097 seconds.
+[2024.01.08-15.20.27:055][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.08-15.20.27:055][676]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestLevel
+[2024.01.08-15.20.27:055][676]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.08-15.20.27:055][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-15.20.27:058][676]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.08-15.20.27:062][676]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.08-15.20.27:071][676]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.08-15.20.27:071][676]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.01.08-15.20.27:071][676]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.08-15.20.27:072][676]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.01.08-15.20.27:077][676]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.08-15.20.27:079][676]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.01.08-15.20.27:122][679]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.01.08-15.25.02:261][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.08-15.25.02:334][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.08-15.25.02:339][210]LogSavePackage: Moving output files for package: /Game/Maps/TestLevel
+[2024.01.08-15.25.02:340][210]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/TestLevel72E521784320179943378697FA88E485.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap'
+[2024.01.08-15.25.02:345][210]LogFileHelpers: Saving map 'TestLevel' took 0.039
+[2024.01.08-15.25.02:350][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 229 ms)
+[2024.01.08-15.25.02:353][210]AssetCheck: New page: Asset Save: TestLevel
+[2024.01.08-15.25.02:353][210]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/TestLevel.TestLevel
+[2024.01.08-15.25.08:479][916]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.08-15.25.08:576][916]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.01.08-15.25.08:581][916]LogSavePackage: Moving output files for package: /Game/Maps/TestLevel
+[2024.01.08-15.25.08:582][916]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/TestLevel4808061342F55C6E6E63B3AA966D630C.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap'
+[2024.01.08-15.25.08:587][916]LogFileHelpers: Saving map 'TestLevel' took 0.050
+[2024.01.08-15.25.08:593][916]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 344 ms)
+[2024.01.08-15.25.08:594][916]AssetCheck: New page: Asset Save: TestLevel
+[2024.01.08-15.25.08:595][916]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/TestLevel.TestLevel
+[2024.01.08-15.25.29:530][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.01.08-15.25.37:146][559]LogSlate: Window 'Save Content' being destroyed
+[2024.01.08-15.25.37:447][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.08-15.25.37:507][559]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2024.01.08-15.25.37:509][559]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/IMC_DefaultA4FC41D54F48FBDF599FF38CE7F6E591.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Input/IMC_Default.uasset'
+[2024.01.08-15.25.37:516][559]LogSavePackage: Moving output files for package: /Game/Blueprints/Components/NewBlueprint
+[2024.01.08-15.25.37:516][559]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/NewBlueprint5E47EA0D4EE9365B8F59588E64FC61FE.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/Components/NewBlueprint.uasset'
+[2024.01.08-15.25.37:824][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 377 ms (total: 722 ms)
+[2024.01.08-15.25.37:826][559]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.08-15.25.37:826][559]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.08-15.25.37:826][559]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Components/NewBlueprint.NewBlueprint
+[2024.01.08-15.25.43:115][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.01.08-15.25.44:965][407]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.01.08-15.25.46:549][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
