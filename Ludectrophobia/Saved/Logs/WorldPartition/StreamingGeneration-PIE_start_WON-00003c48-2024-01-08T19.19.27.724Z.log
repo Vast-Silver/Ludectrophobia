@@ -1,0 +1,50 @@
+[+] Containers:
+ |- [+] Container: /Game/Widgets/UI/WON_Screen/start_WON
+ |   |- [+] ActorDescs:
+ |   |   |- Guid:34157680418DFA5F95409198328239B2 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |   |- [+] Clusters:
+ |   |   |- [+] [  0]
+ |   |   |   |- Guid:34157680418DFA5F95409198328239B2 BaseClass: NativeClass:/Script/Engine.WorldDataLayers Name:WorldDataLayers Label:WorldDataLayers SpatiallyLoaded:0 Bounds:Invalid RuntimeGrid:None EditorOnly:0 RuntimeOnly:0 HLODRelevant:0 ListedInSceneOutliner:1 IsMainWorldOnly:1
+ |- ContainerInstances:
+ |- [+] MainContainer:
+ |   |-        ID: 00000000000000000000000000000000
+ |   |-  ParentID: 00000000000000000000000000000000
+ |   |-    Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+ |   |- Transform: 0.000000,0.000000,0.000000|0.000000,0.000000,-0.000000|1.000000,1.000000,1.000000
+ |   |- Container: /Game/Widgets/UI/WON_Screen/start_WON
+----------------------------------------------------------------------------------------------------------------
+start_WON - Persistent Level
+----------------------------------------------------------------------------------------------------------------
+[+] Content of start_WON Persistent Level
+ |- Always loaded Actor Count: 7 
+ |- Actor Path: /Game/Widgets/UI/WON_Screen/start_WON.start_WON:PersistentLevel.AbstractNavData-Default
+ |- Actor Package: /Game/Widgets/UI/WON_Screen/start_WON
+ |- Actor Path: /Game/Widgets/UI/WON_Screen/start_WON.start_WON:PersistentLevel.Brush_0
+ |- Actor Package: /Game/Widgets/UI/WON_Screen/start_WON
+ |- Actor Path: /Game/Widgets/UI/WON_Screen/start_WON.start_WON:PersistentLevel.DefaultPhysicsVolume_0
+ |- Actor Package: /Game/Widgets/UI/WON_Screen/start_WON
+ |- Actor Path: /Game/Widgets/UI/WON_Screen/start_WON.start_WON:PersistentLevel.GameplayDebuggerPlayerManager_0
+ |- Actor Package: /Game/Widgets/UI/WON_Screen/start_WON
+ |- Actor Path: /Game/Widgets/UI/WON_Screen/start_WON.start_WON:PersistentLevel.start_WON_C_1
+ |- Actor Package: /Game/Widgets/UI/WON_Screen/start_WON
+ |- Actor Path: /Game/Widgets/UI/WON_Screen/start_WON.start_WON:PersistentLevel.WorldDataLayers
+ |- Actor Package: /Game/__ExternalActors__/Widgets/UI/WON_Screen/start_WON/E/UH/IP06SVNC7FR46WQQ8TT8KQ
+ |- Actor Path: /Game/Widgets/UI/WON_Screen/start_WON.start_WON:PersistentLevel.WorldSettings
+ |- Actor Package: /Game/Widgets/UI/WON_Screen/start_WON
+
+----------------------------------------------------------------------------------------------------------------
+start_WON - Runtime Spatial Hash - Streaming Grid - MainGrid
+----------------------------------------------------------------------------------------------------------------
+            Origin: X=0.000 Y=0.000 Z=0.000
+         Cell Size: 25600
+      World Bounds: IsValid=false, Min=(X=0.000 Y=0.000 Z=0.000), Max=(X=0.000 Y=0.000 Z=0.000)
+     Loading Range: 76800.00
+Block Slow Loading: No
+ ClientOnlyVisible: No
+            Origin: X=0.000 Y=0.000 Z=0.000
+
+[+] Grid Levels: 1
+ |- Level  0: Cell Count    0 | Cell Size   25600 | Actor Count    0 (0.0%)
+
+[+] Content of Grid Level 0
+
