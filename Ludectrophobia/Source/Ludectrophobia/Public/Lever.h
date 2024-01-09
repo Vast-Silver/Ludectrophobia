@@ -1,33 +1,45 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Interactibles.h"
 #include "Lever.generated.h"
+#include "Interactibles.h"
 
 UCLASS()
 class LUDECTROPHOBIA_API ALever : public AActor, public IInteractibles
 {
-  GENERATED_BODY()
+	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	ALever();
 
-public:
-  ALever();
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 
-  // Implementierung der IInteractibles-Methoden
-  virtual void glow();
-  virtual void switch_state();
-  virtual void inform_level(int32 Level);
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
 
-  UFUNCTION(BlueprintCallable, Category = "Lever")
-  int32 get_target_index() const;
+  //methods for door and lever
+  UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+  void glow();
+  UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+  void switch_state();
+  UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+  void inform_level();
 
-  UFUNCTION(BlueprintCallable, Category = "Lever")
-  bool get_active() const;
+  int get_target_index();
+
+  bool get_active();
 
 private:
-  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Lever", meta = (AllowPrivateAccess = "true"))
-  bool bActive;
 
-  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Lever", meta = (AllowPrivateAccess = "true"))
-  int32 TargetIndex;
+  bool active();
+
+  int target_index();
+
 };

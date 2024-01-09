@@ -1,12 +1,28 @@
-#include "Lever.h"
-#include "Engine/World.h"
-#include "GameFramework/Actor.h"
+// Fill out your copyright notice in the Description page of Project Settings.
 
+
+#include "Lever.h"
+
+// Sets default values
 ALever::ALever()
 {
-  PrimaryActorTick.bCanEverTick = true;
-  bActive = false;
-  TargetIndex = 0;
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+}
+
+// Called when the game starts or when spawned
+void ALever::BeginPlay()
+{
+	Super::BeginPlay();
+	
+}
+
+// Called every frame
+void ALever::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
 }
 
 void ALever::glow()
@@ -15,28 +31,29 @@ void ALever::glow()
 
 void ALever::switch_state()
 {
-  bActive = !bActive;
 }
 
-void ALever::inform_level(int32 Level)
+void ALever::inform_level()
 {
-  // Hole das aktuelle Level-Skript
-  ALevelScriptActor* LevelScript = GetWorld()->GetLevelScriptActor();
-
-  // Überprüfe, ob es eine gültige Instanz ist
-  if (LevelScript)
-  {
-    int32 DoorTargetIndex = get_target_index();
-    LevelScript->SwitchDoorState(DoorTargetIndex);
-  }
 }
 
-int32 ALever::get_target_index() const
+int ALever::get_target_index()
 {
-  return TargetIndex;
+  return 0;
 }
 
-bool ALever::get_active() const
+bool ALever::get_active()
 {
-  return bActive;
+  return false;
 }
+
+bool ALever::active()
+{
+  return false;
+}
+
+int ALever::target_index()
+{
+  return 0;
+}
+

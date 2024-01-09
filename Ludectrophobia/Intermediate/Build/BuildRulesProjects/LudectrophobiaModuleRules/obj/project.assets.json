@@ -743,22 +743,6 @@
           "bin/placeholder/EpicGames.UHT.dll": {}
         }
       },
-      "MarketplaceRules/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "EpicGames.Build": "1.0.0",
-          "UE5ProgramRules": "1.0.0",
-          "UE5Rules": "1.0.0",
-          "UnrealBuildTool": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MarketplaceRules.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MarketplaceRules.dll": {}
-        }
-      },
       "UE5ProgramRules/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -2629,11 +2613,6 @@
       "path": "../../../../../../../../../../../../../EpicGames/UE_5.3/Engine/Source/Programs/Shared/EpicGames.UHT/EpicGames.UHT.csproj",
       "msbuildProject": "../../../../../../../../../../../../../EpicGames/UE_5.3/Engine/Source/Programs/Shared/EpicGames.UHT/EpicGames.UHT.csproj"
     },
-    "MarketplaceRules/1.0.0": {
-      "type": "project",
-      "path": "../../../../../../../../../../../../../EpicGames/UE_5.3/Engine/Intermediate/Build/BuildRulesProjects/MarketplaceRules/MarketplaceRules.csproj",
-      "msbuildProject": "../../../../../../../../../../../../../EpicGames/UE_5.3/Engine/Intermediate/Build/BuildRulesProjects/MarketplaceRules/MarketplaceRules.csproj"
-    },
     "UE5ProgramRules/1.0.0": {
       "type": "project",
       "path": "../../../../../../../../../../../../../EpicGames/UE_5.3/Engine/Intermediate/Build/BuildRulesProjects/UE5ProgramRules/UE5ProgramRules.csproj",
@@ -2652,8 +2631,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "C:\\EpicGames\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
       "EpicGames.Build >= 1.0.0",
-      "MarketplaceRules >= 1.0.0",
       "UE5ProgramRules >= 1.0.0",
       "UE5Rules >= 1.0.0",
       "UnrealBuildTool >= 1.0.0"
@@ -2754,6 +2733,15 @@
   },
   "logs": [
     {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Projektinformationen für \"C:\\EpicGames\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj\" wurden nicht gefunden. Wenn Sie Visual Studio verwenden, wurde das Projekt möglicherweise entladen oder gehört nicht zur aktuellen Projektmappe. Führen Sie daher eine Wiederherstellung über die Befehlszeile aus. Andernfalls ist die Projektdatei möglicherweise ungültig, oder es fehlen Ziele, die für die Wiederherstellung erforderlich sind.",
+      "libraryId": "C:\\EpicGames\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
       "code": "NU1102",
       "level": "Error",
       "message": "Das Paket \"Microsoft.Win32.Registry\" der Version (>= 5.0.0) wurde nicht gefunden.\r\n  - 1 Version(en) gefunden in \"Microsoft Visual Studio Offline Packages\" [ Nächste Version: 4.0.0 ]\r\n  - 0 Version(en) gefunden in C:\\Program Files\\dotnet\\library-packs.",
@@ -2767,6 +2755,24 @@
       "level": "Error",
       "message": "Das Paket \"Microsoft.CSharp\" der Version (>= 4.7.0) wurde nicht gefunden.\r\n  - 2 Version(en) gefunden in \"Microsoft Visual Studio Offline Packages\" [ Nächste Version: 4.0.1 ]\r\n  - 0 Version(en) gefunden in C:\\Program Files\\dotnet\\library-packs.",
       "libraryId": "Microsoft.CSharp",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Das Paket \"System.Text.Encoding.CodePages\" der Version (>= 6.0.0) wurde nicht gefunden.\r\n  - 1 Version(en) gefunden in \"Microsoft Visual Studio Offline Packages\" [ Nächste Version: 4.0.1 ]\r\n  - 0 Version(en) gefunden in C:\\Program Files\\dotnet\\library-packs.",
+      "libraryId": "System.Text.Encoding.CodePages",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Das Paket \"Newtonsoft.Json\" der Version (>= 13.0.1) wurde nicht gefunden.\r\n  - 1 Version(en) gefunden in \"Microsoft Visual Studio Offline Packages\" [ Nächste Version: 9.0.1 ]\r\n  - 0 Version(en) gefunden in C:\\Program Files\\dotnet\\library-packs.",
+      "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net6.0"
       ]
@@ -2803,24 +2809,6 @@
       "level": "Error",
       "message": "Das Paket \"System.Management\" wurde nicht gefunden. Es sind keine Pakete mit dieser ID in folgenden Quellen vorhanden: C:\\Program Files\\dotnet\\library-packs, Microsoft Visual Studio Offline Packages",
       "libraryId": "System.Management",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Das Paket \"System.Text.Encoding.CodePages\" der Version (>= 6.0.0) wurde nicht gefunden.\r\n  - 1 Version(en) gefunden in \"Microsoft Visual Studio Offline Packages\" [ Nächste Version: 4.0.1 ]\r\n  - 0 Version(en) gefunden in C:\\Program Files\\dotnet\\library-packs.",
-      "libraryId": "System.Text.Encoding.CodePages",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    },
-    {
-      "code": "NU1102",
-      "level": "Error",
-      "message": "Das Paket \"Newtonsoft.Json\" der Version (>= 13.0.1) wurde nicht gefunden.\r\n  - 1 Version(en) gefunden in \"Microsoft Visual Studio Offline Packages\" [ Nächste Version: 9.0.1 ]\r\n  - 0 Version(en) gefunden in C:\\Program Files\\dotnet\\library-packs.",
-      "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net6.0"
       ]
