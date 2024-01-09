@@ -1310,3 +1310,116 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.09-20.25.23:402][802]SourceControl: fatal: C:/EpicGames/UE_5.3/Engine/Plugins/TraceUtilities/Content: 'C:/EpicGames/UE_5.3/Engine/Plugins/TraceUtilities/Content' is outside repository at 'C:/Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia'
 [2024.01.09-20.25.23:402][802]SourceControl: fatal: C:/EpicGames/UE_5.3/Engine/Plugins/Bridge/Content: 'C:/EpicGames/UE_5.3/Engine/Plugins/Bridge/Content' is outside repository at 'C:/Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia'
 [2024.01.09-20.25.23:525][802]EditorErrors: Warning: No assets to check in!
+[2024.01.09-20.26.51:585][463]LogDerivedDataCache: C:/Users/melih/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.031 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 191 files in 349 folders with total size 1 MiB.
+[2024.01.09-20.28.02:429][683]LogViewport: Scene viewport resized to 1526x940, mode Windowed.
+[2024.01.09-20.28.04:223][876]LogSlate: Took 0.010477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.09-20.28.52:102][498]LogStatusBar: Looking status bar with open content browser drawer...
+[2024.01.09-20.28.52:102][498]LogStatusBar: Using status bar: LevelEditor.StatusBar to dock content browser
+[2024.01.09-20.28.52:120][498]LogViewport: Scene viewport resized to 1526x610, mode Windowed.
+[2024.01.09-20.29.06:459][192]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.09-20.29.06:463][192]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-20.29.06:463][192]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.09-20.29.06:478][192]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.01.09-20.29.07:359][192]LogSlate: Took 0.007648 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.01.09-20.32.49:974][405]LogViewport: Scene viewport resized to 1141x915, mode Windowed.
+[2024.01.09-20.33.04:998][166]LogSlate: Window 'BP_Player' being destroyed
+[2024.01.09-20.33.05:003][166]LogSlate: Window 'BP_Player' being destroyed
+[2024.01.09-20.33.05:010][166]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.01.09-20.33.05:010][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.09-20.33.11:536][933]MapCheck: New page: Map Check
+[2024.01.09-20.33.11:579][933]Cmd: MAP REBUILD ALLVISIBLE
+[2024.01.09-20.33.11:581][933]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2024.01.09-20.33.11:584][933]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.09-20.33.11:584][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.09-20.33.11:584][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.09-20.33.11:584][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: ================================================
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: RAM used: 240,00 B of 1,60 GiB budget. Usage: 0.00%
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.09-20.33.11:590][933]LogShaderCompilers: Display: ================================================
+[2024.01.09-20.33.11:595][933]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2024.01.09-20.33.11:611][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.01.09-20.33.11:728][933]LogLevel: Display: Export Material TexCoord Scales took 0.114 seconds.
+[2024.01.09-20.33.11:731][933]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2024.01.09-20.33.11:740][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.01.09-20.33.11:750][933]LightingResults: New page: Lighting Build - 09.01.2024, 22:33:11
+[2024.01.09-20.33.11:792][933]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2024.01.09-20.33.11:945][933]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2024.01.09-20.33.11:960][933]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2024.01.09-20.33.12:472][933]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2024.01.09-20.33.12:473][933]LogSwarmInterface: [TryOpenConnection] Local Process ID is 34808
+[2024.01.09-20.33.19:626][933]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2024.01.09-20.33.19:627][933]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2024.01.09-20.33.19:627][933]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2024.01.09-20.33.19:627][933]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2024.01.09-20.33.19:627][933]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2024.01.09-20.33.19:627][933]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2024.01.09-20.33.19:716][933]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2024.01.09-20.33.19:716][933]MapCheck: New page: TestLevel - 09.01.2024, 22:33:19
+[2024.01.09-20.33.19:721][933]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 5,25ms to complete.
+[2024.01.09-20.33.19:722][933]LogEditorBuildUtils: Build time 0:08
+[2024.01.09-20.33.19:782][933]LogShaderCompilers: Display: Current jobs: 2, Batch size: 1, Num Already Dispatched: 0
+[2024.01.09-20.33.19:809][933]LogShaderCompilers: Display: Current jobs: 2, Batch size: 2, Num Already Dispatched: 2
+[2024.01.09-20.33.19:867][934]LogAutomationController: Ignoring very large delta of 8.34 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.01.09-20.33.19:886][934]LogShaderCompilers: Display: Current jobs: 2, Batch size: 2, Num Already Dispatched: 4
+[2024.01.09-20.33.21:191][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.01.09-20.33.22:381][  5]Job is a success!
+[2024.01.09-20.33.22:622][  7]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
+[2024.01.09-20.33.22:622][  7]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2024.01.09-20.33.22:622][  7]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.1Mb due to 0.010000 MinBrickError)
+[2024.01.09-20.33.22:622][  7]LogVolumetricLightmapImport:      Bricks at depth
+[2024.01.09-20.33.22:622][  7]LogVolumetricLightmapImport:          0: 50.0% covering 100.0% of volume
+[2024.01.09-20.33.22:622][  7]LogVolumetricLightmapImport:          1: 50.0% covering 1.6% of volume
+[2024.01.09-20.33.22:622][  7]LogVolumetricLightmapImport:          2: 0.0% covering 0.0% of volume
+[2024.01.09-20.33.22:622][  7]LogVolumetricLightmapImport:      Bricks in each level
+[2024.01.09-20.33.22:622][  7]LogVolumetricLightmapImport:          TestLevel 			 2 bricks 	 100.0% (Persistent Level)
+[2024.01.09-20.33.22:627][  7]LogTexture: Display: Building textures: /Game/Maps/TestLevel_BuiltData.TestLevel_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.666627 MB), EncodeSpeed: Fast
+[2024.01.09-20.33.22:633][  7]LogTexture: Display: Building textures: /Game/Maps/TestLevel_BuiltData.TestLevel_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 1.947886 MB), EncodeSpeed: Fast
+[2024.01.09-20.33.22:646][  7]Lightmass on MELIH-PC: 614 ms total, 59 ms importing, 1 ms setup, 23 ms photons, 526 ms processing, 0 us extra exporting [2/2 mappings]. Threads: 7.88 sec total, 25 ms processing.
+[2024.01.09-20.33.22:647][  7]LogStaticLightingSystem: TestLevel_BuiltData storing lightmap data for 2 meshes in 1 LightmapResourceClusters (2.0 Meshes per cluster).
+[2024.01.09-20.33.22:673][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.01.09-20.33.22:786][  7]LogStaticLightingSystem: Illumination: 10.8 sec (7 ms encoding lightmaps, 10 us encoding shadowmaps)
+[2024.01.09-20.33.22:786][  7]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2024.01.09-20.33.22:786][  7]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2024.01.09-20.33.23:618][  7]DumpUnbuiltLightIteractions
+[2024.01.09-20.33.23:618][  7]Lights with unbuilt interactions: 0
+[2024.01.09-20.33.23:618][  7]
+[2024.01.09-20.33.23:618][  7]Primitives with unbuilt interactions: 0
+[2024.01.09-20.33.24:237][  8]Cmd: MAP CHECK NOTIFYRESULTS
+[2024.01.09-20.33.24:237][  8]MapCheck: New page: TestLevel - 09.01.2024, 22:33:24
+[2024.01.09-20.33.24:237][  8]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,241ms to complete.
+[2024.01.09-20.33.34:013][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.01.09-20.33.38:854][167]LogSlate: Window 'Save Content' being destroyed
+[2024.01.09-20.33.39:171][167]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-20.33.39:231][167]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.01.09-20.33.39:239][167]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.005095 seconds
+[2024.01.09-20.33.39:244][167]LogSavePackage: Moving output files for package: /Game/Maps/TestLevel
+[2024.01.09-20.33.39:245][167]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/TestLevel050AF0514F5D14620F59ACBED6333AB4.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap'
+[2024.01.09-20.33.39:417][167]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.09-20.33.39:421][167]LogSavePackage: Moving output files for package: /Game/Maps/TestLevel_BuiltData
+[2024.01.09-20.33.39:422][167]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/TestLevel_BuiltDataAB12C592498C6900A6142D8B6BD5C42E.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel_BuiltData.uasset'
+[2024.01.09-20.33.39:722][167]SourceControl: Error: The following paths are ignored by one of your .gitignore files:
+[2024.01.09-20.33.39:722][167]SourceControl: Error: Ludectrophobia/Content/Maps/TestLevel_BuiltData.uasset
+[2024.01.09-20.33.39:722][167]SourceControl: Error: hint: Use -f if you really want to add them.
+[2024.01.09-20.33.39:722][167]SourceControl: Error: hint: Turn this message off by running
+[2024.01.09-20.33.39:722][167]SourceControl: Error: hint: "git config advice.addIgnoredFile false"
+[2024.01.09-20.33.39:725][167]LogFileHelpers: InternalPromptForCheckoutAndSave took 307 ms
+[2024.01.09-20.33.39:906][167]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/Maps/TestLevel_BuiltData
+[2024.01.09-20.33.39:907][167]LogFileHelpers: Saving map 'TestLevel' took 0.702
+[2024.01.09-20.33.39:924][167]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.09-20.33.39:924][167]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/BP_Player4ED0CB4B4E1B2E57831731B5BE93941A.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.09-20.33.39:927][167]LogSavePackage: Moving output files for package: /Game/Maps/TestLevel_BuiltData
+[2024.01.09-20.33.39:928][167]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/TestLevel_BuiltData48EBE2BD42FD2A1CECD9A2B15FBC8EC2.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel_BuiltData.uasset'
+[2024.01.09-20.33.39:932][167]LogFileHelpers: InternalPromptForCheckoutAndSave took 761 ms (total: 1.06 sec)
+[2024.01.09-20.33.39:934][167]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.09-20.33.39:934][167]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/TestLevel.TestLevel
+[2024.01.09-20.33.39:934][167]LogContentValidation: Display: Validating /Script/Engine.MapBuildDataRegistry /Game/Maps/TestLevel_BuiltData.TestLevel_BuiltData
+[2024.01.09-20.33.39:934][167]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.09-20.33.39:939][168]LogAutomationController: Ignoring very large delta of 5.94 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
