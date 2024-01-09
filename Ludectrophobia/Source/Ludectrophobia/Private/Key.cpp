@@ -1,32 +1,30 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
+// Key.cpp
 #include "Key.h"
+#include "Door_Actor_Temp.h"
 
-// Sets default values
 AKey::AKey()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
 }
 
-// Called when the game starts or when spawned
-void AKey::BeginPlay()
+void AKey::grab()
 {
-	Super::BeginPlay();
-	
+  SetActorHiddenInGame(true);
+  SetActorEnableCollision(false);
 }
 
-// Called every frame
-void AKey::Tick(float DeltaTime)
+void AKey::drop()
 {
-	Super::Tick(DeltaTime);
-
+  SetActorHiddenInGame(false);
+  SetActorEnableCollision(true);
 }
 
-std::vector<int> get_target_index() {
-  std::vector<int> temp_target_index;
-  return temp_target_index;
-}
+void AKey::use()
+{
+  SetActorHiddenInGame(true);
 
+  ADoor_Actor_Temp* YourDoor = Cast<ADoor_Actor_Temp>(GetWorld()->GetFirstPlayerController()->GetLevelScriptActor());
+  if (YourDoor)
+  {
+    YourDoor->SetDoorUnlocked(true);
+  }
+}
