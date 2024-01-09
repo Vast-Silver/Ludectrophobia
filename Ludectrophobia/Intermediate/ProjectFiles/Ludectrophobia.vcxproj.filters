@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Ludectrophobia.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Ludectrophobia.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\LudectrophobiaEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Ludectrophobia">
+      <UniqueIdentifier>{B3E9977D-B095-3E06-88CC-2E450381CC34}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Ludectrophobia\Ludectrophobia.Build.cs">
+      <Filter>Source\Ludectrophobia</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Ludectrophobia\Ludectrophobia.cpp">
+      <Filter>Source\Ludectrophobia</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludectrophobia\Ludectrophobia.h">
+      <Filter>Source\Ludectrophobia</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ludectrophobia\Private">
+      <UniqueIdentifier>{32F9A9E2-872C-32C4-BB99-C612FD459EC9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ludectrophobia\Private\Door.cpp">
+      <Filter>Source\Ludectrophobia\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Ludectrophobia\Private\Interactibles.cpp">
+      <Filter>Source\Ludectrophobia\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Ludectrophobia\Private\Item.cpp">
+      <Filter>Source\Ludectrophobia\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Ludectrophobia\Private\Key.cpp">
+      <Filter>Source\Ludectrophobia\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Ludectrophobia\Private\Lever.cpp">
+      <Filter>Source\Ludectrophobia\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Ludectrophobia\Public">
+      <UniqueIdentifier>{1CD6649D-A8F0-3813-A704-7EC0107B9807}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Ludectrophobia\Public\Door.h">
+      <Filter>Source\Ludectrophobia\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Ludectrophobia\Public\Interactibles.h">
+      <Filter>Source\Ludectrophobia\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Ludectrophobia\Public\Item.h">
+      <Filter>Source\Ludectrophobia\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Ludectrophobia\Public\Key.h">
+      <Filter>Source\Ludectrophobia\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Ludectrophobia\Public\Lever.h">
+      <Filter>Source\Ludectrophobia\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
