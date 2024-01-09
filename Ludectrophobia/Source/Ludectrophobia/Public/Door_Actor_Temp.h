@@ -1,37 +1,44 @@
-#pragma once
+// Fill out your copyright notice in the Description page of Project Settings.
 
+#pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Interactibles.h"
 #include "Door_Actor_Temp.generated.h"
+#include "Interactibles.h"
 
 UCLASS()
 class LUDECTROPHOBIA_API ADoor_Actor_Temp : public AActor, public IInteractibles
 {
-  GENERATED_BODY()
+	GENERATED_BODY()
+	
+public:	
+	// Sets default values for this actor's properties
+	ADoor_Actor_Temp();
 
-public:
-  ADoor_Actor_Temp();
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
 
-  // Implementierung der IInteractibles-Methoden
-  virtual void glow();
-  virtual void switch_state();
-  virtual void inform_level(int32 Level);
+public:	
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+  //methods for door and lever
+  UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+  void glow();
+  UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+  void switch_state();
+  UFUNCTION(BlueprintNativeEvent, BlueprintCallable, Category = "Interaction")
+  void inform_level();
 
 private:
-  UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Door", meta = (AllowPrivateAccess = "true"))
-  class UStaticMeshComponent* MeshComponent;
+  //door state open or closed
+  bool open;
 
-  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Door", meta = (AllowPrivateAccess = "true"))
-  bool bOpen;
+  //lock state with lock or without lock
+  bool has_lock;
 
-  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Door", meta = (AllowPrivateAccess = "true"))
-  bool bHasLock;
-
-  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Door", meta = (AllowPrivateAccess = "true"))
-  bool bUnlocked;
-
-  UPROPERTY()
-  class UMaterialInstanceDynamic* DynamicMaterial;
+  //door lock unlocked or locked
+  bool unlocked;
 };
