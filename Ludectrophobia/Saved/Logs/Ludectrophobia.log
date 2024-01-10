@@ -2623,3 +2623,42 @@ please set the "Use T0 as ref pose" option or add them to the bind pose and reim
 [2024.01.10-20.11.21:765][425]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/TestLevel_Auto3 is in the /Temp path, will not scan.
 [2024.01.10-20.11.21:766][425]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/TestLevel' took 0.022
 [2024.01.10-20.11.21:766][425]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.022
+[2024.01.10-20.14.31:774][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.01.10-20.14.36:033][380]LogSlate: Window 'Save Content' being destroyed
+[2024.01.10-20.14.40:255][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.01.10-20.14.41:332][882]LogSlate: Window 'Save Content' being destroyed
+[2024.01.10-20.14.41:343][882]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.10-20.14.41:433][882]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.01.10-20.14.41:440][882]LogSavePackage: Moving output files for package: /Game/Maps/TestLevel
+[2024.01.10-20.14.41:441][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/TestLevel425FB30F4ED3DDAD4AF0AF9B5B5B0995.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap'
+[2024.01.10-20.14.41:447][882]LogFileHelpers: Saving map 'TestLevel' took 0.042
+[2024.01.10-20.14.41:651][882]LogSavePackage: Moving output files for package: /Game/Blueprints/NPC/Ch36_1001_Diffuse
+[2024.01.10-20.14.41:651][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/Ch36_1001_Diffuse99F34FA14A428A31571C388C65FADCCB.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Ch36_1001_Diffuse.uasset'
+[2024.01.10-20.14.41:720][882]LogSavePackage: Moving output files for package: /Game/Blueprints/NPC/Ch36_1001_Glossiness
+[2024.01.10-20.14.41:720][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/Ch36_1001_Glossiness04101B51432EB3EB2A95EDAA312C0BB1.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Ch36_1001_Glossiness.uasset'
+[2024.01.10-20.14.41:975][882]LogSavePackage: Moving output files for package: /Game/Blueprints/NPC/Ch36_1001_Normal
+[2024.01.10-20.14.41:975][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/Ch36_1001_Normal0BD0E7C442F53B99E3973CBDD9BD4105.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Ch36_1001_Normal.uasset'
+[2024.01.10-20.14.42:015][882]LogSavePackage: Moving output files for package: /Game/Blueprints/NPC/Ch36_1001_Specular
+[2024.01.10-20.14.42:015][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/Ch36_1001_SpecularFDDE9EBE4C03D0C3298F55AE03838FF0.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Ch36_1001_Specular.uasset'
+[2024.01.10-20.14.42:018][882]LogSavePackage: Moving output files for package: /Game/Blueprints/NPC/Ch36_Body
+[2024.01.10-20.14.42:018][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/Ch36_BodyEF36C2414153A9A5650A4B9249C1F311.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Ch36_Body.uasset'
+[2024.01.10-20.14.42:074][882]LogSavePackage: Moving output files for package: /Game/Blueprints/NPC/Walking
+[2024.01.10-20.14.42:074][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/Walking05ED4502412AB3593AB9118D872771BB.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Walking.uasset'
+[2024.01.10-20.14.42:088][882]LogSavePackage: Moving output files for package: /Game/Blueprints/NPC/Walking_Anim
+[2024.01.10-20.14.42:088][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/Walking_AnimD008813A4060B5EC6366F3AF3C2E8A94.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Walking_Anim.uasset'
+[2024.01.10-20.14.42:093][882]LogSavePackage: Moving output files for package: /Game/Blueprints/NPC/Walking_PhysicsAsset
+[2024.01.10-20.14.42:093][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/Walking_PhysicsAsset0AA531CA493FC46AC7891EB58A1E7365.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Walking_PhysicsAsset.uasset'
+[2024.01.10-20.14.42:095][882]LogSavePackage: Moving output files for package: /Game/Blueprints/NPC/Walking_Skeleton
+[2024.01.10-20.14.42:095][882]LogSavePackage: Moving '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Saved/Walking_Skeleton99263DA547207A53E0BC08A5F57C8C31.tmp' to '../../../../../Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Walking_Skeleton.uasset'
+[2024.01.10-20.14.42:102][882]LogFileHelpers: InternalPromptForCheckoutAndSave took 760 ms (total: 1.31 sec)
+[2024.01.10-20.14.42:105][882]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/TestLevel.TestLevel
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Blueprints/NPC/Ch36_1001_Diffuse.Ch36_1001_Diffuse
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Blueprints/NPC/Ch36_1001_Glossiness.Ch36_1001_Glossiness
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Blueprints/NPC/Ch36_1001_Normal.Ch36_1001_Normal
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Blueprints/NPC/Ch36_1001_Specular.Ch36_1001_Specular
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Blueprints/NPC/Ch36_Body.Ch36_Body
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.SkeletalMesh /Game/Blueprints/NPC/Walking.Walking
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Blueprints/NPC/Walking_Anim.Walking_Anim
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.PhysicsAsset /Game/Blueprints/NPC/Walking_PhysicsAsset.Walking_PhysicsAsset
+[2024.01.10-20.14.42:105][882]LogContentValidation: Display: Validating /Script/Engine.Skeleton /Game/Blueprints/NPC/Walking_Skeleton.Walking_Skeleton
