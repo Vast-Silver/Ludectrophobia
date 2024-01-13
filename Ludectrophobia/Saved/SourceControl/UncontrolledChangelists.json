@@ -5,6 +5,12 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Friendly_NPC/BP_Friendly_NPC.uasset",
+				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset",
+				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Friendly_NPC/BPI_Dialogue.uasset",
+				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap",
+				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Friendly_NPC/Dialogue_Window.uasset",
+				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Friendly_NPC/BP_Dialogue.uasset",
 				"C:/Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/BP_Creature.uasset",
 				"C:/Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap",
 				"C:/Users/melih/OneDrive/Uni Bremen/3. Semester/Media Engineering/ProgrammierSpiel/Ludectrophobia/Ludectrophobia/Content/Blueprints/NPC/Ch36_1001_Diffuse.uasset",
