@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LudectrophobiaModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9710c45c62f7dea74568b7f009a83078278e90b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8fde161603f00f46247a7139a02d5922ce8dcf1")]
 [assembly: System.Reflection.AssemblyProductAttribute("LudectrophobiaModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LudectrophobiaModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

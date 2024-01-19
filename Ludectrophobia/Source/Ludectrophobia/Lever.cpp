@@ -1,7 +1,13 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
-#include "Lever.h"
+/*
+ * Copyright (c) 2024 Melih Kaan Yazan. All rights reserved.
+ *
+ * This work, including all source code files and accompanying documentation (the "Work"), is the property of Melih Kaan Yazan.
+ * No part of this Work may be reproduced, distributed, transmitted, sublicensed, stored in a retrieval system, or otherwise used in any form or by any means,
+ * without the express written permission of Melih Kaan Yazan, except where permitted by applicable copyright and related rights legislation.
+ *
+ * The Work is provided in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the license for the specific language governing rights and limitations.
+ */
 
 #include "Lever.h"
 
@@ -21,7 +27,6 @@ ALever::ALever()
 
     // Initialisieren der Variablen
     Active = false;
-    TargetIndex = -1;
 }
 
 void ALever::BeginPlay()
@@ -34,32 +39,20 @@ void ALever::Tick(float DeltaTime)
 
 void ALever::glow()
 {
-    // Implementieren Sie hier die Logik, um den Hebel zum Leuchten zu bringen
+    
 }
 
-bool ALever::switch_state()
+bool ALever::SetActiveDoor()
 {
-    // Wechseln Sie den Zustand des Hebels und aktualisieren Sie die Mesh-Komponenten
-    Active = !Active;
-    MeshUp->SetVisibility(!Active);
-    MeshUp->SetHiddenInGame(Active);
-    MeshDown->SetVisibility(Active);
-    MeshDown->SetHiddenInGame(!Active);
-
-    // Implementieren Sie hier zusätzliche Logik, die ausgeführt werden soll, wenn der Hebel umgelegt wird
-    // ...
-
+    if (door != nullptr) {
+        door->switch_state();
+        Active = !Active;
+        MeshUp->SetVisibility(!Active);
+        MeshUp->SetHiddenInGame(Active);
+        MeshDown->SetVisibility(Active);
+        MeshDown->SetHiddenInGame(!Active);
+    }
     return Active;
 }
 
-void ALever::SetActive(bool NewActive)
-{
-    Active = NewActive;
-    // Hier können Sie zusätzliche Logik hinzufügen, die ausgelöst wird, wenn Active geändert wird.
-}
 
-void ALever::SetTargetIndex(int32 NewTargetIndex)
-{
-    TargetIndex = NewTargetIndex;
-    // Hier können Sie zusätzliche Logik hinzufügen, die ausgelöst wird, wenn TargetIndex geändert wird.
-}

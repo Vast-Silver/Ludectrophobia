@@ -32,10 +32,10 @@
     <Filter Include="Source\Ludectrophobia">
       <UniqueIdentifier>{B3E9977D-B095-3E06-88CC-2E450381CC34}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\Ludectrophobia\DoorComponent.cpp">
+    <ClCompile Include="..\..\Source\Ludectrophobia\Door.cpp">
       <Filter>Source\Ludectrophobia</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Ludectrophobia\DoorComponent.h">
+    <ClInclude Include="..\..\Source\Ludectrophobia\Door.h">
       <Filter>Source\Ludectrophobia</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Ludectrophobia\Interactibles.cpp">

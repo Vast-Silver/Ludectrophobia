@@ -116,12 +116,12 @@
     <None Include="..\..\Config\DefaultEngine.ini"/>
     <None Include="..\..\Config\DefaultGame.ini"/>
     <None Include="..\..\Config\DefaultInput.ini"/>
-    <ClCompile Include="..\..\Source\Ludectrophobia\DoorComponent.cpp">
+    <ClCompile Include="..\..\Source\Ludectrophobia\Door.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Ludectrophobia\DoorComponent.h"/>
+    <ClInclude Include="..\..\Source\Ludectrophobia\Door.h"/>
     <ClCompile Include="..\..\Source\Ludectrophobia\Interactibles.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>

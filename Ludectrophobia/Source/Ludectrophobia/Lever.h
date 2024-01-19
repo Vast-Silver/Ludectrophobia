@@ -13,17 +13,22 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Interactibles.h"
+#include "Door.h"
 #include "Lever.generated.h"
 
+
 UCLASS()
-class LUDECTROPHOBIA_API ALever : public AActor, public IInteractibles
+class LUDECTROPHOBIA_API ALever : public AActor
 {
     GENERATED_BODY()
 
 public:
     // Sets default values for this actor's properties
     ALever();
+
+    //Tür wählen Editor
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")
+    ADoor* door;
 
 protected:
     // Called when the game starts or when spawned
@@ -35,9 +40,7 @@ public:
 
     // Implementiert die Interface-Funktionen
     UFUNCTION(BlueprintCallable, Category = "Lever")
-    virtual void glow() override;
-    UFUNCTION(BlueprintCallable, Category = "Lever")
-    virtual bool switch_state() override;
+    virtual void glow() ;
 
     // Mesh-Komponenten für die Zustände "oben" und "unten"
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Mesh")
@@ -50,14 +53,9 @@ public:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Lever")
     bool Active;
 
-    // Variable, um das Zielindex zu speichern (z.B. welche Tür dieser Hebel steuert)
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Lever")
-    int32 TargetIndex;
 
     // Funktionen, um die Werte von Active und TargetIndex auch zur Laufzeit zu ändern
     UFUNCTION(BlueprintCallable, Category = "Lever")
-    void SetActive(bool NewActive);
+    bool SetActiveDoor();
 
-    UFUNCTION(BlueprintCallable, Category = "Lever")
-    void SetTargetIndex(int32 NewTargetIndex);
 };

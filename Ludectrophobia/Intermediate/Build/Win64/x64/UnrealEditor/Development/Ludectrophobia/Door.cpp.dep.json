@@ -7,9 +7,11 @@
         "Includes": [
             "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ludectrophobia\\definitions.ludectrophobia.h",
             "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\source\\ludectrophobia\\door.h",
-            "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\source\\ludectrophobia\\interactibles.h",
-            "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\intermediate\\build\\win64\\unrealeditor\\inc\\ludectrophobia\\uht\\interactibles.generated.h",
-            "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\intermediate\\build\\win64\\unrealeditor\\inc\\ludectrophobia\\uht\\door.generated.h"
+            "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\intermediate\\build\\win64\\unrealeditor\\inc\\ludectrophobia\\uht\\door.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\boxcomponent.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
