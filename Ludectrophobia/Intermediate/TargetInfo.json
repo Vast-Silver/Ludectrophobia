@@ -1,4 +1,14 @@
 {
 	"Targets": [
+		{
+			"Name": "Ludectrophobia",
+			"Path": "..\\Source\\Ludectrophobia.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "LudectrophobiaEditor",
+			"Path": "..\\Source\\LudectrophobiaEditor.Target.cs",
+			"Type": "Editor"
+		}
 	]
 }
