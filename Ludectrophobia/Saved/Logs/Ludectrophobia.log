@@ -2790,3 +2790,210 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.20-17.23.40:811][652]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 2.29 sec)
 [2024.01.20-17.23.40:813][652]AssetCheck: New page: Asset Save: TestLevel
 [2024.01.20-17.23.40:813][652]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/TestLevel.TestLevel
+[2024.01.20-17.35.45:685][688]LogDerivedDataCache: C:/Users/Lars/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.045 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4885 files in 6737 folders with total size 388 MiB.
+[2024.01.20-18.11.52:015][263]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.20-18.11.52:021][263]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.20-18.11.52:021][263]PIE: New page: PIE session: TestLevel (20 Jan 2024, 20:11:52)
+[2024.01.20-18.11.52:022][263]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2024.01.20-18.11.52:024][263]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002600s)
+[2024.01.20-18.11.52:024][263]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.002639s)
+[2024.01.20-18.11.52:035][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.01.20-18.11.52:037][263]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.20-18.11.52:037][263]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.20-18.11.52:038][263]LogAIModule: Creating AISystem for world TestLevel
+[2024.01.20-18.11.52:038][263]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2024.01.20-18.11.52:038][263]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.01.20-18.11.52:038][263]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.20-18.11.52:038][263]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.20-18.11.52:038][263]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.20-18.11.52:038][263]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.20-18.11.52:038][263]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.20-18.11.52:038][263]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.20-18.11.52:038][263]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.20-18.11.52:038][263]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.20-18.11.52:038][263]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.20-18.11.52:038][263]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.20-18.11.52:038][263]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.20-18.11.52:041][263]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.20-18.11.52:054][263]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Wireless Gaming Headset)
+[2024.01.20-18.11.52:054][263]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.20-18.11.52:054][263]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.20-18.11.52:054][263]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.20-18.11.52:055][263]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.01.20-18.11.52:055][263]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=23
+[2024.01.20-18.11.52:056][263]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.01.20-18.11.52:056][263]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.01.20-18.11.52:056][263]LogInit: FAudioDevice initialized with ID 23.
+[2024.01.20-18.11.52:056][263]LogAudio: Display: Audio Device (ID: 23) registered with world 'TestLevel'.
+[2024.01.20-18.11.52:056][263]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.01.20-18.11.52:059][263]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.20-18.11.52:060][263]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2024.01.20-19.11.52
+[2024.01.20-18.11.52:061][263]LogWorld: Bringing up level for play took: 0.001616
+[2024.01.20-18.11.52:062][263]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.01.20-18.11.52:064][263]PIE: Server logged in
+[2024.01.20-18.11.52:064][263]PIE: Play in editor total start time 0,043 seconds.
+[2024.01.20-18.11.59:269][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.20-18.11.59:269][116]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestLevel
+[2024.01.20-18.11.59:270][116]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.20-18.11.59:270][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.20-18.11.59:271][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.20-18.11.59:273][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.20-18.11.59:277][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.20-18.11.59:277][116]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.01.20-18.11.59:277][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.01.20-18.11.59:280][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.01.20-18.11.59:284][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.01.20-18.11.59:333][119]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.01.20-18.12.10:987][354]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.20-18.12.10:993][354]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.20-18.12.10:994][354]PIE: New page: PIE session: TestLevel (20 Jan 2024, 20:12:10)
+[2024.01.20-18.12.11:028][354]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2024.01.20-18.12.11:030][354]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001696s)
+[2024.01.20-18.12.11:030][354]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001725s)
+[2024.01.20-18.12.11:044][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.01.20-18.12.11:044][354]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.20-18.12.11:044][354]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.20-18.12.11:045][354]LogAIModule: Creating AISystem for world TestLevel
+[2024.01.20-18.12.11:045][354]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2024.01.20-18.12.11:045][354]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.01.20-18.12.11:045][354]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.20-18.12.11:045][354]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.20-18.12.11:045][354]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.20-18.12.11:045][354]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.20-18.12.11:045][354]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.20-18.12.11:045][354]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.20-18.12.11:045][354]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.20-18.12.11:045][354]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.20-18.12.11:045][354]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.20-18.12.11:045][354]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.20-18.12.11:045][354]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.20-18.12.11:047][354]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.20-18.12.11:060][354]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Wireless Gaming Headset)
+[2024.01.20-18.12.11:060][354]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.20-18.12.11:060][354]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.20-18.12.11:060][354]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.20-18.12.11:061][354]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.01.20-18.12.11:061][354]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=24
+[2024.01.20-18.12.11:062][354]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.01.20-18.12.11:062][354]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.01.20-18.12.11:062][354]LogInit: FAudioDevice initialized with ID 24.
+[2024.01.20-18.12.11:062][354]LogAudio: Display: Audio Device (ID: 24) registered with world 'TestLevel'.
+[2024.01.20-18.12.11:062][354]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.20-18.12.11:064][354]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.20-18.12.11:065][354]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2024.01.20-19.12.11
+[2024.01.20-18.12.11:066][354]LogWorld: Bringing up level for play took: 0.001457
+[2024.01.20-18.12.11:067][354]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.01.20-18.12.11:069][354]PIE: Server logged in
+[2024.01.20-18.12.11:069][354]PIE: Play in editor total start time 0,076 seconds.
+[2024.01.20-18.12.39:098][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.20-18.12.39:098][ 24]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestLevel
+[2024.01.20-18.12.39:098][ 24]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.20-18.12.39:099][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.20-18.12.39:101][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.20-18.12.39:102][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.20-18.12.39:107][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.20-18.12.39:107][ 24]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.20-18.12.39:107][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.20-18.12.39:108][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.20-18.12.39:113][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.01.20-18.12.39:175][ 29]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.01.20-18.13.22:706][425]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-18.13.22:748][425]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.20-18.13.22:748][425]LogSavePackage: Moving '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_PlayerD9B8895543EC48BA9FFFA09076BFF944.tmp' to '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.20-18.13.22:753][425]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 2.34 sec)
+[2024.01.20-18.13.22:755][425]AssetCheck: New page: Asset Save: BP_Player
+[2024.01.20-18.13.22:755][425]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.20-18.13.23:832][553]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.20-18.13.23:838][553]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.01.20-18.13.23:839][553]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2024.01.20-18.13.23:885][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.01.20-18.13.23:889][553]LogPlayLevel: PlayLevel: Blueprint regeneration took 50 ms (1 blueprints)
+[2024.01.20-18.13.23:889][553]PIE: New page: PIE session: TestLevel (20 Jan 2024, 20:13:23)
+[2024.01.20-18.13.23:889][553]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestLevel
+[2024.01.20-18.13.23:890][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001633s)
+[2024.01.20-18.13.23:890][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestLevel.TestLevel to /Game/Maps/UEDPIE_0_TestLevel.TestLevel (0.001655s)
+[2024.01.20-18.13.23:895][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.01.20-18.13.23:896][553]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.20-18.13.23:896][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.20-18.13.23:896][553]LogAIModule: Creating AISystem for world TestLevel
+[2024.01.20-18.13.23:896][553]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2024.01.20-18.13.23:896][553]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.01.20-18.13.23:896][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.20-18.13.23:896][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.20-18.13.23:896][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.20-18.13.23:896][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.20-18.13.23:896][553]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.20-18.13.23:896][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.20-18.13.23:896][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.20-18.13.23:896][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.20-18.13.23:897][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.20-18.13.23:897][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.20-18.13.23:897][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.20-18.13.23:898][553]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.20-18.13.23:912][553]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech PRO X Wireless Gaming Headset)
+[2024.01.20-18.13.23:912][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.20-18.13.23:912][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.20-18.13.23:912][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.20-18.13.23:913][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.01.20-18.13.23:913][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=25
+[2024.01.20-18.13.23:914][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.01.20-18.13.23:914][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.01.20-18.13.23:914][553]LogInit: FAudioDevice initialized with ID 25.
+[2024.01.20-18.13.23:914][553]LogAudio: Display: Audio Device (ID: 25) registered with world 'TestLevel'.
+[2024.01.20-18.13.23:914][553]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.20-18.13.23:918][553]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.20-18.13.23:919][553]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2024.01.20-19.13.23
+[2024.01.20-18.13.23:919][553]LogWorld: Bringing up level for play took: 0.001356
+[2024.01.20-18.13.23:921][553]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.01.20-18.13.23:922][553]PIE: Server logged in
+[2024.01.20-18.13.23:922][553]PIE: Play in editor total start time 0,084 seconds.
+[2024.01.20-18.13.28:768][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.20-18.13.28:768][108]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestLevel
+[2024.01.20-18.13.28:768][108]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2024.01.20-18.13.28:768][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.20-18.13.28:770][108]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.20-18.13.28:772][108]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.20-18.13.28:777][108]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.20-18.13.28:777][108]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.20-18.13.28:777][108]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.20-18.13.28:779][108]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.20-18.13.28:781][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.20-18.13.28:783][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.01.20-18.13.28:828][110]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.01.20-18.14.26:846][744]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.20-18.14.32:924][463]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-18.14.32:988][463]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.20-18.14.32:988][463]LogSavePackage: Moving '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player1F57DBF24C2DFE481E3309BDF75BA81D.tmp' to '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.20-18.14.32:992][463]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 2.40 sec)
+[2024.01.20-18.14.32:995][463]AssetCheck: New page: Asset Save: BP_Player
+[2024.01.20-18.14.32:995][463]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.20-18.14.36:305][859]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-18.14.36:357][859]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.20-18.14.36:358][859]LogSavePackage: Moving '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player9362241B4908670349E8328323C200A2.tmp' to '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.20-18.14.36:362][859]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 2.46 sec)
+[2024.01.20-18.14.36:364][859]AssetCheck: New page: Asset Save: BP_Player
+[2024.01.20-18.14.36:364][859]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.20-18.14.38:426][105]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-18.14.38:491][105]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.20-18.14.38:491][105]LogSavePackage: Moving '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_PlayerF224B17A4AD40DB36CE2FBAAE013C4DC.tmp' to '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.20-18.14.38:495][105]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 2.53 sec)
+[2024.01.20-18.14.38:498][105]AssetCheck: New page: Asset Save: BP_Player
+[2024.01.20-18.14.38:498][105]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.20-18.14.40:682][287]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-18.14.40:742][287]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.20-18.14.40:742][287]LogSavePackage: Moving '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player01013AFC4B3E156E266E74AF3023F420.tmp' to '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.20-18.14.40:747][287]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 2.60 sec)
+[2024.01.20-18.14.40:749][287]AssetCheck: New page: Asset Save: BP_Player
+[2024.01.20-18.14.40:749][287]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.20-18.14.41:409][364]BlueprintLog: New page: Compile BP_Player
+[2024.01.20-18.14.41:430][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.01.20-18.14.52:660][791]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.01.20-18.14.53:510][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.01.20-18.14.53:701][914]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.01.20-18.14.53:885][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.01.20-18.14.54:819][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.20-18.14.54:872][ 46]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.20-18.14.54:872][ 46]LogSavePackage: Moving '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player369BFD0945FFC54751C852AF38C1414B.tmp' to '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.20-18.14.54:877][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 2.65 sec)
+[2024.01.20-18.14.54:879][ 46]AssetCheck: New page: Asset Save: BP_Player
+[2024.01.20-18.14.54:879][ 46]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
