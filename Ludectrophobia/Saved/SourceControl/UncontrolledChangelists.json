@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/laila/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Puzzle/BP_Light_PuzzlePiece.uasset",
+				"C:/Users/laila/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap",
+				"C:/Users/laila/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Puzzle/BP_PuzzleChecker_Button.uasset",
+				"C:/Users/laila/Documents/GitHub/Ludectrophobia/Ludectrophobia/Content/Puzzle/BP_Door.uasset",
 				"C:/Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset",
 				"C:/Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap",
 				"C:/Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Input/Actions/IA_Interact.uasset",
