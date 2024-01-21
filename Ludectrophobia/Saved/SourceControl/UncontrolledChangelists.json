@@ -5,6 +5,8 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Battery/Battery.uasset",
+				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap",
 				"C:/Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset",
 				"C:/Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Puzzle/BP_PuzzleChecker_Button.uasset",
 				"C:/Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Puzzle/BP_Light_PuzzlePiece.uasset",
