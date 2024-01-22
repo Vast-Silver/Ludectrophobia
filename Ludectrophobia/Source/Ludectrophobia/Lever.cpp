@@ -11,48 +11,44 @@
 
 #include "Lever.h"
 
-// Sets default values
+ /**
+  * @brief Constructor for ALever. Initializes the lever's properties and components.
+  */
 ALever::ALever()
 {
-    // Set this actor to call Tick() every frame.
+    /** Set this actor to call Tick() every frame. */
     PrimaryActorTick.bCanEverTick = true;
 
-    // Initialisieren Sie die Mesh-Komponenten
-    MeshUp = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshUp"));
-    MeshDown = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("MeshDown"));
+    /** Initialize the mesh components */
+    SkeletalMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("LeverMesh"));
 
-    // Stellen Sie sicher, dass MeshDown zu Beginn unsichtbar/ausgeschaltet ist
-    MeshDown->SetVisibility(false);
-    MeshDown->SetHiddenInGame(true);
-
-    // Initialisieren der Variablen
-    Active = false;
-}
-
-void ALever::BeginPlay()
-{
-}
-
-void ALever::Tick(float DeltaTime)
-{
+    /** Initialisieren der Variablen */
+    active = false;
 }
 
 void ALever::glow()
 {
-    
+    // Implement glow effect if needed
 }
 
-bool ALever::SetActiveDoor()
+bool ALever::switchState()
 {
-    if (door != nullptr) {
-        door->switch_state();
-        Active = !Active;
-        MeshUp->SetVisibility(!Active);
-        MeshUp->SetHiddenInGame(Active);
-        MeshDown->SetVisibility(Active);
-        MeshDown->SetHiddenInGame(!Active);
+    if (door != nullptr)
+    {
+        if (!active) {
+            door->switchState();
+            active = !active;
+
+            /** Play the lever animation */
+            PlayLeverAnimation();
+        }
     }
-    return Active;
+    return active;
 }
 
-
+void ALever::PlayLeverAnimation()
+{
+    if (LeverAnimation != nullptr && SkeletalMesh != nullptr) {
+        SkeletalMesh->PlayAnimation(LeverAnimation, false);
+    }
+}

@@ -31,5 +31,5 @@ class LUDECTROPHOBIA_API IInteractibles
 
 public:
 	virtual void glow() = 0;
-	virtual bool switch_state() = 0;
+	virtual bool switchState() = 0;
 };

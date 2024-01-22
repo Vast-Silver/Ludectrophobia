@@ -17,45 +17,53 @@
 #include "Lever.generated.h"
 
 
+ /**
+  * @brief ALever Class - Manages the behavior and state of lever actors in the game.
+  */
 UCLASS()
 class LUDECTROPHOBIA_API ALever : public AActor
 {
     GENERATED_BODY()
 
 public:
-    // Sets default values for this actor's properties
+    /**
+     * @brief Constructs the ALever object and initializes default values.
+     */
     ALever();
 
-    //Tür wählen Editor
+    /** Door object that this lever is associated with. */
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Mesh")
     ADoor* door;
 
-protected:
-    // Called when the game starts or when spawned
-    virtual void BeginPlay() override;
-
-public:
-    // Called every frame
-    virtual void Tick(float DeltaTime) override;
-
-    // Implementiert die Interface-Funktionen
+    /**
+     * @brief Implements glow effect for the lever (if needed).
+     */
     UFUNCTION(BlueprintCallable, Category = "Lever")
-    virtual void glow() ;
+    virtual void glow();
 
-    // Mesh-Komponenten für die Zustände "oben" und "unten"
+    /**
+     * @brief Toggles the state of the lever and associated door.
+     * @return True if the state was successfully toggled, false otherwise.
+     */
+    UFUNCTION(BlueprintCallable, Category = "Lever")
+    bool switchState();
+
+    /**
+     * @brief Plays the animation associated with the lever.
+     */
+    void PlayLeverAnimation();
+
+    /** Skeletal mesh component representing the lever. */
     UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Mesh")
-    UStaticMeshComponent* MeshUp;
+    USkeletalMeshComponent* SkeletalMesh;
 
-    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Mesh")
-    UStaticMeshComponent* MeshDown;
+    /** Animation sequence to be played when the lever is activated. */
+    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Animation")
+    UAnimSequence* LeverAnimation;
 
+private:
+    /** Variable to store the active state of the lever. */
     // Variable, um den aktiven Zustand des Hebels zu speichern
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Lever")
-    bool Active;
-
-
-    // Funktionen, um die Werte von Active und TargetIndex auch zur Laufzeit zu ändern
-    UFUNCTION(BlueprintCallable, Category = "Lever")
-    bool SetActiveDoor();
-
+    bool active;
 };
+

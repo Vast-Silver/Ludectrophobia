@@ -14,50 +14,55 @@
 
 ADoor::ADoor()
 {
-    // Aktiviere Tick-Methode für diese Klasse
+    /** Enable Tick method for this class */
     PrimaryActorTick.bCanEverTick = true;
 
-    // Initialisiere die Mesh-Komponente
+    /** Initialize the mesh component */
     DoorMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DoorMesh"));
-    DoorRahmenMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DoorRahmenMesh"));
-    RootComponent = DoorRahmenMesh;
-    DoorMesh->AttachToComponent(DoorRahmenMesh, FAttachmentTransformRules::KeepRelativeTransform);
 
+    /** Set DoorMesh as the root component */
+    RootComponent = DoorMesh;
 
-    // Initialisiere Variablen
+    /** Initialize variables */
     is_open = false;
-    is_unlocked = false;
+    is_unlocked = true;
 }
 
 void ADoor::BeginPlay()
 {
     Super::BeginPlay();
 
-    // Initialisiere die Rotationswerte
-    ClosedRotation = GetActorRotation();
-    OpenRotation = ClosedRotation + FRotator(0.0f, DoorOpenAngle, 0.0f);
-
+    /** Initialize rotation values */
+    closedRotation = GetActorRotation();
+    openRotation = closedRotation + FRotator(0.0f, door_open_rotation, 0.0f);
 }
 
 void ADoor::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
 
-    // Überprüfe Türöffnungszustand und passe Rotation an
-    if (is_open && GetActorRotation().Yaw < OpenRotation.Yaw)
+    /** Door opening logic */
+    if (is_open && GetActorRotation().Yaw < openRotation.Yaw)
     {
-        switch_state();
+        FRotator CurrentRotation = FMath::Lerp(GetActorRotation(), openRotation, door_speed * DeltaTime);
+        DoorMesh->SetWorldRotation(CurrentRotation);
+    }
+    /** Door closing logic */
+    else if (!is_open && GetActorRotation().Yaw > closedRotation.Yaw)
+    {
+        FRotator CurrentRotation = FMath::Lerp(GetActorRotation(), closedRotation, door_speed * DeltaTime);
+        DoorMesh->SetWorldRotation(CurrentRotation);
     }
 }
 
 
 
-bool ADoor::switch_state()
+bool ADoor::switchState()
 {
-    if (is_unlocked) 
+    if (is_unlocked)
     {
-        DoorMesh->SetRelativeRotation(FMath::Lerp(GetActorRotation(), OpenRotation, DoorSpeed * GetWorld()->GetDeltaSeconds()));
-        is_open = true;
+        /** Toggle door state */
+        is_open = !is_open;
         return true;
     }
     return false;

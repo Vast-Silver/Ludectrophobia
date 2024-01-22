@@ -34,10 +34,6 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_DoorMesh;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_DoorRahmenMesh_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_DoorRahmenMesh;
-#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_is_open_MetaData[];
 #endif
 		static void NewProp_is_open_SetBit(void* Obj);
@@ -58,41 +54,39 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ADoor_Statics::DependentSingletons) < 16);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoor_Statics::Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/**\n  * @brief ADoor Class - Manages the behavior and state of door actors in the game.\n  */" },
+#endif
 		{ "IncludePath", "Door.h" },
 		{ "ModuleRelativePath", "Door.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "@brief ADoor Class - Manages the behavior and state of door actors in the game." },
+#endif
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoor_Statics::NewProp_DoorMesh_MetaData[] = {
 		{ "Category", "Door" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "// Mesh-Komponente f\xef\xbf\xbdr die Darstellung der T\xef\xbf\xbdr\n" },
+		{ "Comment", "/** Mesh component representing the door */" },
 #endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Door.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "Mesh-Komponente f\xef\xbf\xbdr die Darstellung der T\xef\xbf\xbdr" },
+		{ "ToolTip", "Mesh component representing the door" },
 #endif
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADoor_Statics::NewProp_DoorMesh = { "DoorMesh", nullptr, (EPropertyFlags)0x00100000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ADoor, DoorMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ADoor_Statics::NewProp_DoorMesh_MetaData), Z_Construct_UClass_ADoor_Statics::NewProp_DoorMesh_MetaData) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoor_Statics::NewProp_DoorRahmenMesh_MetaData[] = {
-		{ "Category", "Door" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Door.h" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ADoor_Statics::NewProp_DoorRahmenMesh = { "DoorRahmenMesh", nullptr, (EPropertyFlags)0x00100000000a0009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ADoor, DoorRahmenMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ADoor_Statics::NewProp_DoorRahmenMesh_MetaData), Z_Construct_UClass_ADoor_Statics::NewProp_DoorRahmenMesh_MetaData) };
-#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoor_Statics::NewProp_is_open_MetaData[] = {
 		{ "Category", "Door" },
 #if !UE_BUILD_SHIPPING
-		{ "Comment", "// T\xef\xbf\xbdr-Statusvariablen\n" },
+		{ "Comment", "/** Door state variables */" },
 #endif
 		{ "ModuleRelativePath", "Door.h" },
 #if !UE_BUILD_SHIPPING
-		{ "ToolTip", "T\xef\xbf\xbdr-Statusvariablen" },
+		{ "ToolTip", "Door state variables" },
 #endif
 	};
 #endif
@@ -104,7 +98,13 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ADoor_Statics::NewProp_is_unlocked_MetaData[] = {
 		{ "Category", "Door" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "/** True if the Door is unlocked */" },
+#endif
 		{ "ModuleRelativePath", "Door.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "True if the Door is unlocked" },
+#endif
 	};
 #endif
 	void Z_Construct_UClass_ADoor_Statics::NewProp_is_unlocked_SetBit(void* Obj)
@@ -114,7 +114,6 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ADoor_Statics::NewProp_is_unlocked = { "is_unlocked", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(ADoor), &Z_Construct_UClass_ADoor_Statics::NewProp_is_unlocked_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ADoor_Statics::NewProp_is_unlocked_MetaData), Z_Construct_UClass_ADoor_Statics::NewProp_is_unlocked_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADoor_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoor_Statics::NewProp_DoorMesh,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoor_Statics::NewProp_DoorRahmenMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoor_Statics::NewProp_is_open,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADoor_Statics::NewProp_is_unlocked,
 	};
@@ -151,15 +150,15 @@ void EmptyLinkFunctionForGeneratedCodeDoor() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ADoor);
 	ADoor::~ADoor() {}
-	struct Z_CompiledInDeferFile_FID_Users_laila_Documents_GitHub_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_laila_Documents_GitHub_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ADoor, ADoor::StaticClass, TEXT("ADoor"), &Z_Registration_Info_UClass_ADoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADoor), 3286256893U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_ADoor, ADoor::StaticClass, TEXT("ADoor"), &Z_Registration_Info_UClass_ADoor, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADoor), 719481424U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_laila_Documents_GitHub_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_330651399(TEXT("/Script/Ludectrophobia"),
-		Z_CompiledInDeferFile_FID_Users_laila_Documents_GitHub_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_laila_Documents_GitHub_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_3631146216(TEXT("/Script/Ludectrophobia"),
+		Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_Door_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
