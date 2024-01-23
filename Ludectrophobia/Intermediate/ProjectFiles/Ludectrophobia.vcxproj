@@ -5,73 +5,25 @@
       <Configuration>Invalid</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Invalid|Win64">
-      <Configuration>Invalid</Configuration>
-      <Platform>Win64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="DebugGame|x64">
       <Configuration>DebugGame</Configuration>
       <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="DebugGame|Win64">
-      <Configuration>DebugGame</Configuration>
-      <Platform>Win64</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="DebugGame_Editor|x64">
       <Configuration>DebugGame_Editor</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="DebugGame_Editor|Win64">
-      <Configuration>DebugGame_Editor</Configuration>
-      <Platform>Win64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="IOS_DebugGame|x64">
-      <Configuration>IOS_DebugGame</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="IOS_DebugGame|Win64">
-      <Configuration>IOS_DebugGame</Configuration>
-      <Platform>Win64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Development|x64">
       <Configuration>Development</Configuration>
       <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Development|Win64">
-      <Configuration>Development</Configuration>
-      <Platform>Win64</Platform>
     </ProjectConfiguration>
     <ProjectConfiguration Include="Development_Editor|x64">
       <Configuration>Development_Editor</Configuration>
       <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Development_Editor|Win64">
-      <Configuration>Development_Editor</Configuration>
-      <Platform>Win64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="IOS_Development|x64">
-      <Configuration>IOS_Development</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="IOS_Development|Win64">
-      <Configuration>IOS_Development</Configuration>
-      <Platform>Win64</Platform>
-    </ProjectConfiguration>
     <ProjectConfiguration Include="Shipping|x64">
       <Configuration>Shipping</Configuration>
       <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="Shipping|Win64">
-      <Configuration>Shipping</Configuration>
-      <Platform>Win64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="IOS_Shipping|x64">
-      <Configuration>IOS_Shipping</Configuration>
-      <Platform>x64</Platform>
-    </ProjectConfiguration>
-    <ProjectConfiguration Include="IOS_Shipping|Win64">
-      <Configuration>IOS_Shipping</Configuration>
-      <Platform>Win64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -105,18 +57,6 @@
       <NMakeCompileFileCommandLine>$(BuildBatchScript) LudectrophobiaEditor Win64 DebugGame -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
     </NMakeCompile>
   </ItemDefinitionGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|Win64'">
-    <NMakeBuildCommandLine>$(BuildBatchScript) Ludectrophobia IOS DebugGame -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>$(RebuildBatchScript) Ludectrophobia IOS DebugGame -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>$(CleanBatchScript) Ludectrophobia IOS DebugGame -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>..\..\Binaries\IOS\Ludectrophobia-IOS-DebugGame</NMakeOutput>
-    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
-  </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_DebugGame|Win64'">
-    <NMakeCompile>
-      <NMakeCompileFileCommandLine>$(BuildBatchScript) Ludectrophobia IOS DebugGame -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
-    </NMakeCompile>
-  </ItemDefinitionGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development|x64'">
     <NMakeBuildCommandLine>$(BuildBatchScript) Ludectrophobia Win64 Development -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>$(RebuildBatchScript) Ludectrophobia Win64 Development -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
@@ -141,18 +81,6 @@
       <NMakeCompileFileCommandLine>$(BuildBatchScript) LudectrophobiaEditor Win64 Development -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
     </NMakeCompile>
   </ItemDefinitionGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|Win64'">
-    <NMakeBuildCommandLine>$(BuildBatchScript) Ludectrophobia IOS Development -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>$(RebuildBatchScript) Ludectrophobia IOS Development -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>$(CleanBatchScript) Ludectrophobia IOS Development -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>..\..\Binaries\IOS\Ludectrophobia</NMakeOutput>
-    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
-  </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Development|Win64'">
-    <NMakeCompile>
-      <NMakeCompileFileCommandLine>$(BuildBatchScript) Ludectrophobia IOS Development -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
-    </NMakeCompile>
-  </ItemDefinitionGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
     <NMakeBuildCommandLine>$(BuildBatchScript) Ludectrophobia Win64 Shipping -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
     <NMakeReBuildCommandLine>$(RebuildBatchScript) Ludectrophobia Win64 Shipping -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
@@ -163,18 +91,6 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
     <NMakeCompile>
       <NMakeCompileFileCommandLine>$(BuildBatchScript) Ludectrophobia Win64 Shipping -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
-    </NMakeCompile>
-  </ItemDefinitionGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|Win64'">
-    <NMakeBuildCommandLine>$(BuildBatchScript) Ludectrophobia IOS Shipping -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
-    <NMakeReBuildCommandLine>$(RebuildBatchScript) Ludectrophobia IOS Shipping -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
-    <NMakeCleanCommandLine>$(CleanBatchScript) Ludectrophobia IOS Shipping -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
-    <NMakeOutput>..\..\Binaries\IOS\Ludectrophobia-IOS-Shipping</NMakeOutput>
-    <AdditionalOptions>/std:c++20  /DSAL_NO_ATTRIBUTE_DECLARATIONS=1 /permissive- /Zc:strictStrings- /Zc:__cplusplus</AdditionalOptions>
-  </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='IOS_Shipping|Win64'">
-    <NMakeCompile>
-      <NMakeCompileFileCommandLine>$(BuildBatchScript) Ludectrophobia IOS Shipping -Project="$(SolutionDir)Ludectrophobia.uproject" -WaitMutex -FromMsBuild -WorkingDir=$(MSBuildProjectDirectory) -Files=$(SelectedFiles)</NMakeCompileFileCommandLine>
     </NMakeCompile>
   </ItemDefinitionGroup>
   <PropertyGroup>
@@ -206,12 +122,12 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\Ludectrophobia\Door.h"/>
-    <ClCompile Include="..\..\Source\Ludectrophobia\Interactibles.cpp">
+    <ClCompile Include="..\..\Source\Ludectrophobia\DoorKey.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Ludectrophobia\Interactibles.h"/>
+    <ClInclude Include="..\..\Source\Ludectrophobia\DoorKey.h"/>
     <ClCompile Include="..\..\Source\Ludectrophobia\Lever.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>

@@ -19,6 +19,8 @@ ADoor::ADoor()
 
     /** Initialize the mesh component */
     DoorMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DoorMesh"));
+    LockMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("LockMesh"));
+    LockMesh->SetupAttachment(DoorMesh); // Attach the lock to the door
 
     /** Set DoorMesh as the root component */
     RootComponent = DoorMesh;
@@ -35,6 +37,9 @@ void ADoor::BeginPlay()
     /** Initialize rotation values */
     closedRotation = GetActorRotation();
     openRotation = closedRotation + FRotator(0.0f, door_open_rotation, 0.0f);
+
+    // Set initial visibility of the lock mesh based on is_unlocked
+    LockMesh->SetVisibility(!is_unlocked);
 }
 
 void ADoor::Tick(float DeltaTime)
@@ -52,6 +57,12 @@ void ADoor::Tick(float DeltaTime)
     {
         FRotator CurrentRotation = FMath::Lerp(GetActorRotation(), closedRotation, door_speed * DeltaTime);
         DoorMesh->SetWorldRotation(CurrentRotation);
+    }
+
+    // Update lock visibility based on is_unlocked
+    if (LockMesh->IsVisible() && is_unlocked)
+    {
+        LockMesh->SetVisibility(false);
     }
 }
 
