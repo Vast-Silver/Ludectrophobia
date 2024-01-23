@@ -3485,3 +3485,891 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.23-17.55.47:850][584]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Sounds/SFX/Ambiente/vogel_sounds_Cue_Auto2
 [2024.01.23-17.55.47:850][584]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/vogel_sounds_Cue_Auto28D9889584323282ACD67EC84EB75F405.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Sounds/SFX/Ambiente/vogel_sounds_Cue_Auto2.uasset'
 [2024.01.23-17.55.47:852][584]LogFileHelpers: Auto-saving content packages took 0.020
+[2024.01.23-17.56.56:360][471]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-17.56.56:374][471]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-17.56.56:374][471]PIE: New page: PIE session: Level_Forest (23.01.2024, 19:56:56)
+[2024.01.23-17.56.56:375][471]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-17.56.56:392][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017120s)
+[2024.01.23-17.56.56:392][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.017166s)
+[2024.01.23-17.56.56:396][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.01.23-17.56.56:397][471]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-17.56.56:397][471]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-17.56.56:397][471]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-17.56.56:398][471]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2024.01.23-17.56.56:398][471]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.01.23-17.56.56:398][471]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-17.56.56:398][471]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-17.56.56:398][471]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-17.56.56:398][471]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-17.56.56:398][471]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-17.56.56:398][471]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-17.56.56:398][471]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-17.56.56:398][471]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-17.56.56:399][471]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-17.56.56:399][471]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-17.56.56:399][471]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-17.56.56:400][471]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-17.56.56:421][471]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-17.56.56:421][471]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-17.56.56:421][471]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-17.56.56:422][471]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-17.56.56:422][471]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.01.23-17.56.56:422][471]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.01.23-17.56.56:424][471]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.01.23-17.56.56:424][471]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.01.23-17.56.56:424][471]LogInit: FAudioDevice initialized with ID 18.
+[2024.01.23-17.56.56:424][471]LogAudio: Display: Audio Device (ID: 18) registered with world 'Level_Forest'.
+[2024.01.23-17.56.56:424][471]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.01.23-17.56.56:429][471]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-17.56.56:453][471]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-18.56.56
+[2024.01.23-17.56.56:453][471]LogWorld: Bringing up level for play took: 0.025079
+[2024.01.23-17.56.56:455][471]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.01.23-17.56.56:459][471]r.SetRes = "1920x1080f"
+[2024.01.23-17.56.56:459][471]PIE: Server logged in
+[2024.01.23-17.56.56:460][471]PIE: Play in editor total start time 0,086 seconds.
+[2024.01.23-17.57.42:613][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-17.57.42:613][484]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-17.57.42:613][484]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-17.57.42:619][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-17.57.42:622][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-17.57.42:625][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-17.57.42:630][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-17.57.42:630][484]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.01.23-17.57.42:630][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.01.23-17.57.42:633][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.01.23-17.57.42:655][484]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.23-17.57.42:659][484]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_27.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-17.57.42:659][484]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_29.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-17.57.42:750][485]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.01.23-17.57.43:140][493]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-17.57.43:163][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-17.57.43:164][493]PIE: New page: PIE session: Level_Forest (23.01.2024, 19:57:43)
+[2024.01.23-17.57.43:164][493]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-17.57.43:180][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017293s)
+[2024.01.23-17.57.43:180][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.017335s)
+[2024.01.23-17.57.43:185][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.01.23-17.57.43:187][493]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-17.57.43:187][493]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-17.57.43:187][493]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-17.57.43:188][493]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2024.01.23-17.57.43:188][493]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.01.23-17.57.43:188][493]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-17.57.43:188][493]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-17.57.43:188][493]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-17.57.43:188][493]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-17.57.43:188][493]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-17.57.43:188][493]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-17.57.43:188][493]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-17.57.43:188][493]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-17.57.43:188][493]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-17.57.43:188][493]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-17.57.43:188][493]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-17.57.43:191][493]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-17.57.43:220][493]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-17.57.43:221][493]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-17.57.43:221][493]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-17.57.43:221][493]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-17.57.43:221][493]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.01.23-17.57.43:221][493]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.01.23-17.57.43:224][493]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.01.23-17.57.43:224][493]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.01.23-17.57.43:224][493]LogInit: FAudioDevice initialized with ID 19.
+[2024.01.23-17.57.43:224][493]LogAudio: Display: Audio Device (ID: 19) registered with world 'Level_Forest'.
+[2024.01.23-17.57.43:224][493]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.01.23-17.57.43:227][493]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-17.57.43:256][493]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-18.57.43
+[2024.01.23-17.57.43:257][493]LogWorld: Bringing up level for play took: 0.029207
+[2024.01.23-17.57.43:260][493]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.01.23-17.57.43:263][493]r.SetRes = "1920x1080f"
+[2024.01.23-17.57.43:263][493]PIE: Server logged in
+[2024.01.23-17.57.43:264][493]PIE: Play in editor total start time 0,101 seconds.
+[2024.01.23-17.57.48:128][588]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.01.23-17.58.03:432][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-17.58.03:432][288]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-17.58.03:432][288]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-17.58.03:441][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-17.58.03:447][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-17.58.03:451][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-17.58.03:455][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-17.58.03:456][288]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.01.23-17.58.03:456][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.01.23-17.58.03:458][288]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.01.23-17.58.03:481][288]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.01.23-17.58.03:486][288]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_27.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-17.58.03:486][288]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_29.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-17.58.03:627][289]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.01.23-17.59.32:232][210]LogSlate: Window 'vogel_sounds_Cue' being destroyed
+[2024.01.23-17.59.32:263][210]LogSlate: Window 'vogel_sounds_Cue' being destroyed
+[2024.01.23-17.59.56:170][373]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/SFX/Ambiente/vogel_sounds_Cue.vogel_sounds_Cue
+[2024.01.23-18.00.15:970][243]LogSlate: Window 'vogel_sounds_Cue' being destroyed
+[2024.01.23-18.00.15:998][243]LogSlate: Window 'vogel_sounds_Cue' being destroyed
+[2024.01.23-18.00.22:851][559]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Sounds/SFX/Ambiente/schrilles_ambiente.schrilles_ambiente
+[2024.01.23-18.00.24:500][626]LogSlate: Window 'schrilles_ambiente' being destroyed
+[2024.01.23-18.00.24:528][626]LogSlate: Window 'schrilles_ambiente' being destroyed
+[2024.01.23-18.00.26:477][714]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Sounds/SFX/Ambiente/schrilles_ambiente.schrilles_ambiente
+[2024.01.23-18.00.27:959][774]LogSlate: Window 'schrilles_ambiente' being destroyed
+[2024.01.23-18.00.27:986][774]LogSlate: Window 'schrilles_ambiente' being destroyed
+[2024.01.23-18.01.00:367][287]LogContentBrowser: Deferred new asset file creation: schrilles_ambiente_Cue
+[2024.01.23-18.01.00:381][287]LogContentBrowser: Creating deferred item: schrilles_ambiente_Cue
+[2024.01.23-18.01.00:397][288]LogContentBrowser: Renaming the item being created (Deferred Item: schrilles_ambiente_Cue).
+[2024.01.23-18.01.01:767][353]LogContentBrowser: Attempting asset rename: schrilles_ambiente_Cue -> schrilles_ambiente_Cue
+[2024.01.23-18.01.01:770][353]LogContentBrowser: End creating deferred item schrilles_ambiente_Cue
+[2024.01.23-18.01.23:455][391]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.41:242][922]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.41:242][922]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.41:243][922]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_32
+[2024.01.23-18.02.41:243][922]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_32
+[2024.01.23-18.02.42:098][968]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.42:098][968]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.42:101][968]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_33
+[2024.01.23-18.02.42:101][968]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_33
+[2024.01.23-18.02.43:670][ 44]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.43:670][ 44]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.43:671][ 44]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_34
+[2024.01.23-18.02.43:672][ 44]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_34
+[2024.01.23-18.02.44:417][ 83]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.44:417][ 83]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.44:418][ 83]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_35
+[2024.01.23-18.02.44:419][ 83]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_35
+[2024.01.23-18.02.52:830][547]Cmd: TRANSACTION UNDO
+[2024.01.23-18.02.52:830][547]LogEditorTransaction: Undo Clicking on Actors
+[2024.01.23-18.02.53:512][565]Cmd: TRANSACTION UNDO
+[2024.01.23-18.02.53:512][565]LogEditorTransaction: Undo Create Actors
+[2024.01.23-18.02.54:828][626]Cmd: TRANSACTION UNDO
+[2024.01.23-18.02.54:828][626]LogEditorTransaction: Undo Create Actors
+[2024.01.23-18.02.58:783][821]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.58:783][821]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.58:784][821]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_36
+[2024.01.23-18.02.58:784][821]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_36
+[2024.01.23-18.02.59:948][888]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.59:948][888]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.02.59:950][888]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_37
+[2024.01.23-18.02.59:950][888]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_37
+[2024.01.23-18.03.20:621][ 92]LogDerivedDataCache: C:/Users/goerk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.241 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4045 files in 5529 folders with total size 374 MiB.
+[2024.01.23-18.03.44:288][420]Cmd: EDIT COPY
+[2024.01.23-18.03.44:572][437]Cmd: EDIT PASTE
+[2024.01.23-18.04.03:850][541]Cmd: EDIT COPY
+[2024.01.23-18.04.05:417][635]Cmd: EDIT PASTE
+[2024.01.23-18.04.21:630][566]Cmd: EDIT COPY
+[2024.01.23-18.04.21:879][581]Cmd: EDIT PASTE
+[2024.01.23-18.04.27:989][903]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-18.04.28:006][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-18.04.28:006][903]PIE: New page: PIE session: Level_Forest (23.01.2024, 20:04:28)
+[2024.01.23-18.04.28:007][903]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.04.28:029][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022482s)
+[2024.01.23-18.04.28:029][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.022533s)
+[2024.01.23-18.04.28:036][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.01.23-18.04.28:038][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-18.04.28:038][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-18.04.28:039][903]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-18.04.28:039][903]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2024.01.23-18.04.28:039][903]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.01.23-18.04.28:039][903]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-18.04.28:039][903]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-18.04.28:039][903]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-18.04.28:039][903]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-18.04.28:039][903]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-18.04.28:039][903]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-18.04.28:039][903]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-18.04.28:039][903]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-18.04.28:040][903]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-18.04.28:040][903]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-18.04.28:040][903]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-18.04.28:041][903]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-18.04.28:066][903]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-18.04.28:066][903]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-18.04.28:066][903]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-18.04.28:066][903]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-18.04.28:067][903]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.01.23-18.04.28:067][903]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.01.23-18.04.28:069][903]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.01.23-18.04.28:069][903]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.01.23-18.04.28:069][903]LogInit: FAudioDevice initialized with ID 20.
+[2024.01.23-18.04.28:069][903]LogAudio: Display: Audio Device (ID: 20) registered with world 'Level_Forest'.
+[2024.01.23-18.04.28:069][903]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.01.23-18.04.28:073][903]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-18.04.28:099][903]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-19.04.28
+[2024.01.23-18.04.28:100][903]LogWorld: Bringing up level for play took: 0.026970
+[2024.01.23-18.04.28:103][903]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.01.23-18.04.28:107][903]r.SetRes = "1920x1080f"
+[2024.01.23-18.04.28:107][903]PIE: Server logged in
+[2024.01.23-18.04.28:108][903]PIE: Play in editor total start time 0,102 seconds.
+[2024.01.23-18.05.53:252][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.05.53:252][768]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.05.53:252][768]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-18.05.53:258][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.05.53:276][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-18.05.53:279][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.05.53:285][768]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-18.05.53:285][768]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.01.23-18.05.53:285][768]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.01.23-18.05.53:287][768]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.01.23-18.05.53:294][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.05.53:312][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.01.23-18.05.53:316][768]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_27.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.05.53:316][768]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_29.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.05.53:484][769]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.01.23-18.07.17:245][124]Cmd: EDIT CUT
+[2024.01.23-18.07.17:256][124]LogEditorActor: Deleted Actor: AmbientSound
+[2024.01.23-18.07.17:262][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.23-18.07.17:265][124]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2024.01.23-18.07.57:203][216]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-18.07.57:220][216]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-18.07.57:220][216]PIE: New page: PIE session: Level_Forest (23.01.2024, 20:07:57)
+[2024.01.23-18.07.57:221][216]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.07.57:245][216]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024443s)
+[2024.01.23-18.07.57:245][216]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.024489s)
+[2024.01.23-18.07.57:250][216]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.01.23-18.07.57:252][216]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-18.07.57:252][216]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-18.07.57:253][216]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-18.07.57:253][216]LogPlayLevel: PIE: World Init took: (0.001246s)
+[2024.01.23-18.07.57:253][216]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.01.23-18.07.57:253][216]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-18.07.57:253][216]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-18.07.57:253][216]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-18.07.57:254][216]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-18.07.57:254][216]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-18.07.57:254][216]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-18.07.57:254][216]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-18.07.57:254][216]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-18.07.57:254][216]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-18.07.57:254][216]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-18.07.57:254][216]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-18.07.57:256][216]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-18.07.57:280][216]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-18.07.57:280][216]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-18.07.57:280][216]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-18.07.57:280][216]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-18.07.57:281][216]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.01.23-18.07.57:281][216]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.01.23-18.07.57:283][216]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.01.23-18.07.57:283][216]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.01.23-18.07.57:283][216]LogInit: FAudioDevice initialized with ID 21.
+[2024.01.23-18.07.57:283][216]LogAudio: Display: Audio Device (ID: 21) registered with world 'Level_Forest'.
+[2024.01.23-18.07.57:283][216]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.01.23-18.07.57:288][216]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-18.07.57:314][216]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-19.07.57
+[2024.01.23-18.07.57:315][216]LogWorld: Bringing up level for play took: 0.027448
+[2024.01.23-18.07.57:318][216]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.01.23-18.07.57:321][216]r.SetRes = "1920x1080f"
+[2024.01.23-18.07.57:321][216]PIE: Server logged in
+[2024.01.23-18.07.57:322][216]PIE: Play in editor total start time 0,102 seconds.
+[2024.01.23-18.08.21:162][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.08.21:162][318]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.08.21:163][318]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-18.08.21:168][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.08.21:178][318]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-18.08.21:181][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.08.21:185][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.08.21:187][318]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.01.23-18.08.21:187][318]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.01.23-18.08.21:189][318]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.01.23-18.08.21:211][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.01.23-18.08.21:216][318]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_27.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.08.21:216][318]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_14.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.08.21:216][318]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_29.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.08.21:361][319]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.01.23-18.08.22:851][342]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-18.08.23:055][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.01.23-18.08.23:179][342]LogSavePackage: Moving output files for package: /Game/Level/Level_Forest
+[2024.01.23-18.08.23:181][342]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Level_Forest72D8C4F9451A60934223FC961235D123.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Level/Level_Forest.umap'
+[2024.01.23-18.08.23:198][342]LogFileHelpers: Saving map 'Level_Forest' took 0.212
+[2024.01.23-18.08.23:208][342]LogFileHelpers: InternalPromptForCheckoutAndSave took 357 ms (total: 422 ms)
+[2024.01.23-18.08.23:211][342]AssetCheck: New page: Asset Save: Level_Forest
+[2024.01.23-18.08.23:211][342]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/Level_Forest.Level_Forest
+[2024.01.23-18.09.21:081][182]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne.schreien_in_der_ferne
+[2024.01.23-18.09.22:615][239]LogSlate: Window 'schreien_in_der_ferne' being destroyed
+[2024.01.23-18.09.22:634][239]LogSlate: Window 'schreien_in_der_ferne' being destroyed
+[2024.01.23-18.09.25:116][334]LogContentBrowser: Deferred new asset file creation: schreien_in_der_ferne_Cue
+[2024.01.23-18.09.25:131][334]LogContentBrowser: Creating deferred item: schreien_in_der_ferne_Cue
+[2024.01.23-18.09.25:150][335]LogContentBrowser: Renaming the item being created (Deferred Item: schreien_in_der_ferne_Cue).
+[2024.01.23-18.09.25:826][365]LogContentBrowser: Attempting asset rename: schreien_in_der_ferne_Cue -> schreien_in_der_ferne_Cue
+[2024.01.23-18.09.25:827][365]LogContentBrowser: End creating deferred item schreien_in_der_ferne_Cue
+[2024.01.23-18.09.25:979][371]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue
+[2024.01.23-18.10.33:479][190]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue
+[2024.01.23-18.10.33:479][190]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue
+[2024.01.23-18.10.33:480][190]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_41
+[2024.01.23-18.10.33:480][190]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_41
+[2024.01.23-18.10.34:919][267]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue
+[2024.01.23-18.10.34:919][267]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue
+[2024.01.23-18.10.34:921][267]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_42
+[2024.01.23-18.10.34:921][267]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue as actor: AmbientSound /Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_42
+[2024.01.23-18.13.50:678][213]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-18.13.50:700][213]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-18.13.50:700][213]PIE: New page: PIE session: Level_Forest (23.01.2024, 20:13:50)
+[2024.01.23-18.13.50:705][213]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.13.50:733][213]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027997s)
+[2024.01.23-18.13.50:733][213]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.028057s)
+[2024.01.23-18.13.50:739][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.01.23-18.13.50:741][213]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-18.13.50:741][213]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-18.13.50:742][213]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-18.13.50:742][213]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2024.01.23-18.13.50:742][213]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.01.23-18.13.50:742][213]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-18.13.50:742][213]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-18.13.50:742][213]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-18.13.50:742][213]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-18.13.50:742][213]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-18.13.50:742][213]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-18.13.50:742][213]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-18.13.50:742][213]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-18.13.50:743][213]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-18.13.50:743][213]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-18.13.50:743][213]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-18.13.50:745][213]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-18.13.50:773][213]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-18.13.50:773][213]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-18.13.50:773][213]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-18.13.50:773][213]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-18.13.50:774][213]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.01.23-18.13.50:774][213]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.01.23-18.13.50:776][213]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.01.23-18.13.50:776][213]LogInit: FAudioDevice initialized with ID 22.
+[2024.01.23-18.13.50:776][213]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.01.23-18.13.50:776][213]LogAudio: Display: Audio Device (ID: 22) registered with world 'Level_Forest'.
+[2024.01.23-18.13.50:776][213]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.01.23-18.13.50:779][213]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-18.13.50:810][213]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-19.13.50
+[2024.01.23-18.13.50:810][213]LogWorld: Bringing up level for play took: 0.030897
+[2024.01.23-18.13.50:812][213]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.01.23-18.13.50:816][213]r.SetRes = "1920x1080f"
+[2024.01.23-18.13.50:816][213]PIE: Server logged in
+[2024.01.23-18.13.50:816][213]PIE: Play in editor total start time 0,117 seconds.
+[2024.01.23-18.13.52:952][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.13.52:952][237]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.13.52:952][237]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-18.13.52:957][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.13.53:024][237]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-18.13.53:027][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.13.53:032][237]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-18.13.53:032][237]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.01.23-18.13.53:032][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.01.23-18.13.53:034][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.01.23-18.13.53:058][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.13.53:076][237]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.01.23-18.13.53:080][237]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_27.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.13.53:080][237]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_14.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.13.53:080][237]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_29.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.13.53:188][238]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.01.23-18.14.15:130][165]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-18.14.15:146][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-18.14.15:147][165]PIE: New page: PIE session: Level_Forest (23.01.2024, 20:14:15)
+[2024.01.23-18.14.15:147][165]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.14.15:169][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021775s)
+[2024.01.23-18.14.15:169][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.021825s)
+[2024.01.23-18.14.15:174][165]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.01.23-18.14.15:177][165]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-18.14.15:177][165]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-18.14.15:177][165]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-18.14.15:178][165]LogPlayLevel: PIE: World Init took: (0.001028s)
+[2024.01.23-18.14.15:178][165]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.01.23-18.14.15:178][165]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-18.14.15:178][165]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-18.14.15:178][165]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-18.14.15:178][165]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-18.14.15:178][165]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-18.14.15:178][165]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-18.14.15:178][165]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-18.14.15:178][165]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-18.14.15:178][165]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-18.14.15:178][165]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-18.14.15:178][165]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-18.14.15:181][165]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-18.14.15:204][165]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-18.14.15:204][165]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-18.14.15:205][165]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-18.14.15:205][165]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-18.14.15:205][165]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.01.23-18.14.15:205][165]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.01.23-18.14.15:208][165]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.01.23-18.14.15:208][165]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.01.23-18.14.15:208][165]LogInit: FAudioDevice initialized with ID 23.
+[2024.01.23-18.14.15:208][165]LogAudio: Display: Audio Device (ID: 23) registered with world 'Level_Forest'.
+[2024.01.23-18.14.15:208][165]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.01.23-18.14.15:211][165]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-18.14.15:238][165]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-19.14.15
+[2024.01.23-18.14.15:239][165]LogWorld: Bringing up level for play took: 0.027329
+[2024.01.23-18.14.15:241][165]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.01.23-18.14.15:245][165]r.SetRes = "1920x1080f"
+[2024.01.23-18.14.15:245][165]PIE: Server logged in
+[2024.01.23-18.14.15:246][165]PIE: Play in editor total start time 0,099 seconds.
+[2024.01.23-18.14.38:142][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.14.38:142][ 95]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.14.38:142][ 95]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-18.14.38:150][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.14.38:154][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-18.14.38:159][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.14.38:162][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.14.38:163][ 95]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.01.23-18.14.38:163][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.01.23-18.14.38:165][ 95]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.01.23-18.14.38:189][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.01.23-18.14.38:193][ 95]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_27.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.14.38:193][ 95]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_14.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.14.38:193][ 95]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_29.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.14.38:349][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.01.23-18.14.44:994][317]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-18.14.45:021][317]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-18.14.45:021][317]PIE: New page: PIE session: Level_Forest (23.01.2024, 20:14:45)
+[2024.01.23-18.14.45:042][317]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.14.45:064][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022823s)
+[2024.01.23-18.14.45:065][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.022879s)
+[2024.01.23-18.14.45:069][317]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.01.23-18.14.45:073][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-18.14.45:073][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-18.14.45:073][317]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-18.14.45:074][317]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2024.01.23-18.14.45:074][317]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.01.23-18.14.45:074][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-18.14.45:074][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-18.14.45:074][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-18.14.45:074][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-18.14.45:074][317]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-18.14.45:074][317]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-18.14.45:074][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-18.14.45:074][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-18.14.45:075][317]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-18.14.45:075][317]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-18.14.45:075][317]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-18.14.45:077][317]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-18.14.45:105][317]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-18.14.45:105][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-18.14.45:105][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-18.14.45:105][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-18.14.45:106][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.01.23-18.14.45:106][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.01.23-18.14.45:109][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.01.23-18.14.45:109][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.01.23-18.14.45:109][317]LogInit: FAudioDevice initialized with ID 24.
+[2024.01.23-18.14.45:109][317]LogAudio: Display: Audio Device (ID: 24) registered with world 'Level_Forest'.
+[2024.01.23-18.14.45:109][317]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.23-18.14.45:114][317]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-18.14.45:144][317]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-19.14.45
+[2024.01.23-18.14.45:145][317]LogWorld: Bringing up level for play took: 0.029814
+[2024.01.23-18.14.45:147][317]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.01.23-18.14.45:151][317]r.SetRes = "1920x1080f"
+[2024.01.23-18.14.45:151][317]PIE: Server logged in
+[2024.01.23-18.14.45:152][317]PIE: Play in editor total start time 0,131 seconds.
+[2024.01.23-18.15.08:612][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.15.08:612][405]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.15.08:612][405]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-18.15.08:620][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.15.08:632][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-18.15.08:636][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.15.08:640][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.15.08:642][405]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.01.23-18.15.08:642][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.23-18.15.08:643][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.01.23-18.15.08:670][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.01.23-18.15.08:674][405]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_27.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.15.08:674][405]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_14.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.15.08:674][405]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_29.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.15.08:894][406]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.01.23-18.15.49:610][120]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-18.15.49:625][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-18.15.49:625][120]PIE: New page: PIE session: Level_Forest (23.01.2024, 20:15:49)
+[2024.01.23-18.15.49:627][120]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.15.49:652][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025476s)
+[2024.01.23-18.15.49:652][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.025524s)
+[2024.01.23-18.15.49:656][120]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.01.23-18.15.49:660][120]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-18.15.49:660][120]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-18.15.49:661][120]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-18.15.49:661][120]LogPlayLevel: PIE: World Init took: (0.001386s)
+[2024.01.23-18.15.49:661][120]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.01.23-18.15.49:661][120]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-18.15.49:661][120]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-18.15.49:661][120]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-18.15.49:661][120]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-18.15.49:661][120]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-18.15.49:661][120]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-18.15.49:661][120]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-18.15.49:661][120]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-18.15.49:662][120]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-18.15.49:662][120]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-18.15.49:662][120]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-18.15.49:664][120]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-18.15.49:688][120]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-18.15.49:688][120]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-18.15.49:688][120]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-18.15.49:688][120]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-18.15.49:689][120]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.01.23-18.15.49:689][120]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.01.23-18.15.49:692][120]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.01.23-18.15.49:692][120]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.01.23-18.15.49:692][120]LogInit: FAudioDevice initialized with ID 25.
+[2024.01.23-18.15.49:692][120]LogAudio: Display: Audio Device (ID: 25) registered with world 'Level_Forest'.
+[2024.01.23-18.15.49:692][120]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.23-18.15.49:694][120]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-18.15.49:721][120]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-19.15.49
+[2024.01.23-18.15.49:722][120]LogWorld: Bringing up level for play took: 0.027010
+[2024.01.23-18.15.49:724][120]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.01.23-18.15.49:727][120]r.SetRes = "1920x1080f"
+[2024.01.23-18.15.49:728][120]PIE: Server logged in
+[2024.01.23-18.15.49:728][120]PIE: Play in editor total start time 0,103 seconds.
+[2024.01.23-18.16.30:932][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.16.30:932][ 41]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.16.30:932][ 41]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-18.16.30:936][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.16.30:942][ 41]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-18.16.30:945][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.16.30:949][ 41]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.16.30:950][ 41]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.01.23-18.16.30:950][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.23-18.16.30:952][ 41]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.01.23-18.16.30:982][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.01.23-18.16.30:986][ 41]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_27.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.16.30:986][ 41]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_14.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.16.30:986][ 41]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_29.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.16.31:158][ 42]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.01.23-18.17.18:949][144]Cmd: EDIT COPY
+[2024.01.23-18.17.19:211][158]Cmd: EDIT PASTE
+[2024.01.23-18.18.03:044][207]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-18.18.03:066][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-18.18.03:066][207]PIE: New page: PIE session: Level_Forest (23.01.2024, 20:18:03)
+[2024.01.23-18.18.03:066][207]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.18.03:093][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026352s)
+[2024.01.23-18.18.03:093][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.026408s)
+[2024.01.23-18.18.03:098][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.01.23-18.18.03:099][207]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-18.18.03:099][207]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-18.18.03:101][207]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-18.18.03:101][207]LogPlayLevel: PIE: World Init took: (0.001017s)
+[2024.01.23-18.18.03:101][207]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.01.23-18.18.03:101][207]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-18.18.03:101][207]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-18.18.03:101][207]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-18.18.03:101][207]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-18.18.03:101][207]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-18.18.03:101][207]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-18.18.03:101][207]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-18.18.03:101][207]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-18.18.03:102][207]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-18.18.03:102][207]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-18.18.03:102][207]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-18.18.03:105][207]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-18.18.03:129][207]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-18.18.03:129][207]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-18.18.03:129][207]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-18.18.03:129][207]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-18.18.03:129][207]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.01.23-18.18.03:130][207]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.01.23-18.18.03:132][207]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.01.23-18.18.03:133][207]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.01.23-18.18.03:133][207]LogInit: FAudioDevice initialized with ID 26.
+[2024.01.23-18.18.03:133][207]LogAudio: Display: Audio Device (ID: 26) registered with world 'Level_Forest'.
+[2024.01.23-18.18.03:133][207]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.01.23-18.18.03:139][207]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-18.18.03:173][207]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-19.18.03
+[2024.01.23-18.18.03:173][207]LogWorld: Bringing up level for play took: 0.034739
+[2024.01.23-18.18.03:177][207]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.01.23-18.18.03:182][207]r.SetRes = "1920x1080f"
+[2024.01.23-18.18.03:183][207]PIE: Server logged in
+[2024.01.23-18.18.03:183][207]PIE: Play in editor total start time 0,118 seconds.
+[2024.01.23-18.18.23:853][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.18.23:853][994]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.18.23:853][994]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-18.18.23:859][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.18.23:874][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-18.18.23:878][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.18.23:883][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.18.23:884][994]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.01.23-18.18.23:884][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.01.23-18.18.23:886][994]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.01.23-18.18.23:911][994]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.01.23-18.18.23:915][994]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_27.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.18.23:915][994]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_14.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.18.23:915][994]LogActorComponent: ReregisterComponent: (/Game/Level/Level_Forest.Level_Forest:PersistentLevel.AmbientSound_29.AudioComponent0) Not currently registered. Aborting.
+[2024.01.23-18.18.24:091][995]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.01.23-18.18.24:663][996]Cmd: SELECT NONE
+[2024.01.23-18.18.47:588][961]LogSlate: Window 'schreien_in_der_ferne_Cue' being destroyed
+[2024.01.23-18.18.47:618][961]LogSlate: Window 'schreien_in_der_ferne_Cue' being destroyed
+[2024.01.23-18.19.02:325][679]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Sounds/SFX/Ambiente/ghost_whispers.ghost_whispers
+[2024.01.23-18.19.04:317][766]LogSlate: Window 'ghost_whispers' being destroyed
+[2024.01.23-18.19.04:349][766]LogSlate: Window 'ghost_whispers' being destroyed
+[2024.01.23-18.19.07:449][909]LogContentBrowser: Deferred new asset file creation: ghost_whispers_Cue
+[2024.01.23-18.19.07:462][909]LogContentBrowser: Creating deferred item: ghost_whispers_Cue
+[2024.01.23-18.19.07:475][910]LogContentBrowser: Renaming the item being created (Deferred Item: ghost_whispers_Cue).
+[2024.01.23-18.19.08:693][971]LogContentBrowser: Attempting asset rename: ghost_whispers_Cue -> ghost_whispers_Cue
+[2024.01.23-18.19.08:694][971]LogContentBrowser: End creating deferred item ghost_whispers_Cue
+[2024.01.23-18.19.08:846][978]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/SFX/Ambiente/ghost_whispers_Cue.ghost_whispers_Cue
+[2024.01.23-18.19.24:870][711]LogSlate: Window 'ghost_whispers_Cue' being destroyed
+[2024.01.23-18.19.24:899][711]LogSlate: Window 'ghost_whispers_Cue' being destroyed
+[2024.01.23-18.19.26:143][768]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Sounds/SFX/Ambiente/ghost_whispers.ghost_whispers
+[2024.01.23-18.19.27:408][821]LogSlate: Window 'ghost_whispers' being destroyed
+[2024.01.23-18.19.27:440][821]LogSlate: Window 'ghost_whispers' being destroyed
+[2024.01.23-18.19.29:438][911]LogContentBrowser: Deferred new asset file creation: ghost_whispers_Cue1
+[2024.01.23-18.19.29:449][911]LogContentBrowser: Creating deferred item: ghost_whispers_Cue1
+[2024.01.23-18.19.29:462][912]LogContentBrowser: Renaming the item being created (Deferred Item: ghost_whispers_Cue1).
+[2024.01.23-18.19.30:133][947]LogContentBrowser: Attempting asset rename: ghost_whispers_Cue1 -> ghost_whispers_Cue1
+[2024.01.23-18.19.30:134][947]LogContentBrowser: End creating deferred item ghost_whispers_Cue1
+[2024.01.23-18.19.35:596][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.01.23-18.19.36:765][208]LogSlate: Window 'Delete Assets' being destroyed
+[2024.01.23-18.19.36:795][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.01.23-18.19.36:801][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.01.23-18.19.36:807][208]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.01.23-18.19.38:053][269]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/SFX/Ambiente/ghost_whispers_Cue1.ghost_whispers_Cue1
+[2024.01.23-18.19.46:447][650]LogSlate: Window 'ghost_whispers_Cue1' being destroyed
+[2024.01.23-18.19.46:476][650]LogSlate: Window 'ghost_whispers_Cue1' being destroyed
+[2024.01.23-18.19.49:669][798]LogContentBrowser: Deferred new asset file creation: creepy_whispering_v2_Cue
+[2024.01.23-18.19.49:685][798]LogContentBrowser: Creating deferred item: creepy_whispering_v2_Cue
+[2024.01.23-18.19.49:698][799]LogContentBrowser: Renaming the item being created (Deferred Item: creepy_whispering_v2_Cue).
+[2024.01.23-18.19.50:991][865]LogContentBrowser: Attempting asset rename: creepy_whispering_v2_Cue -> creepy_whispering_v2_Cue
+[2024.01.23-18.19.50:992][865]LogContentBrowser: End creating deferred item creepy_whispering_v2_Cue
+[2024.01.23-18.19.52:346][932]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/SFX/Ambiente/creepy_whispering_v2_Cue.creepy_whispering_v2_Cue
+[2024.01.23-18.20.08:611][674]LogSlate: Window 'creepy_whispering_v2_Cue' being destroyed
+[2024.01.23-18.20.08:640][674]LogSlate: Window 'creepy_whispering_v2_Cue' being destroyed
+[2024.01.23-18.20.10:214][748]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Sounds/SFX/Ambiente/creepy_whispering_v2.creepy_whispering_v2
+[2024.01.23-18.20.12:082][828]LogSlate: Window 'creepy_whispering_v2' being destroyed
+[2024.01.23-18.20.12:114][828]LogSlate: Window 'creepy_whispering_v2' being destroyed
+[2024.01.23-18.20.14:808][949]LogContentBrowser: Deferred new asset file creation: creepy_whispering_v1_Cue
+[2024.01.23-18.20.14:823][949]LogContentBrowser: Creating deferred item: creepy_whispering_v1_Cue
+[2024.01.23-18.20.14:839][950]LogContentBrowser: Renaming the item being created (Deferred Item: creepy_whispering_v1_Cue).
+[2024.01.23-18.20.21:288][279]LogContentBrowser: Attempting asset rename: creepy_whispering_v1_Cue -> creepy_whispering_v1_Cue
+[2024.01.23-18.20.21:289][279]LogContentBrowser: End creating deferred item creepy_whispering_v1_Cue
+[2024.01.23-18.20.24:583][436]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/SFX/Ambiente/creepy_whispering_v1_Cue.creepy_whispering_v1_Cue
+[2024.01.23-18.20.40:090][151]LogSlate: Window 'creepy_whispering_v1_Cue' being destroyed
+[2024.01.23-18.20.40:122][151]LogSlate: Window 'creepy_whispering_v1_Cue' being destroyed
+[2024.01.23-18.21.33:239][779]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.01.23-18.21.33:258][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.01.23-18.21.33:258][779]PIE: New page: PIE session: Level_Forest (23.01.2024, 20:21:33)
+[2024.01.23-18.21.33:258][779]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.21.33:281][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022789s)
+[2024.01.23-18.21.33:281][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Level_Forest.Level_Forest to /Game/Level/UEDPIE_0_Level_Forest.Level_Forest (0.022835s)
+[2024.01.23-18.21.33:289][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.01.23-18.21.33:293][779]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.23-18.21.33:293][779]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.23-18.21.33:294][779]LogAIModule: Creating AISystem for world Level_Forest
+[2024.01.23-18.21.33:294][779]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2024.01.23-18.21.33:294][779]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.01.23-18.21.33:294][779]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.01.23-18.21.33:294][779]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.01.23-18.21.33:294][779]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.01.23-18.21.33:294][779]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.01.23-18.21.33:294][779]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.01.23-18.21.33:294][779]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.01.23-18.21.33:295][779]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.01.23-18.21.33:295][779]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.01.23-18.21.33:295][779]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.01.23-18.21.33:295][779]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.01.23-18.21.33:295][779]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.01.23-18.21.33:297][779]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.01.23-18.21.33:322][779]LogAudioMixer: Display: Using Audio Hardware Device Headset Earphone (HyperX Virtual Surround Sound)
+[2024.01.23-18.21.33:322][779]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.01.23-18.21.33:322][779]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.01.23-18.21.33:322][779]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.01.23-18.21.33:323][779]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.01.23-18.21.33:323][779]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.01.23-18.21.33:326][779]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.01.23-18.21.33:326][779]LogInit: FAudioDevice initialized with ID 27.
+[2024.01.23-18.21.33:326][779]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.01.23-18.21.33:326][779]LogAudio: Display: Audio Device (ID: 27) registered with world 'Level_Forest'.
+[2024.01.23-18.21.33:326][779]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.01.23-18.21.33:330][779]LogLoad: Game class is 'BP_Gamemode_C'
+[2024.01.23-18.21.33:358][779]LogWorld: Bringing World /Game/Level/UEDPIE_0_Level_Forest.Level_Forest up for play (max tick rate 60) at 2024.01.23-19.21.33
+[2024.01.23-18.21.33:359][779]LogWorld: Bringing up level for play took: 0.028515
+[2024.01.23-18.21.33:362][779]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.01.23-18.21.33:365][779]r.SetRes = "1920x1080f"
+[2024.01.23-18.21.33:365][779]PIE: Server logged in
+[2024.01.23-18.21.33:366][779]PIE: Play in editor total start time 0,109 seconds.
+[2024.01.23-18.23.50:582][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.23.50:583][202]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Level_Forest
+[2024.01.23-18.23.50:583][202]LogWorld: UWorld::CleanupWorld for Level_Forest, bSessionEnded=true, bCleanupResources=true
+[2024.01.23-18.23.50:590][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.23.50:606][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.01.23-18.23.50:609][202]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.23-18.23.50:615][202]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.23-18.23.50:615][202]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.01.23-18.23.50:615][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.01.23-18.23.50:617][202]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.01.23-18.23.50:624][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.23-18.23.50:642][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.01.23-18.23.50:815][203]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.01.23-18.23.52:501][266]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-18.23.52:642][266]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.01.23-18.23.52:776][266]LogSavePackage: Moving output files for package: /Game/Level/Level_Forest
+[2024.01.23-18.23.52:777][266]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Level_Forest8290A0B34A88DAC0794B1B88E50A1FF5.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Level/Level_Forest.umap'
+[2024.01.23-18.23.52:792][266]LogFileHelpers: Saving map 'Level_Forest' took 0.223
+[2024.01.23-18.23.52:801][266]LogFileHelpers: InternalPromptForCheckoutAndSave took 300 ms (total: 723 ms)
+[2024.01.23-18.23.52:804][266]AssetCheck: New page: Asset Save: Level_Forest
+[2024.01.23-18.23.52:804][266]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/Level_Forest.Level_Forest
+[2024.01.23-18.23.56:139][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.01.23-18.23.56:156][434]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.23-18.23.56:254][434]LogSavePackage: Moving output files for package: /Game/Sounds/Music/scary_background_music
+[2024.01.23-18.23.56:254][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/scary_background_music234E177C4C7E9F229DFBC9871ED36136.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/Music/scary_background_music.uasset'
+[2024.01.23-18.23.56:272][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/Baum_rauschen
+[2024.01.23-18.23.56:272][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Baum_rauschenB82BF9B94ED758D59722A7B4799799D6.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/Baum_rauschen.uasset'
+[2024.01.23-18.23.56:282][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/creepy_whispering_v1
+[2024.01.23-18.23.56:282][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/creepy_whispering_v126B0646B49DA618A28834095827C4BFD.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/creepy_whispering_v1.uasset'
+[2024.01.23-18.23.56:298][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/creepy_whispering_v2
+[2024.01.23-18.23.56:298][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/creepy_whispering_v245EA244243FFB7C705228685E2D76EF2.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/creepy_whispering_v2.uasset'
+[2024.01.23-18.23.56:317][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/ghost_whispers
+[2024.01.23-18.23.56:317][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/ghost_whispersF47F91F7412CF4DD3F71C28B4D6030A4.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/ghost_whispers.uasset'
+[2024.01.23-18.23.56:326][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne
+[2024.01.23-18.23.56:326][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/schreien_in_der_ferne8AB4E89E453D2248B7FBCF8E685EA630.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/schreien_in_der_ferne.uasset'
+[2024.01.23-18.23.56:366][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/schrilles_ambiente
+[2024.01.23-18.23.56:366][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/schrilles_ambienteE3AC7AFF4F54AD7DA17411B6920FDB76.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/schrilles_ambiente.uasset'
+[2024.01.23-18.23.56:383][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/vogel_sounds
+[2024.01.23-18.23.56:383][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/vogel_soundsC7251C6C46222781A46ACFA109191FBE.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/vogel_sounds.uasset'
+[2024.01.23-18.23.56:555][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/Wind_rauschen
+[2024.01.23-18.23.56:556][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Wind_rauschen71E4B0214A3CEBA123BF238D8642B4AC.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/Wind_rauschen.uasset'
+[2024.01.23-18.23.56:603][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/zelt_rauschen
+[2024.01.23-18.23.56:603][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/zelt_rauschenE2A9F2E74C13307F4DDFA79D53C999EE.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/zelt_rauschen.uasset'
+[2024.01.23-18.23.56:608][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/GUI/button_klick
+[2024.01.23-18.23.56:608][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/button_klick44F3D8524B12EE56DC211686173B1000.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/GUI/button_klick.uasset'
+[2024.01.23-18.23.56:612][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/GUI/inventar_scroll
+[2024.01.23-18.23.56:612][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/inventar_scrollD0B74F2746D1A20CABB730ADF7711C21.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/GUI/inventar_scroll.uasset'
+[2024.01.23-18.23.56:742][434]LogSavePackage: Moving output files for package: /Game/Sounds/Music/background_creepy
+[2024.01.23-18.23.56:742][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/background_creepy5134CBAD4C0F45A65A8D5CAE13B2B953.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/Music/background_creepy.uasset'
+[2024.01.23-18.23.56:749][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Monster/creepy_laugh_after_death
+[2024.01.23-18.23.56:749][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/creepy_laugh_after_death8895ED314433ABCEE4E52B953A27FF89.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Monster/creepy_laugh_after_death.uasset'
+[2024.01.23-18.23.56:758][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Monster/monster_attacking
+[2024.01.23-18.23.56:758][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/monster_attacking317759B64622EFB05F01E7A3B0C70701.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Monster/monster_attacking.uasset'
+[2024.01.23-18.23.56:773][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Monster/monster_running
+[2024.01.23-18.23.56:773][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/monster_running0F82FC9244B7F92B636E6B9FA9C82E77.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Monster/monster_running.uasset'
+[2024.01.23-18.23.56:781][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Monster/monster_scream_running_v1
+[2024.01.23-18.23.56:781][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/monster_scream_running_v15BA2AB114F322A516074099DFA68F93C.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Monster/monster_scream_running_v1.uasset'
+[2024.01.23-18.23.56:791][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Monster/monster_scream_running_v2
+[2024.01.23-18.23.56:791][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/monster_scream_running_v227B943234B166CB33A187888BA6A65B6.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Monster/monster_scream_running_v2.uasset'
+[2024.01.23-18.23.56:799][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Monster/monster_whispering_walk
+[2024.01.23-18.23.56:799][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/monster_whispering_walk45C23D5B481952F5DA7EFA967D825C67.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Monster/monster_whispering_walk.uasset'
+[2024.01.23-18.23.56:811][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/NPC/NPC_talking_v1
+[2024.01.23-18.23.56:812][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/NPC_talking_v192C4E6EA4A056242E08C6490810845DF.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/NPC/NPC_talking_v1.uasset'
+[2024.01.23-18.23.56:822][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/NPC/NPC_talking_v2
+[2024.01.23-18.23.56:822][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/NPC_talking_v2EB76A2074A162C60C8FF3584A7E6A72D.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/NPC/NPC_talking_v2.uasset'
+[2024.01.23-18.23.56:828][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/fence_open
+[2024.01.23-18.23.56:828][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/fence_openF444B37B48A4ADA1FC459796ED8228AA.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/fence_open.uasset'
+[2024.01.23-18.23.56:832][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/Grabsteinplatte_dranmachen
+[2024.01.23-18.23.56:832][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Grabsteinplatte_dranmachen81DC1CAE4A3745A15F9F54AB7B7F9333.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/Grabsteinplatte_dranmachen.uasset'
+[2024.01.23-18.23.56:836][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/Grabstein_verschieben
+[2024.01.23-18.23.56:836][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Grabstein_verschieben82D91F9F49C94B572682169E23A3082D.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/Grabstein_verschieben.uasset'
+[2024.01.23-18.23.56:843][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/Hebel
+[2024.01.23-18.23.56:843][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Hebel2EC76173410EB41CDE4538AAFBD14599.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/Hebel.uasset'
+[2024.01.23-18.23.56:850][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/objekt_aufnehmen
+[2024.01.23-18.23.56:850][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/objekt_aufnehmen224B64D3429C4AF4A55216968D1C5A03.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/objekt_aufnehmen.uasset'
+[2024.01.23-18.23.56:854][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/papier_anschauen
+[2024.01.23-18.23.56:854][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/papier_anschauen9B5E7DEF41D4157BB530F5AC2C4DF470.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/papier_anschauen.uasset'
+[2024.01.23-18.23.56:858][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/papier_aufheben
+[2024.01.23-18.23.56:858][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/papier_aufheben4AB041AB49B958F2468FCAB65E6241E0.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/papier_aufheben.uasset'
+[2024.01.23-18.23.56:862][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/schluessel_aufheben
+[2024.01.23-18.23.56:862][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/schluessel_aufheben7A09A7C6464DAD040D02528C4F33EEDE.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/schluessel_aufheben.uasset'
+[2024.01.23-18.23.56:871][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/schluessel_benutzen
+[2024.01.23-18.23.56:871][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/schluessel_benutzen4A87A88F4757461A76F197A68C9EA310.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/schluessel_benutzen.uasset'
+[2024.01.23-18.23.56:875][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/schluessel_hinlegen
+[2024.01.23-18.23.56:875][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/schluessel_hinlegen9CC70E654828591F0B8C2485B5DE4B26.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/schluessel_hinlegen.uasset'
+[2024.01.23-18.23.56:879][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/taschenlampe_an
+[2024.01.23-18.23.56:879][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/taschenlampe_an73B7358D4CE061E7796F90AD55B09477.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/taschenlampe_an.uasset'
+[2024.01.23-18.23.56:883][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/taschenlampe_aus
+[2024.01.23-18.23.56:883][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/taschenlampe_ausE39F58904825DDAA60BFCA9338884C64.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/taschenlampe_aus.uasset'
+[2024.01.23-18.23.56:889][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/taschenlampe_fuellen
+[2024.01.23-18.23.56:889][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/taschenlampe_fuellenF9D1E79046030A4347D38586B7C46161.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/taschenlampe_fuellen.uasset'
+[2024.01.23-18.23.56:898][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/tuer_oeffnen
+[2024.01.23-18.23.56:898][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/tuer_oeffnenC6FD9B26417A12838BBEA48ECF0C8C4C.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/tuer_oeffnen.uasset'
+[2024.01.23-18.23.56:907][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Objekte/tuer_schließen
+[2024.01.23-18.23.56:907][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/tuer_schließen0B2C65A74FD7D475EA2830AB71479B8A.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Objekte/tuer_schließen.uasset'
+[2024.01.23-18.23.56:919][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/atmen
+[2024.01.23-18.23.56:919][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/atmen74D06D254AB70472C7B389BA6D401DAB.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/atmen.uasset'
+[2024.01.23-18.23.56:962][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/heart_beat_fast
+[2024.01.23-18.23.56:962][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/heart_beat_fast539D161B401BC554496DAABEA10FE927.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/heart_beat_fast.uasset'
+[2024.01.23-18.23.56:981][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/heart_beat_slow
+[2024.01.23-18.23.56:981][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/heart_beat_slowBEA8CD15460DF9CEADD47CA6F2AA05DC.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/heart_beat_slow.uasset'
+[2024.01.23-18.23.56:985][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/jumping_on_concrete
+[2024.01.23-18.23.56:986][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/jumping_on_concrete41D4FE894CDCFCB24137A495E951A8DC.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/jumping_on_concrete.uasset'
+[2024.01.23-18.23.56:993][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/jumping_on_grass
+[2024.01.23-18.23.56:993][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/jumping_on_grass711636CA42DC887BCFEAB38812207F74.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/jumping_on_grass.uasset'
+[2024.01.23-18.23.57:001][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/lautes_atmen
+[2024.01.23-18.23.57:001][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/lautes_atmenD698AED849A8C25BC8D6D48CC7556A21.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/lautes_atmen.uasset'
+[2024.01.23-18.23.57:011][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/player_death
+[2024.01.23-18.23.57:011][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/player_death6A4B4227411AF53FD8889FABBD4F5C11.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/player_death.uasset'
+[2024.01.23-18.23.57:019][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/walking_dirt
+[2024.01.23-18.23.57:019][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/walking_dirt71D587D845590FB68D633F88F31D09D7.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/walking_dirt.uasset'
+[2024.01.23-18.23.57:030][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/walking_grass
+[2024.01.23-18.23.57:031][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/walking_grass4B95B01648D894369384F58A448F486F.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/walking_grass.uasset'
+[2024.01.23-18.23.57:039][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/walking_wood
+[2024.01.23-18.23.57:039][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/walking_wood10015D49482333396574E6874F485935.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/walking_wood.uasset'
+[2024.01.23-18.23.57:044][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/werfen
+[2024.01.23-18.23.57:044][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/werfen90896EF8413E86C6AE42119B6DDBF0F1.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/werfen.uasset'
+[2024.01.23-18.23.57:050][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Player/werfen_impact_gravel_grass
+[2024.01.23-18.23.57:050][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/werfen_impact_gravel_grass3DE194DD4F4CEA183EFA4BA2356E9291.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Player/werfen_impact_gravel_grass.uasset'
+[2024.01.23-18.23.57:053][434]LogSavePackage: Moving output files for package: /Game/Sounds/Music/background_creepy_Cue
+[2024.01.23-18.23.57:053][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/background_creepy_CueD39F437D48D25AB7D28062909D69D7FE.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/Music/background_creepy_Cue.uasset'
+[2024.01.23-18.23.57:057][434]LogSavePackage: Moving output files for package: /Game/Sounds/Music/scary_background_music_Cue
+[2024.01.23-18.23.57:058][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/scary_background_music_Cue6EBA8B034B0C513A7F92619E649D29E9.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/Music/scary_background_music_Cue.uasset'
+[2024.01.23-18.23.57:061][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/Baum_rauschen_Cue
+[2024.01.23-18.23.57:061][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Baum_rauschen_Cue64DA7B844B1546B093DF32B67674F3D5.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/Baum_rauschen_Cue.uasset'
+[2024.01.23-18.23.57:064][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/Wind_rauschen_Cue
+[2024.01.23-18.23.57:064][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Wind_rauschen_CueBE03CDE64F2F14620426F9AE3948470B.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/Wind_rauschen_Cue.uasset'
+[2024.01.23-18.23.57:068][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/vogel_sounds_Cue
+[2024.01.23-18.23.57:069][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/vogel_sounds_Cue91DA3E0D4BED4C5AEC01B698289A89E2.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/vogel_sounds_Cue.uasset'
+[2024.01.23-18.23.57:073][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue
+[2024.01.23-18.23.57:073][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/schrilles_ambiente_CueCF15FC1C4F3BEB608B12958863E4D55D.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.uasset'
+[2024.01.23-18.23.57:077][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue
+[2024.01.23-18.23.57:077][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/schreien_in_der_ferne_CueFE2D68964DB1533A7470BD8C2C1038A2.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.uasset'
+[2024.01.23-18.23.57:081][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/ghost_whispers_Cue1
+[2024.01.23-18.23.57:081][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/ghost_whispers_Cue1B53254E54CE3487A9A0608834B11843F.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/ghost_whispers_Cue1.uasset'
+[2024.01.23-18.23.57:084][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/creepy_whispering_v2_Cue
+[2024.01.23-18.23.57:084][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/creepy_whispering_v2_Cue296B4C55471D6A9E396704BABFA8FDF0.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/creepy_whispering_v2_Cue.uasset'
+[2024.01.23-18.23.57:089][434]LogSavePackage: Moving output files for package: /Game/Sounds/SFX/Ambiente/creepy_whispering_v1_Cue
+[2024.01.23-18.23.57:089][434]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/creepy_whispering_v1_CueC7ACFA9C4468244678B8838626A42E7B.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Sounds/SFX/Ambiente/creepy_whispering_v1_Cue.uasset'
+[2024.01.23-18.23.57:103][434]LogFileHelpers: InternalPromptForCheckoutAndSave took 946 ms (total: 1.67 sec)
+[2024.01.23-18.23.57:121][434]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Music/scary_background_music.scary_background_music
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Ambiente/Baum_rauschen.Baum_rauschen
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Ambiente/creepy_whispering_v1.creepy_whispering_v1
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Ambiente/creepy_whispering_v2.creepy_whispering_v2
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Ambiente/ghost_whispers.ghost_whispers
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne.schreien_in_der_ferne
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Ambiente/schrilles_ambiente.schrilles_ambiente
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Ambiente/vogel_sounds.vogel_sounds
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Ambiente/Wind_rauschen.Wind_rauschen
+[2024.01.23-18.23.57:121][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Ambiente/zelt_rauschen.zelt_rauschen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/GUI/button_klick.button_klick
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/GUI/inventar_scroll.inventar_scroll
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Music/background_creepy.background_creepy
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Monster/creepy_laugh_after_death.creepy_laugh_after_death
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Monster/monster_attacking.monster_attacking
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Monster/monster_running.monster_running
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Monster/monster_scream_running_v1.monster_scream_running_v1
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Monster/monster_scream_running_v2.monster_scream_running_v2
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Monster/monster_whispering_walk.monster_whispering_walk
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/NPC/NPC_talking_v1.NPC_talking_v1
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/NPC/NPC_talking_v2.NPC_talking_v2
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/fence_open.fence_open
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/Grabsteinplatte_dranmachen.Grabsteinplatte_dranmachen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/Grabstein_verschieben.Grabstein_verschieben
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/Hebel.Hebel
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/objekt_aufnehmen.objekt_aufnehmen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/papier_anschauen.papier_anschauen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/papier_aufheben.papier_aufheben
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/schluessel_aufheben.schluessel_aufheben
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/schluessel_benutzen.schluessel_benutzen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/schluessel_hinlegen.schluessel_hinlegen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/taschenlampe_an.taschenlampe_an
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/taschenlampe_aus.taschenlampe_aus
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/taschenlampe_fuellen.taschenlampe_fuellen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/tuer_oeffnen.tuer_oeffnen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Objekte/tuer_schließen.tuer_schließen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/atmen.atmen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/heart_beat_fast.heart_beat_fast
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/heart_beat_slow.heart_beat_slow
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/jumping_on_concrete.jumping_on_concrete
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/jumping_on_grass.jumping_on_grass
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/lautes_atmen.lautes_atmen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/player_death.player_death
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/walking_dirt.walking_dirt
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/walking_grass.walking_grass
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/walking_wood.walking_wood
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/werfen.werfen
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/SFX/Player/werfen_impact_gravel_grass.werfen_impact_gravel_grass
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/Music/background_creepy_Cue.background_creepy_Cue
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/Music/scary_background_music_Cue.scary_background_music_Cue
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SFX/Ambiente/Baum_rauschen_Cue.Baum_rauschen_Cue
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SFX/Ambiente/Wind_rauschen_Cue.Wind_rauschen_Cue
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SFX/Ambiente/vogel_sounds_Cue.vogel_sounds_Cue
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SFX/Ambiente/schrilles_ambiente_Cue.schrilles_ambiente_Cue
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SFX/Ambiente/schreien_in_der_ferne_Cue.schreien_in_der_ferne_Cue
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SFX/Ambiente/ghost_whispers_Cue1.ghost_whispers_Cue1
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SFX/Ambiente/creepy_whispering_v2_Cue.creepy_whispering_v2_Cue
+[2024.01.23-18.23.57:122][434]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Sounds/SFX/Ambiente/creepy_whispering_v1_Cue.creepy_whispering_v1_Cue
