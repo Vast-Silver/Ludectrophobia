@@ -38,10 +38,10 @@
     <ClInclude Include="..\..\Source\Ludectrophobia\Door.h">
       <Filter>Source\Ludectrophobia</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Ludectrophobia\Interactibles.cpp">
+    <ClCompile Include="..\..\Source\Ludectrophobia\DoorKey.cpp">
       <Filter>Source\Ludectrophobia</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Ludectrophobia\Interactibles.h">
+    <ClInclude Include="..\..\Source\Ludectrophobia\DoorKey.h">
       <Filter>Source\Ludectrophobia</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Ludectrophobia\Lever.cpp">

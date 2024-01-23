@@ -40,6 +40,9 @@ public:
     /** Mesh component representing the door */
     UPROPERTY(VisibleAnywhere)
     UStaticMeshComponent*   DoorMesh;
+    /** Mesh component representing the door lock */
+    UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+    UStaticMeshComponent* LockMesh;
 
     /** Door state variables */
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
