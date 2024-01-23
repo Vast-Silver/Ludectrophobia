@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/nicol/OneDrive/Dokumente/Gitkraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset",
+				"C:/Users/nicol/OneDrive/Dokumente/Gitkraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Note/Note.uasset",
+				"C:/Users/nicol/OneDrive/Dokumente/Gitkraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Note/NoteCardDisplay.uasset",
+				"C:/Users/nicol/OneDrive/Dokumente/Gitkraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Note/Storynote.uasset",
+				"C:/Users/nicol/OneDrive/Dokumente/Gitkraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Note/BP_NoteMaker.uasset",
+				"C:/Users/nicol/OneDrive/Dokumente/Gitkraken/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap",
+				"C:/Users/nicol/OneDrive/Dokumente/Gitkraken/Ludectrophobia/Ludectrophobia/Content/Materials/M_ScrollOpen.uasset",
 				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Blueprints/Battery/Battery.uasset",
 				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Maps/TestLevel.umap",
 				"D:/Kraken/Ludectrophobia/Ludectrophobia/Content/Level/Level_Forest.umap",
