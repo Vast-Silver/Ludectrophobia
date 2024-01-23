@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeLudectrophobia_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x80403B0C,
-				0x0292D4A0,
+				0xCDAA48F1,
+				0x4165C651,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_Ludectrophobia.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_Ludectrophobia.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Ludectrophobia(Z_Construct_UPackage__Script_Ludectrophobia, TEXT("/Script/Ludectrophobia"), Z_Registration_Info_UPackage__Script_Ludectrophobia, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x80403B0C, 0x0292D4A0));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_Ludectrophobia(Z_Construct_UPackage__Script_Ludectrophobia, TEXT("/Script/Ludectrophobia"), Z_Registration_Info_UPackage__Script_Ludectrophobia, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xCDAA48F1, 0x4165C651));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
