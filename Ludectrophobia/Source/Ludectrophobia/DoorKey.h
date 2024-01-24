@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Components/StaticMeshComponent.h"
+#include "Door.h"
 #include "DoorKey.generated.h"
 
 /**
@@ -24,12 +25,6 @@ public:
      */
     UFUNCTION(BlueprintCallable)
     void grab();
-
-    /**
-     * @brief Function to simulate using the key. Sets used_key to true.
-     */
-    UFUNCTION(BlueprintCallable)
-    void use();
 
     /** Mesh component representing the key */
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite)

@@ -38,11 +38,20 @@ public:
     virtual void Tick(float DeltaTime) override;
 
     /** Mesh component representing the door */
-    UPROPERTY(VisibleAnywhere)
-    UStaticMeshComponent*   DoorMesh;
+    UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Mesh")
+    USkeletalMeshComponent*   DoorMesh;
     /** Mesh component representing the door lock */
-    UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Mesh")
     UStaticMeshComponent* LockMesh;
+
+    /** Animation sequence to be played when the door is opened. */
+    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Animation")
+    UAnimSequence* DoorAnimation;
+
+    /**
+     * @brief Plays the animation associated with the lever.
+     */
+    void PlayDoorAnimation();
 
     /** Door state variables */
     UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -58,6 +67,18 @@ public:
      */
     bool        switchState();
 
+    /**
+     * @brief Function to simulate using the key. Sets used_key to true.
+     */
+    UFUNCTION(BlueprintCallable, Category = "DoorUnlock")
+    void        unlock();
+
+    /**
+     * @brief Function to return Lock State
+     * @return state locked/unlocked
+     */
+    bool        isUnlocked();
+
 protected:
     /**
      * @brief Called when the game starts or when spawned. Sets initial rotation values for the door.
@@ -65,16 +86,6 @@ protected:
     virtual void BeginPlay() override;
     
 private:
-    /** Door rotation when open */
-    FRotator    openRotation;
-
-    /** Door rotation when closed */
-    FRotator    closedRotation;
-
-    /** Angle to rotate the door for opening */
-    float       door_open_rotation = 90.0f;
-
-    /** Speed at which the door opens or closes */
-    float       door_speed = 2.0f;          // Geschwindigkeit, mit der sich die Tür öffnet/schließt
+   
 };
 

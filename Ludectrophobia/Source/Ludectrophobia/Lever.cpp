@@ -28,7 +28,7 @@ ALever::ALever()
 
 void ALever::glow()
 {
-    // Implement glow effect if needed
+    // Implement glow effect
 }
 
 bool ALever::switchState()
@@ -36,11 +36,14 @@ bool ALever::switchState()
     if (door != nullptr)
     {
         if (!active) {
-            door->switchState();
-            active = !active;
-
+               
             /** Play the lever animation */
-            PlayLeverAnimation();
+            if (door->isUnlocked()) {
+                PlayLeverAnimation();
+                active = !active;
+                door->switchState();
+            }
+            
         }
     }
     return active;

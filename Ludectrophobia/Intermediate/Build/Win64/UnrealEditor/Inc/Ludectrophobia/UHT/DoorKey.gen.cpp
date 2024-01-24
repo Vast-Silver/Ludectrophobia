@@ -45,13 +45,6 @@ void EmptyLinkFunctionForGeneratedCodeDoorKey() {}
 		*(bool*)Z_Param__Result=P_THIS->getPickedKey();
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(ADoorKey::execuse)
-	{
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->use();
-		P_NATIVE_END;
-	}
 	DEFINE_FUNCTION(ADoorKey::execgrab)
 	{
 		P_FINISH;
@@ -68,7 +61,6 @@ void EmptyLinkFunctionForGeneratedCodeDoorKey() {}
 			{ "grab", &ADoorKey::execgrab },
 			{ "setPickedKey", &ADoorKey::execsetPickedKey },
 			{ "setUsedKey", &ADoorKey::execsetUsedKey },
-			{ "use", &ADoorKey::execuse },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -268,34 +260,6 @@ void EmptyLinkFunctionForGeneratedCodeDoorKey() {}
 		}
 		return ReturnFunction;
 	}
-	struct Z_Construct_UFunction_ADoorKey_use_Statics
-	{
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ADoorKey_use_Statics::Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n     * @brief Function to simulate using the key. Sets used_key to true.\n     */" },
-#endif
-		{ "ModuleRelativePath", "DoorKey.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "@brief Function to simulate using the key. Sets used_key to true." },
-#endif
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ADoorKey_use_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ADoorKey, nullptr, "use", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ADoorKey_use_Statics::Function_MetaDataParams), Z_Construct_UFunction_ADoorKey_use_Statics::Function_MetaDataParams) };
-	UFunction* Z_Construct_UFunction_ADoorKey_use()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ADoorKey_use_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(ADoorKey);
 	UClass* Z_Construct_UClass_ADoorKey_NoRegister()
 	{
@@ -327,7 +291,6 @@ void EmptyLinkFunctionForGeneratedCodeDoorKey() {}
 		{ &Z_Construct_UFunction_ADoorKey_grab, "grab" }, // 3680073123
 		{ &Z_Construct_UFunction_ADoorKey_setPickedKey, "setPickedKey" }, // 768234751
 		{ &Z_Construct_UFunction_ADoorKey_setUsedKey, "setUsedKey" }, // 2544102181
-		{ &Z_Construct_UFunction_ADoorKey_use, "use" }, // 3870616218
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ADoorKey_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -392,15 +355,15 @@ void EmptyLinkFunctionForGeneratedCodeDoorKey() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ADoorKey);
 	ADoorKey::~ADoorKey() {}
-	struct Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_Lars_Documents_Digital_Media_Semester_3_Media_Engineering_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ADoorKey, ADoorKey::StaticClass, TEXT("ADoorKey"), &Z_Registration_Info_UClass_ADoorKey, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADoorKey), 2553882330U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Lars_Documents_Digital_Media_Semester_3_Media_Engineering_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_ADoorKey, ADoorKey::StaticClass, TEXT("ADoorKey"), &Z_Registration_Info_UClass_ADoorKey, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ADoorKey), 161519344U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_1011708945(TEXT("/Script/Ludectrophobia"),
-		Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_melih_OneDrive_Uni_Bremen_3__Semester_Media_Engineering_ProgrammierSpiel_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Lars_Documents_Digital_Media_Semester_3_Media_Engineering_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_964322142(TEXT("/Script/Ludectrophobia"),
+		Z_CompiledInDeferFile_FID_Users_Lars_Documents_Digital_Media_Semester_3_Media_Engineering_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Lars_Documents_Digital_Media_Semester_3_Media_Engineering_Ludectrophobia_Ludectrophobia_Source_Ludectrophobia_DoorKey_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
