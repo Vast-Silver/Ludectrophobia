@@ -27,7 +27,7 @@ ADoor::ADoor()
 
     /** Initialize variables */
     is_open = false;
-    is_unlocked = true;
+    is_unlocked = false;
 }
 
 void ADoor::BeginPlay()
@@ -38,18 +38,16 @@ void ADoor::BeginPlay()
     LockMesh->SetVisibility(!is_unlocked);
 }
 
+// Tick is called every frame. If ticking is enabled for this class, this method will process any frame-based logic.
 void ADoor::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
-
-    // Update lock visibility based on is_unlocked
-    if (LockMesh->IsVisible() && is_unlocked)
-    {
-        LockMesh->SetVisibility(false);
-    }
 }
 
 
+// switchState attempts to toggle the open/closed state of the door. It checks if the door is unlocked before toggling.
+// If the door is unlocked, it toggles the is_open state and plays the door animation.
+// Returns true if the door state was successfully toggled, false if the door is locked.
 
 bool ADoor::switchState()
 {
@@ -57,11 +55,30 @@ bool ADoor::switchState()
     {
         /** Toggle door state */
         is_open = !is_open;
+        PlayDoorAnimation();
         return true;
     }
     return false;
 }
 
+// unlock sets the door to be unlocked and makes the lock mesh (if any) invisible.
+// This allows the door to be interacted with (e.g., opened).
+void ADoor::unlock()
+{
+    ADoor::is_unlocked = true;
+    if (LockMesh != nullptr) {
+        LockMesh->SetVisibility(false);
+    }
+}
+
+// isUnlocked returns the current unlock state of the door (true if unlocked, false if locked).
+bool ADoor::isUnlocked()
+{
+    return is_unlocked;
+}
+
+
+// PlayDoorAnimation plays the assigned animation for the door, if both the animation and the door mesh are valid.
 void ADoor::PlayDoorAnimation()
 {
     if (DoorAnimation != nullptr && DoorMesh != nullptr) {

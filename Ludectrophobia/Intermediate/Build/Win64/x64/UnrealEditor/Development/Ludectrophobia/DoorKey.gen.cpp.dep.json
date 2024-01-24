@@ -7,6 +7,8 @@
         "Includes": [
             "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ludectrophobia\\definitions.ludectrophobia.h",
             "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\source\\ludectrophobia\\doorkey.h",
+            "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\source\\ludectrophobia\\door.h",
+            "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\intermediate\\build\\win64\\unrealeditor\\inc\\ludectrophobia\\uht\\door.generated.h",
             "c:\\users\\melih\\onedrive\\uni bremen\\3. semester\\media engineering\\programmierspiel\\ludectrophobia\\ludectrophobia\\intermediate\\build\\win64\\unrealeditor\\inc\\ludectrophobia\\uht\\doorkey.generated.h"
         ],
         "ImportedModules": [],

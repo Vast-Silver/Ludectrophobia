@@ -67,6 +67,18 @@ public:
      */
     bool        switchState();
 
+    /**
+     * @brief Function to simulate using the key. Sets used_key to true.
+     */
+    UFUNCTION(BlueprintCallable, Category = "DoorUnlock")
+    void        unlock();
+
+    /**
+     * @brief Function to return Lock State
+     * @return state locked/unlocked
+     */
+    bool        isUnlocked();
+
 protected:
     /**
      * @brief Called when the game starts or when spawned. Sets initial rotation values for the door.

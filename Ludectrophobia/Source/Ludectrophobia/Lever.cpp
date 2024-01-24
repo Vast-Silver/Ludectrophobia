@@ -36,12 +36,14 @@ bool ALever::switchState()
     if (door != nullptr)
     {
         if (!active) {
-            door->switchState();
-            active = !active;
-
+               
             /** Play the lever animation */
-            PlayLeverAnimation();
-            door->PlayDoorAnimation();
+            if (door->isUnlocked()) {
+                PlayLeverAnimation();
+                active = !active;
+                door->switchState();
+            }
+            
         }
     }
     return active;
