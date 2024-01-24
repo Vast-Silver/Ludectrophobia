@@ -28,7 +28,7 @@ ALever::ALever()
 
 void ALever::glow()
 {
-    // Implement glow effect if needed
+    // Implement glow effect
 }
 
 bool ALever::switchState()
@@ -41,6 +41,7 @@ bool ALever::switchState()
 
             /** Play the lever animation */
             PlayLeverAnimation();
+            door->PlayDoorAnimation();
         }
     }
     return active;

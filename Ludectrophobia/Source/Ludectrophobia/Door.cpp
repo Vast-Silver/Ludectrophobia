@@ -18,7 +18,7 @@ ADoor::ADoor()
     PrimaryActorTick.bCanEverTick = true;
 
     /** Initialize the mesh component */
-    DoorMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("DoorMesh"));
+    DoorMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("DoorMesh"));
     LockMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("LockMesh"));
     LockMesh->SetupAttachment(DoorMesh); // Attach the lock to the door
 
@@ -34,10 +34,6 @@ void ADoor::BeginPlay()
 {
     Super::BeginPlay();
 
-    /** Initialize rotation values */
-    closedRotation = GetActorRotation();
-    openRotation = closedRotation + FRotator(0.0f, door_open_rotation, 0.0f);
-
     // Set initial visibility of the lock mesh based on is_unlocked
     LockMesh->SetVisibility(!is_unlocked);
 }
@@ -45,19 +41,6 @@ void ADoor::BeginPlay()
 void ADoor::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
-
-    /** Door opening logic */
-    if (is_open && GetActorRotation().Yaw < openRotation.Yaw)
-    {
-        FRotator CurrentRotation = FMath::Lerp(GetActorRotation(), openRotation, door_speed * DeltaTime);
-        DoorMesh->SetWorldRotation(CurrentRotation);
-    }
-    /** Door closing logic */
-    else if (!is_open && GetActorRotation().Yaw > closedRotation.Yaw)
-    {
-        FRotator CurrentRotation = FMath::Lerp(GetActorRotation(), closedRotation, door_speed * DeltaTime);
-        DoorMesh->SetWorldRotation(CurrentRotation);
-    }
 
     // Update lock visibility based on is_unlocked
     if (LockMesh->IsVisible() && is_unlocked)
@@ -77,4 +60,11 @@ bool ADoor::switchState()
         return true;
     }
     return false;
+}
+
+void ADoor::PlayDoorAnimation()
+{
+    if (DoorAnimation != nullptr && DoorMesh != nullptr) {
+        DoorMesh->PlayAnimation(DoorAnimation, false);
+    }
 }
