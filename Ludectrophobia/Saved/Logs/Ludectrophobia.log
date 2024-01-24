@@ -2318,3 +2318,999 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.24-03.40.38:042][ 37]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
 [2024.01.24-03.40.38:042][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.01.24-03.41.20:885][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.01.24-03.43.48:060][914]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Battery/Battery.Battery
+[2024.01.24-03.43.48:061][914]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.43.48:061][914]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.46.06:146][756]LogSlate: Window 'Battery' being destroyed
+[2024.01.24-03.46.06:180][756]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-03.46.06:181][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-03.46.22:915][468]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Note/BP_NoteMaker.BP_NoteMaker
+[2024.01.24-03.46.22:916][468]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.46.22:916][468]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.49.49:406][365]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-03.49.49:406][365]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-03.49.56:683][676]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/DragItem.DragItem
+[2024.01.24-03.49.56:684][676]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.49.56:684][676]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.49.56:706][676]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.49.56:706][676]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.49.56:716][676]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2024.01.24-03.49.57:104][676]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2024.01.24-03.50.00:619][826]LogSlate: Window 'DragItem' being destroyed
+[2024.01.24-03.50.00:654][826]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-03.50.00:654][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-03.50.00:672][826]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-03.50.00:672][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-03.50.01:860][876]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory
+[2024.01.24-03.50.01:860][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.50.01:860][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.50.01:885][876]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.50.01:885][876]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.50.03:584][939]LogSlate: Window 'Inventory' being destroyed
+[2024.01.24-03.50.03:616][939]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-03.50.03:616][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-03.50.03:635][939]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-03.50.03:635][939]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-03.50.04:553][978]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Inventory/Item.Item
+[2024.01.24-03.50.06:727][ 65]LogSlate: Window 'Item' being destroyed
+[2024.01.24-03.50.08:198][126]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Item_Slot.Item_Slot
+[2024.01.24-03.50.08:198][126]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.50.08:198][126]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.50.08:220][126]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.50.08:220][126]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.50.09:636][177]LogSlate: Window 'Item_Slot' being destroyed
+[2024.01.24-03.50.09:669][177]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-03.50.09:669][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-03.50.09:686][177]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-03.50.09:686][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-03.50.10:580][214]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Inventory/TheInstance.TheInstance
+[2024.01.24-03.50.10:580][214]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.50.10:581][214]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.50.13:029][309]LogSlate: Window 'TheInstance' being destroyed
+[2024.01.24-03.50.13:055][309]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-03.50.13:055][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-03.50.23:170][728]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.24-03.50.23:180][728]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.24-03.50.23:195][729]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.24-03.50.41:294][528]LogContentBrowser: Attempting asset rename: NewFolder -> newInventory
+[2024.01.24-03.50.41:295][528]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.24-03.51.24:533][983]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Battery/Battery.Battery
+[2024.01.24-03.51.24:533][983]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.51.24:533][983]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.54.11:159][236]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.24-03.54.11:160][236]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-03.54.11:160][236]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-03.55.47:493][122]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.01.24-03.55.47:496][122]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.031
+[2024.01.24-03.55.47:496][122]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-03.55.47:758][122]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-03.55.47:758][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-03.55.47:769][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto1
+[2024.01.24-03.55.47:770][122]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto1F3D635CB47D6273D54204D8E9F05FD31.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto1.uasset'
+[2024.01.24-03.55.47:772][122]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-03.55.47:772][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-03.55.47:855][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto1
+[2024.01.24-03.55.47:856][122]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto10D3F66814B00823D50D76490C8BA107B.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto1.uasset'
+[2024.01.24-03.55.47:857][122]LogFileHelpers: Auto-saving content packages took 0.361
+[2024.01.24-03.57.50:110][882]LogSlate: Took 0.005417 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2024.01.24-04.05.48:156][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2024.01.24-04.05.48:160][ 88]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.027
+[2024.01.24-04.05.48:160][ 88]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-04.05.48:494][ 88]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-04.05.48:494][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-04.05.48:503][ 88]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto2
+[2024.01.24-04.05.48:504][ 88]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto2F3A3B5964F58AF6984A44E86E7730259.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto2.uasset'
+[2024.01.24-04.05.48:507][ 88]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-04.05.48:507][ 88]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-04.05.48:592][ 88]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto2
+[2024.01.24-04.05.48:593][ 88]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto2BCE5AE9141C528F023D0189CAA0877DE.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto2.uasset'
+[2024.01.24-04.05.48:595][ 88]LogFileHelpers: Auto-saving content packages took 0.435
+[2024.01.24-04.09.42:550][914]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.09.42:550][914]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.09.47:314][110]LogViewport: Scene viewport resized to 1280x685, mode Windowed.
+[2024.01.24-04.11.41:886][400]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Battery/Interact_Interface.Interact_Interface
+[2024.01.24-04.11.41:887][400]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.11.41:887][400]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.11.45:332][550]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.11.45:332][550]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.12.13:513][917]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Battery/Interact_Interface.Interact_Interface
+[2024.01.24-04.12.13:513][917]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.12.13:513][917]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.12.18:275][128]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.12.18:275][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.16.03:397][575]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.01.24-04.16.03:401][575]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.026
+[2024.01.24-04.16.03:401][575]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-04.16.03:573][575]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-04.16.03:573][575]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-04.16.03:588][575]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto3
+[2024.01.24-04.16.03:588][575]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto317EE60A9442BB7F32E2881AB8C303755.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto3.uasset'
+[2024.01.24-04.16.03:589][575]LogFileHelpers: Auto-saving content packages took 0.188
+[2024.01.24-04.16.14:341][608]BlueprintLog: New page: Compile Battery
+[2024.01.24-04.16.14:388][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.01.24-04.16.16:223][664]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-04.16.16:371][664]LogSavePackage: Moving output files for package: /Game/Blueprints/Battery/Battery
+[2024.01.24-04.16.16:372][664]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BatteryC1A797B04256B7BC705F739C58C46DF3.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Battery/Battery.uasset'
+[2024.01.24-04.16.16:382][664]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 3.05 sec)
+[2024.01.24-04.16.16:386][664]AssetCheck: New page: Asset Save: Battery
+[2024.01.24-04.16.16:386][664]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Battery/Battery.Battery
+[2024.01.24-04.17.09:091][442]LogSlate: Window 'Battery' being destroyed
+[2024.01.24-04.17.09:119][442]LogSlate: Window 'Battery' being destroyed
+[2024.01.24-04.17.09:134][442]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.01.24-04.17.09:134][442]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.17.09:135][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.17.13:776][479]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.24-04.17.13:776][479]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.17.13:776][479]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.17.58:314][299]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.01.24-04.18.00:689][382]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.01.24-04.18.00:712][382]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.01.24-04.18.00:743][383]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.01.24-04.18.13:787][939]LogContentBrowser: Attempting asset rename: NewInputAction -> IA_PickUp
+[2024.01.24-04.18.13:795][939]LogContentBrowser: End creating deferred item NewInputAction
+[2024.01.24-04.18.19:751][ 20]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Input/Actions/IA_Interact.IA_Interact
+[2024.01.24-04.19.12:612][ 28]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.24-04.23.26:876][987]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.23.27:108][988]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.23.27:524][  5]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.23.27:812][  7]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.23.27:953][ 10]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.23.27:995][ 11]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.23.28:092][ 12]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.25.51:268][260]BlueprintLog: New page: Compile BP_Player
+[2024.01.24-04.25.51:375][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2024.01.24-04.26.08:020][146]LogSlate: Window 'BP_Player' being destroyed
+[2024.01.24-04.26.08:049][146]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.26.08:049][146]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.26.27:241][144]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Battery/Battery.Battery_C
+[2024.01.24-04.26.27:241][144]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Battery/Battery.Battery_C
+[2024.01.24-04.26.27:245][144]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Battery/Battery.Battery as actor: Battery_C /Game/Level/Level_Forest.Level_Forest:PersistentLevel.Battery_C_0
+[2024.01.24-04.26.27:247][144]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Battery/Battery.Battery as actor: Battery_C /Game/Level/Level_Forest.Level_Forest:PersistentLevel.Battery_C_0
+[2024.01.24-04.26.27:252][144]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.01.24-04.26.27:460][146]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Battery/Battery.Battery_C
+[2024.01.24-04.26.27:460][146]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Battery/Battery.Battery_C
+[2024.01.24-04.26.27:467][146]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Battery/Battery.Battery as actor: Battery_C /Game/Level/Level_Forest.Level_Forest:PersistentLevel.Battery_C_5
+[2024.01.24-04.26.27:471][146]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Battery/Battery.Battery as actor: Battery_C /Game/Level/Level_Forest.Level_Forest:PersistentLevel.Battery_C_5
+[2024.01.24-04.26.35:671][520]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.01.24-04.26.35:713][520]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.01.24-04.26.37:679][520]LogSlate: Window 'Save Content' being destroyed
+[2024.01.24-04.26.37:690][520]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-04.26.37:809][520]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.01.24-04.26.38:021][520]LogSavePackage: Moving output files for package: /Game/Level/Level_Forest
+[2024.01.24-04.26.38:022][520]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Level_Forest7CC8AF664F58D71075445099527C46A5.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Level/Level_Forest.umap'
+[2024.01.24-04.26.38:040][520]LogFileHelpers: Saving map 'Level_Forest' took 0.313
+[2024.01.24-04.26.38:178][520]LogSavePackage: Moving output files for package: /Game/Blueprints/Battery/Battery
+[2024.01.24-04.26.38:179][520]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BatteryD986CFA34E14D6210D77F9916532E90B.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Battery/Battery.uasset'
+[2024.01.24-04.26.38:266][520]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.24-04.26.38:267][520]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_PlayerF285814341DB09759263AD82344F6D9F.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.24-04.26.38:270][520]LogSavePackage: Moving output files for package: /Game/Input/Actions/IA_PickUp
+[2024.01.24-04.26.38:270][520]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/IA_PickUp70CF68A34A1583F4616A54A76E30E0EF.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Input/Actions/IA_PickUp.uasset'
+[2024.01.24-04.26.38:278][520]LogSavePackage: Moving output files for package: /Game/Input/IMC_Default
+[2024.01.24-04.26.38:279][520]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/IMC_Default41ABCF3B4F7EC14FA08D5AA95DCF609C.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Input/IMC_Default.uasset'
+[2024.01.24-04.26.38:287][520]LogFileHelpers: InternalPromptForCheckoutAndSave took 596 ms (total: 3.65 sec)
+[2024.01.24-04.26.38:309][521]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.24-04.26.38:309][521]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/Level_Forest.Level_Forest
+[2024.01.24-04.26.38:309][521]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Battery/Battery.Battery
+[2024.01.24-04.26.38:309][521]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.24-04.26.38:310][521]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/Input/Actions/IA_PickUp.IA_PickUp
+[2024.01.24-04.26.38:310][521]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/Input/IMC_Default.IMC_Default
+[2024.01.24-04.26.40:888][568]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.01.24-04.28.18:525][126]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Battery/Battery.Battery
+[2024.01.24-04.28.18:525][126]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.28.18:525][126]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.28.42:164][213]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.24-04.28.42:164][213]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.28.42:164][213]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.29.33:210][309]LogDerivedDataCache: C:/Users/goerk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:09.210 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4741 files in 6311 folders with total size 406 MiB.
+[2024.01.24-04.30.43:751][ 53]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Battery/Interact_Interface.Interact_Interface
+[2024.01.24-04.30.43:751][ 53]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.30.43:751][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.30.45:956][153]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.30.45:956][153]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.30.49:764][333]LogViewport: Scene viewport resized to 1280x685, mode Windowed.
+[2024.01.24-04.30.56:108][612]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Battery/Interact_Interface.Interact_Interface
+[2024.01.24-04.30.56:108][612]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.30.56:108][612]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.31.01:517][866]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.31.01:517][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.32.58:362][925]LogEditorTransaction: Undo Rename Variable
+[2024.01.24-04.36.29:134][515]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Inventory/TheInstance.TheInstance
+[2024.01.24-04.36.29:135][515]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.36.29:135][515]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.36.31:974][647]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.36.31:974][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.36.57:826][ 83]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory
+[2024.01.24-04.36.57:827][ 83]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.36.57:827][ 83]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.36.57:839][ 83]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.36.57:839][ 83]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.37.20:127][140]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Inventory/Item.Item
+[2024.01.24-04.37.33:632][789]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Item_Slot.Item_Slot
+[2024.01.24-04.37.33:632][789]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.37.33:632][789]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.37.33:652][789]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.37.33:652][789]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.37.40:850][130]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.37.40:850][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.37.40:867][130]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.37.40:867][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.38.14:684][707]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2024.01.24-04.38.14:688][707]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.037
+[2024.01.24-04.38.14:689][707]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-04.38.14:925][707]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-04.38.14:925][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-04.38.14:938][707]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto4
+[2024.01.24-04.38.14:939][707]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto49ADFFC974DF130E0EB27F290AEF5F316.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto4.uasset'
+[2024.01.24-04.38.14:942][707]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-04.38.14:942][707]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-04.38.15:037][707]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto4
+[2024.01.24-04.38.15:039][707]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto4506F8A334BBC737DB4C0A7B7B635C4B8.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto4.uasset'
+[2024.01.24-04.38.15:041][707]LogFileHelpers: Auto-saving content packages took 0.352
+[2024.01.24-04.39.12:166][881]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.39.12:166][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.39.12:186][881]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.39.12:187][881]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.43.09:792][350]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory
+[2024.01.24-04.43.09:792][350]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.43.09:792][350]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.43.09:805][350]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.43.09:805][350]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.43.11:200][407]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:203][407]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:207][407]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:210][407]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:216][407]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:298][408]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:301][408]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:336][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:343][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:348][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:352][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:357][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:362][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:366][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:371][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:376][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:380][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:385][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:389][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:393][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:397][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:402][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:406][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:411][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:416][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:423][409]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:498][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:502][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:507][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:511][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:515][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:520][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:524][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:529][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:533][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:538][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:542][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:546][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:551][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:557][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:564][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:569][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:575][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:581][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:586][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:591][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:596][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:600][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:604][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:609][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:614][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:619][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:623][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:629][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:634][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:638][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:642][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:660][410]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:682][411]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:688][411]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:767][412]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:787][412]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:809][413]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:886][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:891][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:895][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:901][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:905][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:910][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:914][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:919][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:923][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:927][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:932][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:937][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:941][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:947][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:951][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:955][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:960][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:965][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:970][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:974][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:979][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:983][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:989][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:993][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.11:998][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:002][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:008][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:012][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:017][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:021][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:026][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:031][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:035][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:040][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:045][414]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:082][415]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:090][415]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:181][416]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:275][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:280][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:284][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:289][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:293][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:299][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:303][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:307][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:312][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:317][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:322][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:326][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:331][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:336][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:340][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:345][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:349][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:354][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:358][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:363][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:368][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:371][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:377][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:381][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:386][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:391][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:395][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:400][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:404][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:409][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:413][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:417][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:422][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:427][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:431][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:436][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:441][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:446][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:450][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:454][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:459][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:464][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:468][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:473][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:478][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:482][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:486][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:492][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:496][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:501][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:505][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:510][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:514][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:519][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:523][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:527][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:532][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:537][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:541][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:546][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:551][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:555][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:560][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:564][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:569][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:574][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:578][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:582][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:587][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:592][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:596][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:601][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:605][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:610][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:614][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:619][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:624][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:628][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:634][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:638][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:642][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:646][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:651][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:655][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:660][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:666][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:669][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:674][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:679][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:684][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:689][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:693][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:697][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:703][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:707][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:712][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:717][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:721][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:726][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:731][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:735][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:740][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:745][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:749][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:754][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:759][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:762][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:767][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:772][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:776][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:781][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:785][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:790][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:795][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:799][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:804][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:808][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:812][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:818][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:822][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:827][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:831][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:835][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:840][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:844][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:850][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:854][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:859][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:864][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:868][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:872][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:877][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:896][418]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.12:920][419]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.13:033][421]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.13:124][422]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.13:234][424]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.13:256][425]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.13:368][427]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.43.13:459][428]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-04.44.00:720][661]LogSlate: Took 0.008478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2024.01.24-04.44.38:109][336]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.01.24-04.44.39:098][367]LogEditorTransaction: Undo Move Widget
+[2024.01.24-04.44.39:755][392]LogEditorTransaction: Undo Move Widget
+[2024.01.24-04.44.40:426][418]LogEditorTransaction: Undo Move Widget
+[2024.01.24-04.44.41:119][445]LogEditorTransaction: Undo Move Widget
+[2024.01.24-04.44.41:754][467]LogEditorTransaction: Undo Paste clipboard contents
+[2024.01.24-04.45.59:440][974]LogEditorTransaction: Undo Paste clipboard contents
+[2024.01.24-04.48.15:191][864]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2024.01.24-04.48.15:195][864]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.033
+[2024.01.24-04.48.15:195][864]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-04.48.15:196][864]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-04.48.15:205][864]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto5
+[2024.01.24-04.48.15:206][864]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto5553FF4CD4F910C73734F42823D41ECE3.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto5.uasset'
+[2024.01.24-04.48.15:208][864]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-04.48.15:208][864]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-04.48.15:300][864]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto5
+[2024.01.24-04.48.15:301][864]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto5932093784E840C40838DF3A9B32B6E3C.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto5.uasset'
+[2024.01.24-04.48.15:304][864]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Inventory] ([2] browsable assets)...
+[2024.01.24-04.48.15:310][864]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory]
+[2024.01.24-04.48.15:310][864]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Inventory]
+[2024.01.24-04.48.15:325][864]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Inventory_Auto5
+[2024.01.24-04.48.15:326][864]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory_Auto518248CFE4E1269E3A9998085367DD391.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Inventory_Auto5.uasset'
+[2024.01.24-04.48.15:328][864]LogFileHelpers: Auto-saving content packages took 0.133
+[2024.01.24-04.53.26:580][960]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Inventory/Item.Item
+[2024.01.24-04.53.33:304][282]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Item_Slot.Item_Slot
+[2024.01.24-04.53.33:304][282]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.53.33:304][282]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.53.33:324][282]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.53.33:324][282]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.53.35:957][401]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.53.35:957][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.53.35:974][401]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.53.35:974][401]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.55.25:912][379]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Item_Slot.Item_Slot
+[2024.01.24-04.55.25:912][379]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.55.25:912][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.55.25:927][379]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-04.55.25:927][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-04.58.15:601][135]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.01.24-04.58.15:605][135]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.033
+[2024.01.24-04.58.15:606][135]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Inventory] ([2] browsable assets)...
+[2024.01.24-04.58.15:615][135]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory]
+[2024.01.24-04.58.15:615][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Inventory]
+[2024.01.24-04.58.15:634][135]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Inventory_Auto6
+[2024.01.24-04.58.15:634][135]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory_Auto63D427D534998D00EDBDDCE8E0F66A7D2.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Inventory_Auto6.uasset'
+[2024.01.24-04.58.15:636][135]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Item_Slot] ([2] browsable assets)...
+[2024.01.24-04.58.15:641][135]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Item_Slot.Item_Slot]
+[2024.01.24-04.58.15:641][135]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Item_Slot]
+[2024.01.24-04.58.15:658][135]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto6
+[2024.01.24-04.58.15:658][135]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Item_Slot_Auto69CED63D3433334B9A835B08CF6924191.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto6.uasset'
+[2024.01.24-04.58.15:660][135]LogFileHelpers: Auto-saving content packages took 0.054
+[2024.01.24-04.58.33:556][189]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.58.33:556][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-04.58.33:576][189]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-04.58.33:577][189]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-05.02.14:281][678]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-05.02.14:281][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-05.02.14:299][678]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-05.02.14:299][678]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-05.02.37:680][182]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory
+[2024.01.24-05.02.37:681][182]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-05.02.37:681][182]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-05.02.37:692][182]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-05.02.37:692][182]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: ================================================
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Total job queries 202, among them cache hits 156 (77.23%)
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Tracking 46 distinct input hashes that result in 27 distinct outputs (58.70%)
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: RAM used: 954,56 KiB of 819,20 MiB budget. Usage: 0.11%
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Shaders Compiled: 10
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Jobs assigned 10, completed 10 (100%)
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Average time worker was idle: 9205.38 s
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.17 s
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Job execution time: average 1.00 s, max 1.48 s
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Job life time (pending + execution): average 1.07 s, max 1.50
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Shader code size: average 34,712 KiB, min 4,039 KiB, max 46,359 KiB
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.52 s
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Jobs were issued in 10 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Average processing rate: 3.97 jobs/sec
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Total thread time: 5,689 s
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Total thread preprocess time: 0,44 s
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Percentage time preprocessing: 7.74%
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Effective parallelization: 2.26 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.75 sec, max 1.04 sec, min 0.45 sec)
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.58 sec, max 0.76 sec, min 0.40 sec)
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display:                                      FLandscapeGrassWeightVS (compiled    1 times, average 0.45 sec, max 0.45 sec, min 0.45 sec)
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.45 sec, max 0.49 sec, min 0.41 sec)
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.01.24-05.06.30:417][565]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 26.22% of total time (compiled    2 times, average 0.75 sec, max 1.04 sec, min 0.45 sec)
+[2024.01.24-05.06.30:418][565]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 20.35% of total time (compiled    2 times, average 0.58 sec, max 0.76 sec, min 0.40 sec)
+[2024.01.24-05.06.30:418][565]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.82% of total time (compiled    2 times, average 0.45 sec, max 0.49 sec, min 0.41 sec)
+[2024.01.24-05.06.30:418][565]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.60% of total time (compiled    2 times, average 0.44 sec, max 0.48 sec, min 0.41 sec)
+[2024.01.24-05.06.30:418][565]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 14.03% of total time (compiled    1 times, average 0.80 sec, max 0.80 sec, min 0.80 sec)
+[2024.01.24-05.06.30:418][565]LogShaderCompilers: Display: ================================================
+[2024.01.24-05.08.16:220][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.01.24-05.08.16:223][214]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.027
+[2024.01.24-05.08.16:225][214]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Inventory] ([2] browsable assets)...
+[2024.01.24-05.08.16:227][214]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory]
+[2024.01.24-05.08.16:227][214]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Inventory]
+[2024.01.24-05.08.16:243][214]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Inventory_Auto7
+[2024.01.24-05.08.16:243][214]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory_Auto7C2F9BAFE4E80357B6ED7F4A64694D24C.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Inventory_Auto7.uasset'
+[2024.01.24-05.08.16:245][214]LogFileHelpers: Auto-saving content packages took 0.021
+[2024.01.24-05.08.22:334][298]LogEditorTransaction: Undo Edit Image
+[2024.01.24-05.11.31:496][941]LogSlate: Window 'Change Variable Type' being destroyed
+[2024.01.24-05.11.36:340][151]LogSlate: Window 'Find in Blueprints' being destroyed
+[2024.01.24-05.11.36:367][151]LogSlate: Window 'Find in Blueprints' being destroyed
+[2024.01.24-05.12.27:869][699]BlueprintLog: New page: Compile Inventory
+[2024.01.24-05.12.27:905][699]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Could not find a variable named "Grid" in 'Inventory_C'.
+Make sure 'Inventory_C' has been compiled for  Get Grid
+[2024.01.24-05.12.27:908][699]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Could not find a variable named "Grid" in 'Inventory_C'.
+Make sure 'Inventory_C' has been compiled for  Get Grid
+[2024.01.24-05.12.27:908][699]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Could not find a variable named "Thumbnail" in 'Item_Slot_C'.
+Make sure 'Item_Slot_C' has been compiled for  Get Thumbnail
+[2024.01.24-05.12.27:910][699]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] The property associated with  Grid  could not be found in '/Game/Blueprints/Inventory/Inventory.Inventory_C'
+[2024.01.24-05.12.27:911][699]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] The property associated with  Grid  could not be found in '/Game/Blueprints/Inventory/Inventory.Inventory_C'
+[2024.01.24-05.12.27:913][699]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Binding: Property ' /Script/UMG.Image:BrushDelegate ' on Widget ' Image_47 ': Member:GetInventoryImage Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2024.01.24-05.12.27:961][699]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2024.01.24-05.13.32:822][606]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.14.13:874][434]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.15.09:455][342]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.17.44:738][ 41]BlueprintLog: New page: Compile Inventory
+[2024.01.24-05.17.44:745][ 41]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Could not find a variable named "Grid" in 'Inventory_C'.
+Make sure 'Inventory_C' has been compiled for  Get Grid
+[2024.01.24-05.17.44:747][ 41]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Could not find a variable named "Grid" in 'Inventory_C'.
+Make sure 'Inventory_C' has been compiled for  Get Grid
+[2024.01.24-05.17.44:751][ 41]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Could not find a variable named "Thumbnail" in 'Item_Slot_C'.
+Make sure 'Item_Slot_C' has been compiled for  Get Thumbnail
+[2024.01.24-05.17.44:754][ 41]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] The property associated with  Grid  could not be found in '/Game/Blueprints/Inventory/Inventory.Inventory_C'
+[2024.01.24-05.17.44:755][ 41]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] The property associated with  Grid  could not be found in '/Game/Blueprints/Inventory/Inventory.Inventory_C'
+[2024.01.24-05.17.44:756][ 41]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Binding: Property ' /Script/UMG.Image:BrushDelegate ' on Widget ' Image_47 ': Member:GetInventoryImage Has the wrong number of arguments, it needs to return 1 value and take no parameters.
+[2024.01.24-05.17.44:804][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2024.01.24-05.18.55:524][268]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.01.24-05.18.55:528][268]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.026
+[2024.01.24-05.18.55:530][268]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-05.18.55:874][268]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-05.18.55:874][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-05.18.55:886][268]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto8
+[2024.01.24-05.18.55:886][268]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto8A869FBA44E55E5988DA14AB8C5711D9A.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto8.uasset'
+[2024.01.24-05.18.55:889][268]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-05.18.55:889][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-05.18.55:985][268]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto8
+[2024.01.24-05.18.55:985][268]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto8CF1C370C47A6E98950434C9123789548.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto8.uasset'
+[2024.01.24-05.18.55:987][268]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Inventory] ([2] browsable assets)...
+[2024.01.24-05.18.55:992][268]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory]
+[2024.01.24-05.18.55:992][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Inventory]
+[2024.01.24-05.18.56:012][268]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Inventory_Auto8
+[2024.01.24-05.18.56:013][268]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory_Auto83C363DC648430010C7506CBEF9111BCF.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Inventory_Auto8.uasset'
+[2024.01.24-05.18.56:014][268]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Inventory/Item_Slot] ([2] browsable assets)...
+[2024.01.24-05.18.56:014][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Item_Slot]
+[2024.01.24-05.18.56:032][268]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto8
+[2024.01.24-05.18.56:032][268]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Item_Slot_Auto8507B563F4F7D0C780551A0AB3015105D.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto8.uasset'
+[2024.01.24-05.18.56:034][268]LogFileHelpers: Auto-saving content packages took 0.505
+[2024.01.24-05.20.14:186][504]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-05.20.14:186][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-05.20.14:206][504]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-05.20.14:206][504]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-05.20.22:747][878]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory
+[2024.01.24-05.20.22:747][878]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-05.20.22:747][878]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-05.20.22:759][878]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-05.20.22:759][878]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-05.26.30:437][689]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.26.42:547][167]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.27.46:136][103]BlueprintLog: New page: Compile BP_Player
+[2024.01.24-05.27.46:251][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.01.24-05.27.48:078][141]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-05.27.48:214][141]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.24-05.27.48:215][141]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player28EFAE5D45D9BFAE7934A5B73E313859.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.24-05.27.48:227][141]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 3.80 sec)
+[2024.01.24-05.27.48:233][141]AssetCheck: New page: Asset Save: BP_Player
+[2024.01.24-05.27.48:233][141]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.24-05.28.56:262][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.01.24-05.28.56:267][562]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.027
+[2024.01.24-05.28.56:268][562]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-05.28.56:681][562]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-05.28.56:681][562]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-05.28.56:692][562]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto9
+[2024.01.24-05.28.56:692][562]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto9A176CCC84E956278DB47EBA5F7F714B6.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto9.uasset'
+[2024.01.24-05.28.56:694][562]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Inventory] ([2] browsable assets)...
+[2024.01.24-05.28.56:697][562]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory]
+[2024.01.24-05.28.56:697][562]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Inventory]
+[2024.01.24-05.28.56:714][562]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Inventory_Auto9
+[2024.01.24-05.28.56:714][562]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory_Auto9EECDA535430177962302E584B051A2E7.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Inventory_Auto9.uasset'
+[2024.01.24-05.28.56:715][562]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Inventory/Item_Slot] ([2] browsable assets)...
+[2024.01.24-05.28.56:715][562]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Item_Slot]
+[2024.01.24-05.28.56:730][562]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto9
+[2024.01.24-05.28.56:731][562]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Item_Slot_Auto9DF8BA67E420B69E7691C7A8BC6653431.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto9.uasset'
+[2024.01.24-05.28.56:732][562]LogFileHelpers: Auto-saving content packages took 0.464
+[2024.01.24-05.29.32:184][670]LogDerivedDataCache: C:/Users/goerk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.183 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4749 files in 6320 folders with total size 406 MiB.
+[2024.01.24-05.33.12:311][476]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-05.33.12:311][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-05.33.12:330][476]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-05.33.12:330][476]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-05.34.03:368][ 67]LogSlate: Window 'Pick Parent Class for New Widget Blueprint' being destroyed
+[2024.01.24-05.34.04:397][ 76]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory
+[2024.01.24-05.34.04:398][ 76]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-05.34.04:398][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-05.34.04:406][ 76]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-05.34.04:406][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-05.37.48:328][676]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:331][676]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:408][677]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:425][677]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:525][679]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:541][679]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:563][680]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:639][681]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:671][682]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:675][682]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:747][683]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:761][683]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:852][685]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:866][685]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:884][686]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:888][686]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:964][687]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:996][688]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.48:999][688]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:070][689]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:089][689]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:110][690]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:196][691]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:214][691]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:239][692]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:358][694]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:437][695]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:460][695]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:483][696]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:567][697]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:590][697]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:614][698]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:695][699]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:735][700]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:742][700]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:837][701]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:934][703]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:957][703]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:978][704]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:983][704]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.49:991][704]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:106][706]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:114][706]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:211][707]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:311][709]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:333][709]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:358][710]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:438][711]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:486][712]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:594][713]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:630][714]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:730][715]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:754][716]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.50:871][718]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.37.52:004][763]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.01.24-05.38.04:578][308]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.04:672][309]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.04:693][310]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.04:797][312]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.04:894][313]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.04:994][315]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:007][315]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:027][316]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:129][318]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:209][319]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:224][319]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:337][321]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:355][321]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:380][322]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:465][323]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:503][324]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:593][325]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:697][327]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:717][328]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:789][329]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:832][330]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:838][330]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:943][331]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.05:962][332]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:036][333]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:048][333]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:068][334]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:141][335]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:173][336]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:246][337]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:261][337]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:364][339]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:384][340]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:487][342]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:572][343]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:677][345]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:698][346]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:802][348]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.06:886][349]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.01.24-05.38.08:476][422]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.01.24-05.39.45:509][856]LogEditorTransaction: Undo Rename Widget
+[2024.01.24-05.41.07:924][298]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.01.24-05.41.07:928][298]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.029
+[2024.01.24-05.41.07:929][298]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-05.41.07:929][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-05.41.07:938][298]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto0
+[2024.01.24-05.41.07:939][298]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto04997886848347FD63DA13E8062108512.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto0.uasset'
+[2024.01.24-05.41.07:941][298]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Inventory] ([2] browsable assets)...
+[2024.01.24-05.41.07:945][298]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory]
+[2024.01.24-05.41.07:945][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Inventory]
+[2024.01.24-05.41.07:962][298]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Inventory_Auto0
+[2024.01.24-05.41.07:962][298]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory_Auto0D7A94DCE46063F7D2AFC7D8750A5A4CA.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Inventory_Auto0.uasset'
+[2024.01.24-05.41.07:965][298]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Inventory/Item_Slot] ([2] browsable assets)...
+[2024.01.24-05.41.07:965][298]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Item_Slot]
+[2024.01.24-05.41.07:979][298]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto0
+[2024.01.24-05.41.07:979][298]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Item_Slot_Auto0BA2F42174A21C00258AA3BBDFD4B0A9E.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto0.uasset'
+[2024.01.24-05.41.07:981][298]LogFileHelpers: Auto-saving content packages took 0.052
+[2024.01.24-05.45.33:346][ 66]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.45.53:612][977]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.46.04:194][456]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.46.13:062][856]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.46.19:537][146]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-05.51.21:884][932]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.01.24-05.51.21:889][932]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.034
+[2024.01.24-05.51.21:890][932]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-05.51.21:890][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-05.51.21:980][932]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto1
+[2024.01.24-05.51.21:981][932]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto14015798C4144D1812EDB099E4084D0F9.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto1.uasset'
+[2024.01.24-05.51.21:985][932]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Inventory] ([2] browsable assets)...
+[2024.01.24-05.51.21:989][932]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory]
+[2024.01.24-05.51.21:989][932]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Inventory]
+[2024.01.24-05.51.22:007][932]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Inventory_Auto1
+[2024.01.24-05.51.22:009][932]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory_Auto13726F7E9474ACF08B536C5BD34CB4D53.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Inventory_Auto1.uasset'
+[2024.01.24-05.51.22:011][932]LogFileHelpers: Auto-saving content packages took 0.122
+[2024.01.24-05.58.14:046][509]BlueprintLog: New page: Compile Battery
+[2024.01.24-05.58.14:052][509]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Battery\Battery.uasset: [Compiler] The property associated with  Item Slot 1  could not be found in '/Game/Blueprints/Battery/Battery.Battery_C'
+[2024.01.24-05.58.14:052][509]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Battery\Battery.uasset: [Compiler] The property associated with  Item Slot 1  could not be found in '/Game/Blueprints/Battery/Battery.Battery_C'
+[2024.01.24-05.58.14:120][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2024.01.24-06.02.12:673][221]BlueprintLog: New page: Compile Battery
+[2024.01.24-06.02.12:678][221]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Battery\Battery.uasset: [Compiler] The property associated with  Item Slot 1  could not be found in '/Game/Blueprints/Battery/Battery.Battery_C'
+[2024.01.24-06.02.12:678][221]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Battery\Battery.uasset: [Compiler] The property associated with  Item Slot 1  could not be found in '/Game/Blueprints/Battery/Battery.Battery_C'
+[2024.01.24-06.02.12:762][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.01.24-06.05.54:429][139]LogEditorTransaction: Undo Add Execution Pin
+[2024.01.24-06.07.23:816][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.01.24-06.07.23:819][938]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.031
+[2024.01.24-06.07.23:820][938]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-06.07.24:053][938]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-06.07.24:053][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-06.07.24:071][938]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto2
+[2024.01.24-06.07.24:072][938]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto2369C13134E680BE3BBFF4B9E505FDFBD.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto2.uasset'
+[2024.01.24-06.07.24:075][938]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-06.07.24:075][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-06.07.24:182][938]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto2
+[2024.01.24-06.07.24:183][938]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto28C89192348248A06D440BABDBD3F0763.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto2.uasset'
+[2024.01.24-06.07.24:185][938]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Inventory] ([2] browsable assets)...
+[2024.01.24-06.07.24:189][938]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory]
+[2024.01.24-06.07.24:189][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Inventory]
+[2024.01.24-06.07.24:210][938]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Inventory_Auto2
+[2024.01.24-06.07.24:210][938]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory_Auto24E7FEB6641B6D459129CC59D3EC43B6F.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Inventory_Auto2.uasset'
+[2024.01.24-06.07.24:212][938]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Inventory/Item_Slot] ([2] browsable assets)...
+[2024.01.24-06.07.24:212][938]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Item_Slot]
+[2024.01.24-06.07.24:229][938]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto2
+[2024.01.24-06.07.24:229][938]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Item_Slot_Auto20363688A47B5716CF2D41689DC2CCBD2.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto2.uasset'
+[2024.01.24-06.07.24:231][938]LogFileHelpers: Auto-saving content packages took 0.411
+[2024.01.24-06.14.47:886][566]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-06.14.51:963][636]LogSlate: Window 'Color Picker' being destroyed
+[2024.01.24-06.16.00:301][195]BlueprintLog: New page: Compile Inventory
+[2024.01.24-06.16.00:326][195]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Could not find a variable named "Grid" in 'Inventory_C'.
+Make sure 'Inventory_C' has been compiled for  Get Grid
+[2024.01.24-06.16.00:328][195]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Could not find a variable named "Grid" in 'Inventory_C'.
+Make sure 'Inventory_C' has been compiled for  Get Grid
+[2024.01.24-06.16.00:335][195]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] Could not find a variable named "Thumbnail" in 'Item_Slot_C'.
+Make sure 'Item_Slot_C' has been compiled for  Get Thumbnail
+[2024.01.24-06.16.00:335][195]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] The property associated with  Grid  could not be found in '/Game/Blueprints/Inventory/Inventory.Inventory_C'
+[2024.01.24-06.16.00:335][195]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] The property associated with  Grid  could not be found in '/Game/Blueprints/Inventory/Inventory.Inventory_C'
+[2024.01.24-06.16.00:335][195]LogBlueprint: Error: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Inventory\Inventory.uasset: [Compiler] The property associated with  Item Slot 1  could not be found in '/Game/Blueprints/Inventory/Inventory.Inventory_C'
+[2024.01.24-06.16.00:379][195]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.01.24-06.19.05:097][983]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.01.24-06.19.05:103][983]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.028
+[2024.01.24-06.19.05:103][983]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-06.19.05:374][983]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-06.19.05:374][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-06.19.05:390][983]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto3
+[2024.01.24-06.19.05:390][983]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto303DDCB8642978CF0B9F4D58F32BB1A3C.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto3.uasset'
+[2024.01.24-06.19.05:392][983]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-06.19.05:393][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-06.19.05:483][983]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto3
+[2024.01.24-06.19.05:484][983]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto37B3059B74953CD3EF6B110B286B352AF.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto3.uasset'
+[2024.01.24-06.19.05:486][983]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Inventory/Inventory] ([2] browsable assets)...
+[2024.01.24-06.19.05:493][983]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory]
+[2024.01.24-06.19.05:493][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Inventory]
+[2024.01.24-06.19.05:515][983]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Inventory_Auto3
+[2024.01.24-06.19.05:515][983]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory_Auto3CC0BEFC04E8F47382E4BF3B72CA13780.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Inventory_Auto3.uasset'
+[2024.01.24-06.19.05:516][983]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Inventory/Item_Slot] ([2] browsable assets)...
+[2024.01.24-06.19.05:516][983]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Inventory/Item_Slot]
+[2024.01.24-06.19.05:535][983]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto3
+[2024.01.24-06.19.05:535][983]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Item_Slot_Auto3BBE2640649C48DE4F88D2FA27543388E.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Inventory/Item_Slot_Auto3.uasset'
+[2024.01.24-06.19.05:536][983]LogFileHelpers: Auto-saving content packages took 0.434
+[2024.01.24-06.28.13:544][692]LogDebuggerCommands: Repeating last play command: Standalone Game
+[2024.01.24-06.28.13:593][692]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2024.01.24-06.28.15:784][692]LogSlate: Window 'Save Content' being destroyed
+[2024.01.24-06.28.15:795][692]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-06.28.16:035][692]LogSavePackage: Moving output files for package: /Game/Blueprints/Battery/Battery
+[2024.01.24-06.28.16:036][692]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BatteryED1B241F41A9DC63F00BB4A3E526114B.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Battery/Battery.uasset'
+[2024.01.24-06.28.16:125][692]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.24-06.28.16:126][692]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player586D9AAB47A20AE547D7E4AD2E0392E8.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.24-06.28.16:148][692]LogSavePackage: Moving output files for package: /Game/Blueprints/Inventory/Inventory
+[2024.01.24-06.28.16:149][692]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Inventory54EC40864C8DC3C6DA4661B3FA135071.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Inventory/Inventory.uasset'
+[2024.01.24-06.28.16:166][692]LogSavePackage: Moving output files for package: /Game/Blueprints/Inventory/Item_Slot
+[2024.01.24-06.28.16:167][692]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Item_Slot6D3A854E44FBFF7B2E5395816D4AB2BE.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Inventory/Item_Slot.uasset'
+[2024.01.24-06.28.16:178][692]LogFileHelpers: InternalPromptForCheckoutAndSave took 382 ms (total: 4.18 sec)
+[2024.01.24-06.28.16:206][693]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.24-06.28.16:206][693]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Battery/Battery.Battery
+[2024.01.24-06.28.16:206][693]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.01.24-06.28.16:206][693]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Inventory/Inventory.Inventory
+[2024.01.24-06.28.16:208][693]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Blueprints/Inventory/Item_Slot.Item_Slot
+[2024.01.24-06.29.32:329][575]LogDerivedDataCache: C:/Users/goerk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:08.327 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4750 files in 6321 folders with total size 406 MiB.
+[2024.01.24-06.39.06:391][755]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.24-06.39.06:416][755]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.24-06.39.06:442][756]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.24-06.39.15:640][216]LogContentBrowser: Attempting asset rename: NewFolder -> newInventory
+[2024.01.24-06.39.15:641][216]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.24-06.39.36:843][630]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.01.24-06.39.36:855][630]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.01.24-06.39.36:875][630]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.01.24-06.39.36:945][632]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.01.24-06.40.08:741][132]LogContentBrowser: Attempting asset rename: NewBlueprint -> BPC_Inventory
+[2024.01.24-06.40.08:757][132]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.01.24-06.40.10:132][194]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/newInventory/BPC_Inventory.BPC_Inventory
+[2024.01.24-06.40.10:133][194]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-06.40.10:133][194]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-06.41.13:230][355]BlueprintLog: New page: Compile BPC_Inventory
+[2024.01.24-06.41.13:262][355]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.01.24-06.42.26:522][589]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-06.42.26:596][589]LogSavePackage: Moving output files for package: /Game/Blueprints/newInventory/BPC_Inventory
+[2024.01.24-06.42.26:596][589]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BPC_Inventory55BF91C344A3A298D2E2ECAE211026EF.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/newInventory/BPC_Inventory.uasset'
+[2024.01.24-06.42.26:615][589]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 4.27 sec)
+[2024.01.24-06.42.26:616][589]AssetCheck: New page: Asset Save: BPC_Inventory
+[2024.01.24-06.42.26:616][589]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/newInventory/BPC_Inventory.BPC_Inventory
+[2024.01.24-06.44.04:061][505]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2024.01.24-06.44.04:065][505]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.041
+[2024.01.24-06.44.04:065][505]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/newInventory/BPC_Inventory] ([2] browsable assets)...
+[2024.01.24-06.44.04:065][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/newInventory/BPC_Inventory]
+[2024.01.24-06.44.04:069][505]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/newInventory/BPC_Inventory_Auto4
+[2024.01.24-06.44.04:069][505]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BPC_Inventory_Auto4186816E8445235943E39D5ABDB69E362.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/newInventory/BPC_Inventory_Auto4.uasset'
+[2024.01.24-06.44.04:070][505]LogFileHelpers: Auto-saving content packages took 0.005
+[2024.01.24-06.46.55:588][337]BlueprintLog: New page: Compile BPC_Inventory
+[2024.01.24-06.46.55:619][337]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.01.24-06.46.56:630][385]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-06.46.56:697][385]LogSavePackage: Moving output files for package: /Game/Blueprints/newInventory/BPC_Inventory
+[2024.01.24-06.46.56:698][385]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BPC_InventoryD92E20C7414089BAE1EF82AB51D16457.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/newInventory/BPC_Inventory.uasset'
+[2024.01.24-06.46.56:708][385]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 4.35 sec)
+[2024.01.24-06.46.56:711][385]AssetCheck: New page: Asset Save: BPC_Inventory
+[2024.01.24-06.46.56:711][385]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/newInventory/BPC_Inventory.BPC_Inventory
+[2024.01.24-06.51.06:082][952]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Battery/Interact_Interface.Interact_Interface
+[2024.01.24-06.51.06:082][952]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-06.51.06:082][952]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-06.52.38:045][  7]BlueprintLog: New page: Compile Interact_Interface
+[2024.01.24-06.52.38:179][  7]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.01.24-06.52.38:220][  7]LogBlueprint: Warning: [AssetLog] C:\Users\goerk\OneDrive\Dokumente\.Uni\3. Semester\Media Engineering\Ludectrophobia\Ludectrophobia\Content\Blueprints\Battery\Battery.uasset: [Compiler] Pasted node  interact_1   conflicted with  Event Interact  and was replaced as a Custom Event!
+[2024.01.24-06.52.38:220][  7]LogBlueprint: Warning: [Battery] 'interact' was promoted from an event to a function - it has been replaced by a custom event, which won't trigger unless you call it manually.
+[2024.01.24-06.52.39:065][ 30]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-06.52.39:135][ 30]LogSavePackage: Moving output files for package: /Game/Blueprints/Battery/Interact_Interface
+[2024.01.24-06.52.39:135][ 30]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Interact_InterfaceFAA3B3274018E4784DFE78B84BAA4284.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Battery/Interact_Interface.uasset'
+[2024.01.24-06.52.39:151][ 30]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 4.44 sec)
+[2024.01.24-06.52.39:154][ 30]AssetCheck: New page: Asset Save: Interact_Interface
+[2024.01.24-06.52.39:154][ 30]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Battery/Interact_Interface.Interact_Interface
+[2024.01.24-06.52.55:357][115]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2024.01.24-06.52.55:357][115]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.24-06.53.30:500][  9]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Battery/Interact_Interface.Interact_Interface
+[2024.01.24-06.53.30:500][  9]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.24-06.53.30:500][  9]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.24-06.54.04:590][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.01.24-06.54.04:594][687]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.027
+[2024.01.24-06.54.04:595][687]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-06.54.04:743][687]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-06.54.04:743][687]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-06.54.04:754][687]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto5
+[2024.01.24-06.54.04:754][687]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto53868DFF245720830BB07CCB6E797930B.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto5.uasset'
+[2024.01.24-06.54.04:756][687]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-06.54.04:756][687]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-06.54.04:848][687]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto5
+[2024.01.24-06.54.04:850][687]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto53752BF97466FA8C0B24E46A2DAD69513.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto5.uasset'
+[2024.01.24-06.54.04:853][687]LogFileHelpers: Auto-saving content packages took 0.259
+[2024.01.24-06.55.32:230][852]BlueprintLog: New page: Compile Battery
+[2024.01.24-06.55.32:291][852]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.01.24-06.55.40:615][253]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-06.55.40:805][253]LogSavePackage: Moving output files for package: /Game/Blueprints/Battery/Battery
+[2024.01.24-06.55.40:807][253]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery6D30444C4175642806AE4DA1F2AC7794.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Battery/Battery.uasset'
+[2024.01.24-06.55.40:819][253]LogFileHelpers: InternalPromptForCheckoutAndSave took 203 ms (total: 4.64 sec)
+[2024.01.24-06.55.40:821][253]AssetCheck: New page: Asset Save: Battery
+[2024.01.24-06.55.40:821][253]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Battery/Battery.Battery
+[2024.01.24-07.04.19:616][486]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.01.24-07.04.19:619][486]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Level_Forest' took 0.023
+[2024.01.24-07.04.19:620][486]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Battery/Battery] ([2] browsable assets)...
+[2024.01.24-07.04.20:041][486]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Battery/Battery.Battery]
+[2024.01.24-07.04.20:041][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Battery/Battery]
+[2024.01.24-07.04.20:059][486]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Battery/Battery_Auto6
+[2024.01.24-07.04.20:059][486]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery_Auto6D19229CE4321AA1BD1BD5D9F0DB90E57.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Battery/Battery_Auto6.uasset'
+[2024.01.24-07.04.20:061][486]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Player/BP_Player] ([2] browsable assets)...
+[2024.01.24-07.04.20:061][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/BP_Player]
+[2024.01.24-07.04.20:147][486]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Player/BP_Player_Auto6
+[2024.01.24-07.04.20:148][486]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player_Auto63F6C0B3045D9BDE9FD6CCBA517674BCA.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Autosaves/Game/Blueprints/Player/BP_Player_Auto6.uasset'
+[2024.01.24-07.04.20:150][486]LogFileHelpers: Auto-saving content packages took 0.530
+[2024.01.24-07.07.07:714][704]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-07.07.07:764][704]LogSavePackage: Moving output files for package: /Game/Blueprints/Battery/Interact_Interface
+[2024.01.24-07.07.07:766][704]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Interact_InterfaceD56E0D924D3B5A678B37B5AF0E73D97A.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Battery/Interact_Interface.uasset'
+[2024.01.24-07.07.07:777][704]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 4.71 sec)
+[2024.01.24-07.07.07:779][704]AssetCheck: New page: Asset Save: Interact_Interface
+[2024.01.24-07.07.07:779][704]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Battery/Interact_Interface.Interact_Interface
+[2024.01.24-07.08.26:815][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.01.24-07.08.26:822][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-07.08.27:026][801]LogSavePackage: Moving output files for package: /Game/Blueprints/Battery/Battery
+[2024.01.24-07.08.27:026][801]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/Battery98521B25449756D06334258CA6D80CA8.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Battery/Battery.uasset'
+[2024.01.24-07.08.27:142][801]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.01.24-07.08.27:143][801]LogSavePackage: Moving '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/BP_Player0443DC4749D5D8BAE13E1DA4D74B7FD2.tmp' to '../../../../../../Users/goerk/OneDrive/Dokumente/.Uni/3. Semester/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Blueprints/Player/BP_Player.uasset'
+[2024.01.24-07.08.27:159][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 336 ms (total: 5.04 sec)
+[2024.01.24-07.08.27:164][801]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.24-07.08.27:165][801]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Battery/Battery.Battery
+[2024.01.24-07.08.27:165][801]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
