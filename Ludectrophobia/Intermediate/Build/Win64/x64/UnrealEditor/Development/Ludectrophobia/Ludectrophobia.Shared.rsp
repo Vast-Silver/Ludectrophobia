@@ -256,8 +256,8 @@
 /I "Developer\PhysicsUtilities\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\WidgetRegistration\UHT"
 /I "Developer\WidgetRegistration\Public"
-/I "D:\Kraken\Ludectrophobia\Ludectrophobia\Intermediate\Build\Win64\UnrealEditor\Inc\Ludectrophobia\UHT"
-/I "D:\Kraken\Ludectrophobia\Ludectrophobia\Source"
+/I "C:\Users\melih\OneDrive\Uni Bremen\3. Semester\Media Engineering\ProgrammierSpiel\Ludectrophobia\Ludectrophobia\Intermediate\Build\Win64\UnrealEditor\Inc\Ludectrophobia\UHT"
+/I "C:\Users\melih\OneDrive\Uni Bremen\3. Semester\Media Engineering\ProgrammierSpiel\Ludectrophobia\Ludectrophobia\Source"
 /external:W0
 /external:I "ThirdParty\mimalloc\include"
 /external:I "ThirdParty\LibTiff\Source\Win64"
