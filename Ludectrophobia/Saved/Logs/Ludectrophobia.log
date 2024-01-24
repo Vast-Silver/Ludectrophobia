@@ -4893,3 +4893,14 @@ Are you sure?
 [2024.01.24-23.00.52:205][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 8.90 sec)
 [2024.01.24-23.00.52:207][796]AssetCheck: New page: Asset Save: Graveyard_Lvl
 [2024.01.24-23.00.52:207][796]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level/Graveyard_Lvl.Graveyard_Lvl
+[2024.01.24-23.02.22:202][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.01.24-23.02.23:796][322]LogSlate: Window 'Save Content' being destroyed
+[2024.01.24-23.02.23:803][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.24-23.02.23:881][322]LogSavePackage: Moving output files for package: /Game/Materials/Surfaces/M_CryptBody_Material
+[2024.01.24-23.02.23:881][322]LogSavePackage: Moving '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/M_CryptBody_Material7C928F804CE9B27223F5E8A65C499401.tmp' to '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Materials/Surfaces/M_CryptBody_Material.uasset'
+[2024.01.24-23.02.23:888][322]LogSavePackage: Moving output files for package: /Game/Materials/Surfaces/M_MetalFence
+[2024.01.24-23.02.23:888][322]LogSavePackage: Moving '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Saved/M_MetalFenceD86577354D24A9EB3C7261A5C3BCA72C.tmp' to '../../../../../../Users/Lars/Documents/Digital_Media/Semester 3/Media Engineering/Ludectrophobia/Ludectrophobia/Content/Materials/Surfaces/M_MetalFence.uasset'
+[2024.01.24-23.02.23:894][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 8.99 sec)
+[2024.01.24-23.02.23:895][322]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.24-23.02.23:895][322]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Surfaces/M_CryptBody_Material.M_CryptBody_Material
+[2024.01.24-23.02.23:895][322]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Surfaces/M_MetalFence.M_MetalFence
